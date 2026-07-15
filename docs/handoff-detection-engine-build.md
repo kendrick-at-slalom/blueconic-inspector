@@ -185,9 +185,7 @@ interface Signal {
 	mechanism_present: boolean; // did the vendor's code load at all
 	evidence_of_use: 'confirmed' | 'wired' | 'none' | 'unobservable';
 	observability:
-		| 'observable'
-		| 'requires_interaction'
-		| 'not_observable_from_url';
+		'observable' | 'requires_interaction' | 'not_observable_from_url';
 
 	method: 'network' | 'dom' | 'js_global' | 'platform_inference' | 'header';
 	confidence: number; // 0..1
@@ -268,6 +266,7 @@ Design notes:
 ```ts
 // in-process — localhost, tests
 import { inspect } from '@bc/inspector';
+
 for await (const event of inspect({ url })) {
 	/* ... */
 }
@@ -308,9 +307,9 @@ interface Provider {
 	id: string;
 	vendor: string;
 	category: SignalCategory;
-	matchRequest?(req: ObservedRequest): Signal | null;
-	matchDom?(doc: ObservedDom): Signal | null;
-	matchGlobal?(win: ObservedGlobals): Signal | null;
+	matchRequest?: (req: ObservedRequest) => Signal | null;
+	matchDom?: (doc: ObservedDom) => Signal | null;
+	matchGlobal?: (win: ObservedGlobals) => Signal | null;
 }
 ```
 

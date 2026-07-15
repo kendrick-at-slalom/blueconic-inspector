@@ -10,7 +10,7 @@ Project context and Phase 1 scope live in the project's custom instructions (Blu
 
 Session artifact: `/mnt/user-data/outputs/cart-recovery-discovery-session.md` — question bank for a 2-hour Cart Recovery discovery session. This handoff is the research that came out of it and is not yet folded in.
 
-**Pending work item the human asked about and hasn't received:** a "prior art / build-vs-buy" section to be added to that doc, placed *before* section 3 (Crawl reality), because the interact-vs-observe decision determines which of these tools is even relevant.
+**Pending work item the human asked about and hasn't received:** a "prior art / build-vs-buy" section to be added to that doc, placed _before_ section 3 (Crawl reality), because the interact-vs-observe decision determines which of these tools is even relevant.
 
 ---
 
@@ -35,6 +35,7 @@ Short answer: **the mechanical layer is largely solved and open source. The ecom
 **Why it matters for us:** script attribution is the mechanism that distinguishes "vendor script loaded" from "vendor script actually fired an event." That's the Tier Present vs. Tier Wired discriminator in the rubric sketch (see Rubric section below).
 
 **Its documented limits map onto our open questions:**
+
 - Scans initial page load only — no login, no multi-page flow navigation.
 - Doesn't detect server-side tracking with no client-side fingerprint. → relevant to the Shopify server-side-events problem.
 - Doesn't click consent banners; CMPs load different trackers by simulated location (it offers Ohio / California / Europe). → our GDPR under-detection problem.
@@ -55,18 +56,19 @@ Read their methodology page before building anything. It's a free list of walls 
 **What it does NOT cover:** Klaviyo, Attentive, Postscript, Listrak, Bluecore, Justuno, OptiMonk, Wunderkind, Privy.
 
 **Caveats:**
+
 - It's an extension hooking browser request APIs, not an npm library. Providers are liftable; the harness is not.
-- It's a *request* decoder. It reads the resulting network hit, not the originating JS call (e.g. reads the GA4 hit, not the `dataLayer.push`). Usually equivalent information, different observation point. Matters where a call fires but no request results.
+- It's a _request_ decoder. It reads the resulting network hit, not the originating JS call (e.g. reads the GA4 hit, not the `dataLayer.push`). Usually equivalent information, different observation point. Matters where a call fires but no request results.
 - **License unverified. Check before lifting anything.**
 
 ## The Tier Split — Most Important Finding
 
 Omnibug's coverage vs. gap is not random. It maps onto Phase 1:
 
-| Play | Signal set | Prior art |
-|---|---|---|
-| Retargeting Suppression | Meta, TikTok, Google Ads, Criteo, Trade Desk, Reddit, Pinterest, Snap, Bing, Amazon | **Substantially covered** by Omnibug providers |
-| Cart Recovery (back half) | Klaviyo, Attentive, Postscript, Listrak, Bluecore + exit-intent vendors | **Nothing published. This is the build.** |
+| Play                      | Signal set                                                                          | Prior art                                      |
+| ------------------------- | ----------------------------------------------------------------------------------- | ---------------------------------------------- |
+| Retargeting Suppression   | Meta, TikTok, Google Ads, Criteo, Trade Desk, Reddit, Pinterest, Snap, Bing, Amazon | **Substantially covered** by Omnibug providers |
+| Cart Recovery (back half) | Klaviyo, Attentive, Postscript, Listrak, Bluecore + exit-intent vendors             | **Nothing published. This is the build.**      |
 
 **Schedule implication worth raising:** the discovery doc already says Retargeting Suppression "can swap to slot 2 without harm" if pixel detection lands early. This finding strengthens that materially — its detector may be largely assembly rather than construction. Real schedule lever; put it on the table.
 
@@ -79,7 +81,7 @@ Omnibug's coverage vs. gap is not random. It maps onto Phase 1:
 - **Fingerprint count is disputed across sources** — one claims 251 in the current bundled ruleset, another claims 3,000+ signatures. Do not quote a number to BlueConic without verifying.
 - Source hygiene: the dev.to migration guide surfaced in search is vendor content promoting a paid Apify actor. Discount accordingly.
 
-**What it is:** a Tier-"Present" machine by construction. Tells you Klaviyo is installed. That is precisely the signal we've decided *does not* count as capability. Useful for the platform branch (Shopify vs. SFCC vs. custom), useless for capability grading. Don't let anyone conflate the two.
+**What it is:** a Tier-"Present" machine by construction. Tells you Klaviyo is installed. That is precisely the signal we've decided _does not_ count as capability. Useful for the platform branch (Shopify vs. SFCC vs. custom), useless for capability grading. Don't let anyone conflate the two.
 
 ## Pixel/domain Classification
 
@@ -89,7 +91,7 @@ Omnibug's coverage vs. gap is not random. It maps onto Phase 1:
 
 ## Runner Choice — Open Fork in the Road
 
-Blacklight is on Puppeteer. Playwright is arguably the better call now for CDP access, request interception, and multi-context concurrency. If we lift Blacklight's *approach* rather than its *package*, this decision reopens. Don't let it get decided by default.
+Blacklight is on Puppeteer. Playwright is arguably the better call now for CDP access, request interception, and multi-context concurrency. If we lift Blacklight's _approach_ rather than its _package_, this decision reopens. Don't let it get decided by default.
 
 ---
 
@@ -105,12 +107,12 @@ Core asymmetry: **you cannot confirm capability from outside without transacting
 
 Proposed tiers:
 
-| Tier | Observation | Counts as capability? |
-|---|---|---|
-| Confirmed | Trigger event fires *with* identified profile attached | Yes |
-| Wired | Trigger fires but no identity binding, OR identity captured but no trigger | Partial |
-| Present | Vendor script loads, nothing else observed | **No** |
-| Absent | No vendor | No |
+| Tier      | Observation                                                                | Counts as capability? |
+| --------- | -------------------------------------------------------------------------- | --------------------- |
+| Confirmed | Trigger event fires _with_ identified profile attached                     | Yes                   |
+| Wired     | Trigger fires but no identity binding, OR identity captured but no trigger | Partial               |
+| Present   | Vendor script loads, nothing else observed                                 | **No**                |
+| Absent    | No vendor                                                                  | No                    |
 
 The Klaviyo-on-every-Shopify-store problem is exactly Tier "Present." If that scores as capability, the tool is broken.
 
@@ -124,9 +126,9 @@ The Klaviyo-on-every-Shopify-store problem is exactly Tier "Present." If that sc
 
 # Product-shape Note
 
-Blacklight *is* the shape we're proposing: URL in, 30–60 seconds, findings out. That's close to the existing Acquisition Pressure Test's 90-second promise — evidence the envelope is achievable **at initial-page-load depth**.
+Blacklight _is_ the shape we're proposing: URL in, 30–60 seconds, findings out. That's close to the existing Acquisition Pressure Test's 90-second promise — evidence the envelope is achievable **at initial-page-load depth**.
 
-It's also evidence for the pessimistic read: they hit that time by *not* navigating flows. Add a checkout crawl and we leave the envelope. Useful ammunition for the async-plus-email question in the discovery doc.
+It's also evidence for the pessimistic read: they hit that time by _not_ navigating flows. Add a checkout crawl and we leave the envelope. Useful ammunition for the async-plus-email question in the discovery doc.
 
 ---
 
