@@ -9,13 +9,13 @@ Canonical spec: [`docs/handoff-detection-engine-build.md`](../docs/handoff-detec
 ## Stack
 
 - Language: TypeScript on Node 24, run via `tsx` (no build step in the prototype)
-- Browser control: Playwright (headless Chromium), behind a `Runner` interface
-- Service: Express, one SSE route
-- Tests: vitest (light — tier logic and matchers only)
-- Package manager: pnpm
+- Browser control: Playwright (headless Chromium), behind the `Runner` interface in `src/types.ts`
+- Service: `node:http`, one SSE route (no Express — the `unbranded` scaffold carries no HTTP framework)
+- Tests: vitest, jsdom env (light — queue bridge, matchers, core behaviors)
+- Package manager: **npm** (scaffold pins `npm@11.16.0`); config owned by the `unbranded` starter
 - Deployment: none for the prototype (localhost only); Fargate vs Lambda deferred to October
 
-As of 2026-07-15 only `src/types.ts` exists; the rest is planned, not scaffolded. `package.json` is still the `npm init` stub (`blueconic-inspector`, commonjs, no deps) — it gets replaced at the scaffold step, including the `@bc/inspector` package name the FE will import.
+As of 2026-07-15 the full spine is built and verified end-to-end: runner + queue bridge, core orchestrator, provider table (~50 vendors), CLI, and SSE service. `src/types.ts` is the frozen contract. The two `wired` matchers (Klaviyo, Meta) are registered but inert pending the step-0 probe. Package name in `package.json` is still `blueconic-inspector`, not `@bc/inspector` — the FE-facing name is a loose end to reconcile before the FE imports it.
 
 ## Repository Structure
 

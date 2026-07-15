@@ -4,17 +4,21 @@
 
 <!-- One line per layer. Detected from project. -->
 
-Planned, not yet scaffolded (`package.json` is still the `npm init` stub as of 2026-07-15):
-
 - TypeScript on Node 24, run via `tsx` (no build step in the prototype)
-- Playwright (headless Chromium) behind a `Runner` interface
-- Express for the SSE service; vitest for tests; pnpm as package manager
+- Playwright (headless Chromium) behind the `Runner` interface in `src/types.ts`
+- SSE service on `node:http` (no Express — the scaffold carries no HTTP framework and the built-in does SSE in ~50 lines)
+- vitest (jsdom env) for unit tests; **npm** as package manager (the scaffold pins `npm@11.16.0`)
+- Config is owned by the `unbranded` starter (`tsconfig*`, `eslint.config.mjs`, `vitest.config.ts`, husky). `unbranded diff` shows drift; don't hand-edit those.
 
 ## Build / Test / Lint
 
 <!-- Copy exact commands so agents don't guess. -->
 
-No real commands exist yet — the `test` script is the npm-init placeholder. Fill this section with exact commands at the scaffold step (expected: `pnpm vitest run`, `npx tsx src/cli.ts <url>`, `pnpm lint`). Until then, don't guess.
+- `npm run inspect -- <url> [--json]` — crawl one URL, stream findings to the terminal (or NDJSON)
+- `npm run serve` — SSE endpoint at `http://localhost:8787/inspect?url=<url>` (override with `PORT`)
+- `npm test` — vitest unit suite (`tests/unit/**/*.spec.ts`)
+- `npm run typecheck` — `tsc --noEmit`; strict, `noUncheckedIndexedAccess`, `verbatimModuleSyntax`
+- `npm run lint` — antfu ESLint; runs on staged files at commit via husky + lint-staged
 
 <!-- working-memory:start -->
 ## Working Memory

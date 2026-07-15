@@ -1,13 +1,42 @@
 {
-	"author": "",
-	"description": "",
-	"keywords": [],
-	"license": "ISC",
-	"main": "index.js",
 	"name": "blueconic-inspector",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
 	"type": "commonjs",
-	"version": "0.1.0"
+	"version": "0.1.0",
+	"packageManager": "npm@11.16.0",
+	"description": "",
+	"author": "",
+	"license": "ISC",
+	"keywords": [],
+	"main": "index.js",
+	"engines": {
+		"node": ">=24"
+	},
+	"scripts": {
+		"inspect": "tsx src/cli.ts",
+		"serve": "tsx src/service/server.ts",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"prepare": "husky",
+		"test": "vitest run",
+		"test:e2e": "playwright test",
+		"test:watch": "vitest",
+		"typecheck": "tsc --noEmit"
+	},
+	"dependencies": {
+		"playwright": "^1.61.1"
+	},
+	"devDependencies": {
+		"@antfu/eslint-config": "9.1.0",
+		"@axe-core/playwright": "4.12.1",
+		"@playwright/test": "1.61.1",
+		"@types/node": "22.19.19",
+		"eslint": "10.7.0",
+		"eslint-plugin-format": "2.0.1",
+		"husky": "9.1.7",
+		"jsdom": "29.1.1",
+		"lint-staged": "17.0.8",
+		"tsx": "4.19.2",
+		"typescript": "5.9.3",
+		"vitest": "4.1.10"
+	}
 }

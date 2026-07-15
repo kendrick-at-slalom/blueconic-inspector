@@ -2,6 +2,19 @@
 
 Append-only; newest entry on top. Don't edit past entries; supersede them with a new one.
 
+## 2026-07-15: Build-session implementation choices (inherited scaffold, node:http, substring matching, inert wired)
+
+**Source:** prototype build session; the approved plan; `src/` as built
+
+**Context:** The repo picked up the `unbranded` starter mid-session (npm, antfu ESLint, `@playwright/test`, husky, jsdom, `verbatimModuleSyntax`, `noUncheckedIndexedAccess`), which overrode several stack assumptions in the plan. The build adopts the scaffold rather than fighting it.
+**Decision:**
+- **Package manager is npm, not pnpm.** The scaffold pins `npm@11.16.0`. Working memory and plan references to pnpm are superseded.
+- **SSE runs on `node:http`, not Express.** The scaffold ships no HTTP framework; the built-in does SSE in ~50 lines and adds zero deps. Same event contract.
+- **Present-tier matching is case-insensitive substring** against request URLs (not regex). Table entries are plain substrings; extend to regex only if a vendor needs it.
+- **The two `wired` matchers (Klaviyo, Meta) are registered but inert** — `matchesBeacon` returns false until a probe-verified shape lands. Registration alone makes their present-tier signal read `none` ("installed, no evidence it fires") rather than `unobservable`; the beacon predicate waits for the probe so we never guess a shape. See [[antipatterns]] on remembered beacon shapes.
+- **The callback→AsyncIterable bridge is its own module** (`src/runner/eventQueue.ts`), unit-tested in isolation from Playwright.
+**Alternatives considered:** Impose the plan's pnpm/Express stack (rejected — fights the scaffold, adds deps for no gain). Write the Klaviyo/Meta beacon predicates from public knowledge of their endpoints (rejected — violates the verified-not-remembered rule even though those two shapes are well documented; the probe is 20 minutes out).
+
 ## 2026-07-15: `Signal.evidence_total` field + tier-upgrade-only re-emit trigger
 
 **Source:** user decision 2026-07-15 (resolves the flag raised against the verbatim-adoption entry below); encoded in `src/types.ts` `Signal.evidence_total` and the `signal.found` JSDoc
