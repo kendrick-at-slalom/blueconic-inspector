@@ -2,6 +2,14 @@
 
 Append-only; newest entry on top. Don't edit past entries; supersede them with a new one.
 
+## 2026-07-15: `session_replay` + `bot_defense` categories added
+
+**Source:** user decision 2026-07-15, from the Columbia diagnostic; `src/types.ts`, `src/providers/vendorTable.ts`
+
+**Context:** The Columbia crawl surfaced Quantum Metric (session replay) and PerimeterX (bot defense); neither fit an existing category, and both are context signals rather than growth-play capabilities, like `consent`.
+**Decision:** Added two more `SignalCategory` members (additive, flagged for FE sign-off): `session_replay` (Quantum Metric verified, plus FullStory, Hotjar, Contentsquare, Clarity, LogRocket, Mouseflow, Glassbox) and `bot_defense` (PerimeterX verified, plus DataDome, Cloudflare Turnstile, Kasada, Imperva). Both map to `ALL_PLAYS` as cross-cutting context, consistent with `consent`/`platform`; the rubric owner refines play semantics later. Bot-defense detection is inherently partial: much is server-side or cookie-based, and a block can hide the vendor's own scripts.
+**Alternatives considered:** Shoehorn into `identity` (rejected — corrupts the CDP-absence signal). Note-only without adding (the user chose to add these two; the Oracle/ATG platform row stays documented-not-added by contrast, and BigCommerce/CMP live-validation stay deferred).
+
 ## 2026-07-15: `consent` category + CMP detection rows; autoconsent chosen for October
 
 **Source:** user request 2026-07-15, prompted by the PDP batch-crawl finding; `src/providers/vendorTable.ts`, `src/types.ts`

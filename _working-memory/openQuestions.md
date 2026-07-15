@@ -22,10 +22,10 @@ October — Shopify rubric branch:
 Gaps surfaced by the 2026-07-15 PDP/homepage batch crawl (19 real sites, see `crawl-results/`):
 
 - **Bot-blocking is the enterprise-reach limiter.** 8 of 19 pages returned 403/503 to headless Chromium (Solo Stove, Kate Spade, Calvin Klein, Columbia PDP, Tommy Hilfiger). Points at residential proxies / a stealth plugin / the real-browser extension — October, and it pairs with consent handling (same sites gate both ways).
-- **Oracle Commerce / ATG platform fingerprint is missing.** L.L.Bean (`/llb/shop/` stack) detected 12 marketing vendors but `platform: none`. Add the row against its captured traffic in `crawl-results/pdp-batch.ndjson`.
-- **BigCommerce fingerprint still unvalidated** — the one BC candidate (Solo Stove) bot-blocked; need a reachable BC site.
-- **CMP rows unvalidated live, and US-IP crawls won't help.** Added and unit-tested, but no US site fired a CMP. Columbia (raw-request check) runs none; CMP banners are geo-driven, so validation needs a known-CCPA-CMP site or simulated EU geo (ties to the geo question above).
-- **Vendor-table gaps found on Columbia** (verified traffic in the columbia-diag run): Adobe Launch/DTM (`assets.adobedtm.com`, a GTM-class tag manager), Monetate (`monetate.net`, personalization), Quantum Metric (`cdn.quantummetric.com`, session replay), PerimeterX/HUMAN (bot defense, arguably its own signal). Add as data-driven rows.
+- **Oracle Commerce / ATG platform fingerprint is missing.** L.L.Bean (`/llb/shop/` stack) detected 12 marketing vendors but `platform: none`. Documented, deliberately NOT added yet (user call 2026-07-15); verified traffic is in `docs/crawl-results/pdp-batch.ndjson` for whenever it's built.
+- **BigCommerce fingerprint still unvalidated** — the one BC candidate (Solo Stove) bot-blocked; need a reachable BC site. Deferred (not now).
+- **CMP rows unvalidated live, and US-IP crawls won't help.** Added and unit-tested, but no US site fired a CMP. Columbia (raw-request check) runs none; CMP banners are geo-driven, so validation needs a known-CCPA-CMP site or simulated EU geo (ties to the geo question above). Deferred (not now).
+- **Columbia vendor gaps: resolved.** Adobe Launch and Monetate added to existing categories; Quantum Metric and PerimeterX added under the new `session_replay` and `bot_defense` categories (see `decisionLog.md`).
 - **Columbia's sparseness was PWA + bot defense, not consent.** Salesforce Composable/Mobify storefront behind PerimeterX, tags via Adobe Launch post-hydration. A headless crawler under-detects composable/PWA storefronts generally — a real limitation to note, separate from bot-blocking and consent.
 
 Immediate (blocks prototype step 0):

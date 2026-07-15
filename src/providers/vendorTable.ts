@@ -576,4 +576,23 @@ export const vendorTable: VendorEntry[] = [
 		scriptUrlPatterns: [],
 		globalNames: ['__tcfapi'],
 	},
+
+	// Session replay / experience analytics: context, not a growth-play capability. Quantum Metric is
+	// verified against Columbia's traffic (2026-07-15); the rest are public CDN patterns.
+	{ id: 'session_replay.quantummetric', vendor: 'quantum_metric', category: 'session_replay', play: ALL_PLAYS, scriptUrlPatterns: ['cdn.quantummetric.com', 'quantummetric.com'], globalNames: ['QuantumMetricAPI', 'QuantumMetricOnload'] },
+	{ id: 'session_replay.fullstory', vendor: 'fullstory', category: 'session_replay', play: ALL_PLAYS, scriptUrlPatterns: ['edge.fullstory.com', 'fullstory.com/s/fs.js', 'fullstory.com'], globalNames: ['FS', '_fs_namespace'] },
+	{ id: 'session_replay.hotjar', vendor: 'hotjar', category: 'session_replay', play: ALL_PLAYS, scriptUrlPatterns: ['static.hotjar.com', 'script.hotjar.com'], globalNames: ['hj', '_hjSettings'] },
+	{ id: 'session_replay.contentsquare', vendor: 'contentsquare', category: 'session_replay', play: ALL_PLAYS, scriptUrlPatterns: ['t.contentsquare.net', 'contentsquare.net'], globalNames: ['_uxa', 'CS_CONF'] },
+	{ id: 'session_replay.clarity', vendor: 'microsoft_clarity', category: 'session_replay', play: ALL_PLAYS, scriptUrlPatterns: ['c.clarity.ms', 'clarity.ms'], globalNames: ['clarity'] },
+	{ id: 'session_replay.logrocket', vendor: 'logrocket', category: 'session_replay', play: ALL_PLAYS, scriptUrlPatterns: ['cdn.logrocket.io', 'cdn.lr-ingest.io', 'logrocket.com'], globalNames: ['LogRocket'] },
+	{ id: 'session_replay.mouseflow', vendor: 'mouseflow', category: 'session_replay', play: ALL_PLAYS, scriptUrlPatterns: ['cdn.mouseflow.com', 'mouseflow.com'], globalNames: ['mouseflow', '_mfq'] },
+	{ id: 'session_replay.glassbox', vendor: 'glassbox', category: 'session_replay', play: ALL_PLAYS, scriptUrlPatterns: ['glassbox.com', 'glassboxdigital.com'], globalNames: [] },
+
+	// Bot defense: also context. Detection is inherently partial (much is server-side or cookie-based, and a
+	// block can hide the vendor's own scripts). PerimeterX is verified against Columbia; the rest are public patterns.
+	{ id: 'bot_defense.perimeterx', vendor: 'perimeterx', category: 'bot_defense', play: ALL_PLAYS, scriptUrlPatterns: ['px-cloud.net', 'perimeterx.net', 'px-cdn.net', 'pxi.pub'], globalNames: ['_px', '_pxAppId'] },
+	{ id: 'bot_defense.datadome', vendor: 'datadome', category: 'bot_defense', play: ALL_PLAYS, scriptUrlPatterns: ['js.datadome.co', 'api.datadome.co', 'datadome.co'], globalNames: ['DataDomeOptions'] },
+	{ id: 'bot_defense.cloudflare_turnstile', vendor: 'cloudflare_turnstile', category: 'bot_defense', play: ALL_PLAYS, scriptUrlPatterns: ['challenges.cloudflare.com'], globalNames: ['turnstile'] },
+	{ id: 'bot_defense.kasada', vendor: 'kasada', category: 'bot_defense', play: ALL_PLAYS, scriptUrlPatterns: ['kasada.io'], globalNames: ['KPSDK'] },
+	{ id: 'bot_defense.imperva', vendor: 'imperva', category: 'bot_defense', play: ALL_PLAYS, scriptUrlPatterns: ['incapsula.com', 'imperva.com'], globalNames: [] },
 ];

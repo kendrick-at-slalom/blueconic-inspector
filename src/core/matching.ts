@@ -23,6 +23,8 @@ const ROLLUP_CATEGORIES: SignalCategory[] = [
 	'loyalty',
 	'email_capture',
 	'consent',
+	'session_replay',
+	'bot_defense',
 ];
 
 /** Match a request against the present-tier table (script URLs) and the wired matchers (beacons). */

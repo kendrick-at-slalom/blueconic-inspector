@@ -29,6 +29,8 @@ describe('present-tier matching', () => {
 		],
 		['https://assets.adobedtm.com/launch-EN123.min.js', 'ads.pixel.adobe_launch'],
 		['https://d.monetate.net/js/2/a-1234/p/site.com/entry.js', 'recs.recs.monetate'],
+		['https://cdn.quantummetric.com/instrument/1.x/qtm.js', 'session_replay.quantummetric'],
+		['https://collector-pxlkxie7oj.px-cloud.net/api/v2/collector', 'bot_defense.perimeterx'],
 	];
 
 	it.each(cases)('matches %s to %s at present tier', (url, expectedId) => {

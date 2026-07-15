@@ -27,7 +27,9 @@ export type SignalCategory
 		| 'platform'
 		| 'loyalty'
 		| 'email_capture'
-		| 'consent';
+		| 'consent'
+		| 'session_replay'
+		| 'bot_defense';
 
 /**
  * Stable signal IDs. Extend, never rename — the FE may key copy off these.
