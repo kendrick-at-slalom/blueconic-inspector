@@ -6,7 +6,7 @@ Append-only; newest entry on top. Don't edit past entries; supersede them with a
 
 **Source:** user request 2026-07-15, prompted by the PDP batch-crawl finding; `src/providers/vendorTable.ts`, `src/types.ts`
 
-**Context:** The batch crawl showed Columbia's homepage returning only a platform signal and zero pixels — consent-gated under-detection (we don't accept the cookie banner, so pre-consent tags never fire). Detecting the consent gate itself turns "only 1 signal, weird" into a legible finding.
+**Context:** Columbia's homepage came back with only a platform signal and no pixels, which looked like consent-gating. A raw-request check (`crawl-results/`, columbia-diag) disproved that: Columbia runs no CMP from a US IP. It is a Salesforce Composable/PWA (Mobify) behind PerimeterX bot defense, loading tags via Adobe Launch after hydration, outside our window. CMP banners are largely geo-driven, so US-IP crawls of US sites rarely surface them (ties to the geo open question). The CMP rows still stand as a general capability, but Columbia was the wrong poster child; recorded so the "Columbia = consent-gated" claim does not propagate.
 **Decision:**
 
 - Added present-tier CMP rows (OneTrust, Cookiebot, TrustArc, Osano, Didomi, Usercentrics, plus IAB TCF via the `__tcfapi` global) under a new `consent` category.

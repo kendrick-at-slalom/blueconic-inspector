@@ -27,6 +27,8 @@ describe('present-tier matching', () => {
 			'https://cdn.cookielaw.org/consent/abc-123/otSDKStub.js',
 			'consent.onetrust',
 		],
+		['https://assets.adobedtm.com/launch-EN123.min.js', 'ads.pixel.adobe_launch'],
+		['https://d.monetate.net/js/2/a-1234/p/site.com/entry.js', 'recs.recs.monetate'],
 	];
 
 	it.each(cases)('matches %s to %s at present tier', (url, expectedId) => {

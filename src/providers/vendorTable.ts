@@ -227,6 +227,16 @@ export const vendorTable: VendorEntry[] = [
 		globalNames: ['google_tag_manager'],
 	},
 	{
+		// Adobe Launch/DTM: a GTM-class tag manager. Verified against Columbia's traffic 2026-07-15;
+		// it defers the real pixels past our settle window, which is why Adobe shops can look bare.
+		id: 'ads.pixel.adobe_launch',
+		vendor: 'adobe_launch',
+		category: 'ad_pixel',
+		play: [RETARGET],
+		scriptUrlPatterns: ['assets.adobedtm.com'],
+		globalNames: ['_satellite'],
+	},
+	{
 		id: 'ads.pixel.criteo',
 		vendor: 'criteo',
 		category: 'ad_pixel',
@@ -343,6 +353,15 @@ export const vendorTable: VendorEntry[] = [
 		play: [OVE],
 		scriptUrlPatterns: ['js.klevu.com', 'klevu.com'],
 		globalNames: ['klevu'],
+	},
+	{
+		// Monetate: personalization / experimentation. Verified against Columbia's traffic 2026-07-15.
+		id: 'recs.recs.monetate',
+		vendor: 'monetate',
+		category: 'recs',
+		play: [OVE],
+		scriptUrlPatterns: ['monetate.net'],
+		globalNames: ['monetateQ', 'monetate'],
 	},
 
 	// Platform: conditions every rubric; Shopify's server-side Started Checkout is the caveat.
