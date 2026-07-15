@@ -1,0 +1,54 @@
+{
+	"_tool": "unbranded manages the files below. Run `unbranded diff` to see your local drift or `unbranded doctor` to audit the repo; https://github.com/kendrick/unbranded-starter",
+	"attribution": {
+		".editorconfig": "core-editorconfig",
+		".gitattributes": "core-gitattributes",
+		".husky/pre-commit": "opt-husky",
+		".nvmrc": "core-node-version",
+		"eslint.config.mjs": "core-eslint",
+		"lint-staged.config.mjs": "opt-husky",
+		"playwright.config.ts": "opt-playwright",
+		"tsconfig.base.json": "core-typescript",
+		"tsconfig.json": "core-typescript",
+		"vitest.config.ts": "core-vitest"
+	},
+	"files": {
+		".editorconfig": "682978c2757a1250094bd618e3029c3a1d666216f8b95003bfcc26c3cbb658cd",
+		".gitattributes": "3fbffcfa4fa86929169db1a45cea5114178be460d98d3326e6263669503dbaf9",
+		".husky/pre-commit": "aad3507759b5b03c40f17cb27ca0e2203edebcd8820c48addadc16104b1e011c",
+		".nvmrc": "68ca3fba3b7e864770cb61aeb306d4bd4354b68ab4dd38450860c5d823e42a53",
+		"eslint.config.mjs": "fe4af7b6d3e128578065649cb6d0638cb8de212d07fffc53978bc9b434919c55",
+		"lint-staged.config.mjs": "4a767ab49b445df567f4f5a352ae13b8bd3cdc727996ace47b8a445d10ac49cd",
+		"playwright.config.ts": "e29e81f1f0ed5d293b53b91027313f56b4a2456ad0a052b7103523eb3b5dc3f0",
+		"tsconfig.base.json": "4a8ac701588b14ffabfc89ca20f99000c9f4d93c7bebc228f08a3253deab3a56",
+		"tsconfig.json": "3a9740ae9b6503149676c88f08f31191249235ae56ea1ed90ceb952a135bd3cf",
+		"vitest.config.ts": "7ce103239f55d8f7287f446035e83eec89f84ba20c5cad7feee397f3e1f28887"
+	},
+	"modes": {
+		".editorconfig": "copy",
+		".gitattributes": "copy",
+		".husky/pre-commit": "copy",
+		".nvmrc": "computed",
+		"eslint.config.mjs": "copy",
+		"lint-staged.config.mjs": "copy",
+		"playwright.config.ts": "copy",
+		"tsconfig.base.json": "copy",
+		"tsconfig.json": "copy",
+		"vitest.config.ts": "copy"
+	},
+	"options": {
+		"eslintFlavor": "base"
+	},
+	"schema": 2,
+	"units": [
+		"core-editorconfig",
+		"core-eslint",
+		"core-gitattributes",
+		"core-node-version",
+		"core-typescript",
+		"core-vitest",
+		"opt-husky",
+		"opt-playwright"
+	],
+	"version": "1.0.1"
+}
