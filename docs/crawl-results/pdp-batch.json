@@ -1,0 +1,1112 @@
+[
+	{
+		"absences": [],
+		"adPixels": [],
+		"blueconic": false,
+		"durationMs": 0,
+		"emailCapture": false,
+		"esp": [],
+		"gate": false,
+		"guess": "sfcc/bc?",
+		"kind": "home",
+		"loyalty": [],
+		"platform": [],
+		"recs": [],
+		"site": "solostove",
+		"status": "fail:bot_blocked",
+		"unobserved": [],
+		"url": "https://www.solostove.com/",
+		"vendorList": []
+	},
+	{
+		"absences": [],
+		"adPixels": [],
+		"blueconic": false,
+		"durationMs": 0,
+		"emailCapture": false,
+		"esp": [],
+		"gate": false,
+		"guess": "sfcc/bc?",
+		"kind": "pdp",
+		"loyalty": [],
+		"platform": [],
+		"recs": [],
+		"site": "solostove",
+		"status": "fail:bot_blocked",
+		"unobserved": [],
+		"url": "https://www.solostove.com/us/en-us/p/solo-stove-summit-19.5?sku=SS19.5-SD-3.0",
+		"vendorList": []
+	},
+	{
+		"absences": ["sms", "recs", "identity"],
+		"adPixels": ["google_tag_manager", "ga4"],
+		"blueconic": false,
+		"durationMs": 7333,
+		"emailCapture": true,
+		"esp": ["klaviyo"],
+		"gate": true,
+		"guess": "sfcc/bc?",
+		"kind": "home",
+		"loyalty": ["yotpo"],
+		"platform": ["shopify"],
+		"recs": [],
+		"site": "blackdiamond",
+		"status": "ok",
+		"unobserved": [],
+		"url": "https://blackdiamondequipment.com/",
+		"vendorList": [
+			{
+				"category": "platform",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "shopify"
+			},
+			{
+				"category": "loyalty",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "yotpo"
+			},
+			{
+				"category": "esp",
+				"method": "network",
+				"tier": "none",
+				"vendor": "klaviyo"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "google_tag_manager"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "ga4"
+			},
+			{
+				"category": "exit_intent",
+				"method": "js_global",
+				"tier": "unobservable",
+				"vendor": "wunderkind"
+			},
+			{
+				"category": "email_capture",
+				"method": "dom",
+				"tier": "unobservable",
+				"vendor": "email_capture"
+			}
+		]
+	},
+	{
+		"absences": ["sms", "recs", "identity"],
+		"adPixels": ["google_tag_manager", "ga4"],
+		"blueconic": false,
+		"durationMs": 16077,
+		"emailCapture": true,
+		"esp": ["klaviyo"],
+		"gate": true,
+		"guess": "sfcc/bc?",
+		"kind": "pdp",
+		"loyalty": ["yotpo"],
+		"platform": ["shopify"],
+		"recs": [],
+		"site": "blackdiamond",
+		"status": "ok",
+		"unobserved": [],
+		"url": "https://blackdiamondequipment.com/products/mens-alpenglow-hoody?variant=51509694005565",
+		"vendorList": [
+			{
+				"category": "platform",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "shopify"
+			},
+			{
+				"category": "esp",
+				"method": "network",
+				"tier": "none",
+				"vendor": "klaviyo"
+			},
+			{
+				"category": "loyalty",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "yotpo"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "google_tag_manager"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "ga4"
+			},
+			{
+				"category": "exit_intent",
+				"method": "js_global",
+				"tier": "unobservable",
+				"vendor": "wunderkind"
+			},
+			{
+				"category": "email_capture",
+				"method": "dom",
+				"tier": "unobservable",
+				"vendor": "email_capture"
+			}
+		]
+	},
+	{
+		"absences": ["esp", "sms", "exit_intent", "platform", "loyalty"],
+		"adPixels": [
+			"ga4",
+			"meta",
+			"bing",
+			"tiktok",
+			"pinterest",
+			"criteo",
+			"google_ads",
+			"reddit",
+			"google_tag_manager"
+		],
+		"blueconic": false,
+		"durationMs": 17676,
+		"emailCapture": true,
+		"esp": [],
+		"gate": true,
+		"guess": "sfcc/bc?",
+		"kind": "home",
+		"loyalty": [],
+		"platform": [],
+		"recs": ["dynamic_yield"],
+		"site": "llbean",
+		"status": "ok",
+		"unobserved": [],
+		"url": "https://www.llbean.com/",
+		"vendorList": [
+			{
+				"category": "recs",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "dynamic_yield"
+			},
+			{
+				"category": "identity",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "tealium"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "ga4"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "none",
+				"vendor": "meta"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "bing"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "tiktok"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "pinterest"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "criteo"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "google_ads"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "reddit"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "js_global",
+				"tier": "unobservable",
+				"vendor": "google_tag_manager"
+			},
+			{
+				"category": "email_capture",
+				"method": "dom",
+				"tier": "unobservable",
+				"vendor": "email_capture"
+			}
+		]
+	},
+	{
+		"absences": ["esp", "sms", "exit_intent", "platform", "loyalty"],
+		"adPixels": [
+			"ga4",
+			"meta",
+			"bing",
+			"tiktok",
+			"criteo",
+			"pinterest",
+			"google_ads",
+			"reddit",
+			"google_tag_manager"
+		],
+		"blueconic": false,
+		"durationMs": 17118,
+		"emailCapture": true,
+		"esp": [],
+		"gate": true,
+		"guess": "sfcc/bc?",
+		"kind": "pdp",
+		"loyalty": [],
+		"platform": [],
+		"recs": ["dynamic_yield"],
+		"site": "llbean",
+		"status": "ok",
+		"unobserved": [],
+		"url": "https://www.llbean.com/llb/shop/5865881?page=Sunwashed-Denim-Shirt-Long-Sleeve-Slightly-Fitted-Mens-Tall&bc=511742-20010102&feat=20010102-GN0&csp=f&attrValue_0=34714&pos=3",
+		"vendorList": [
+			{
+				"category": "recs",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "dynamic_yield"
+			},
+			{
+				"category": "identity",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "tealium"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "ga4"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "none",
+				"vendor": "meta"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "bing"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "tiktok"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "criteo"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "pinterest"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "google_ads"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "reddit"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "js_global",
+				"tier": "unobservable",
+				"vendor": "google_tag_manager"
+			},
+			{
+				"category": "email_capture",
+				"method": "dom",
+				"tier": "unobservable",
+				"vendor": "email_capture"
+			}
+		]
+	},
+	{
+		"absences": [
+			"esp",
+			"sms",
+			"exit_intent",
+			"ad_pixel",
+			"recs",
+			"identity",
+			"loyalty",
+			"email_capture"
+		],
+		"adPixels": [],
+		"blueconic": false,
+		"durationMs": 16260,
+		"emailCapture": false,
+		"esp": [],
+		"gate": true,
+		"guess": "sfcc/bc?",
+		"kind": "home",
+		"loyalty": [],
+		"platform": ["sfcc"],
+		"recs": [],
+		"site": "columbia",
+		"status": "ok",
+		"unobserved": [],
+		"url": "https://www.columbia.com/",
+		"vendorList": [
+			{
+				"category": "platform",
+				"method": "js_global",
+				"tier": "unobservable",
+				"vendor": "sfcc"
+			}
+		]
+	},
+	{
+		"absences": [],
+		"adPixels": [],
+		"blueconic": false,
+		"durationMs": 0,
+		"emailCapture": false,
+		"esp": [],
+		"gate": false,
+		"guess": "sfcc/bc?",
+		"kind": "pdp",
+		"loyalty": [],
+		"platform": [],
+		"recs": [],
+		"site": "columbia",
+		"status": "fail:bot_blocked",
+		"unobserved": [],
+		"url": "https://www.columbia.com/p/mens-tellurix-titanium-outdry-shoe-2148851.html?color=383",
+		"vendorList": []
+	},
+	{
+		"absences": [],
+		"adPixels": [],
+		"blueconic": false,
+		"durationMs": 0,
+		"emailCapture": false,
+		"esp": [],
+		"gate": false,
+		"guess": "sfcc/bc?",
+		"kind": "home",
+		"loyalty": [],
+		"platform": [],
+		"recs": [],
+		"site": "katespade",
+		"status": "fail:bot_blocked",
+		"unobserved": [],
+		"url": "https://www.katespade.com/",
+		"vendorList": []
+	},
+	{
+		"absences": [],
+		"adPixels": [],
+		"blueconic": false,
+		"durationMs": 0,
+		"emailCapture": false,
+		"esp": [],
+		"gate": false,
+		"guess": "sfcc/bc?",
+		"kind": "pdp",
+		"loyalty": [],
+		"platform": [],
+		"recs": [],
+		"site": "katespade",
+		"status": "fail:bot_blocked",
+		"unobserved": [],
+		"url": "https://www.katespade.com/products/k-as-in-kate-runner/KM812-001.html?rrec=true",
+		"vendorList": []
+	},
+	{
+		"absences": [],
+		"adPixels": [],
+		"blueconic": false,
+		"durationMs": 0,
+		"emailCapture": false,
+		"esp": [],
+		"gate": false,
+		"guess": "sfcc/bc?",
+		"kind": "home",
+		"loyalty": [],
+		"platform": [],
+		"recs": [],
+		"site": "calvinklein",
+		"status": "fail:bot_blocked",
+		"unobserved": [],
+		"url": "https://www.calvinklein.us/",
+		"vendorList": []
+	},
+	{
+		"absences": [],
+		"adPixels": [],
+		"blueconic": false,
+		"durationMs": 0,
+		"emailCapture": false,
+		"esp": [],
+		"gate": false,
+		"guess": "sfcc/bc?",
+		"kind": "pdp",
+		"loyalty": [],
+		"platform": [],
+		"recs": [],
+		"site": "calvinklein",
+		"status": "fail:bot_blocked",
+		"unobserved": [],
+		"url": "https://www.calvinklein.us/en/men/apparel/tshirts-tanks/circle-logo-monogram-graphic-tee/4RG879G-P4P.html?journey=shop-all-tees",
+		"vendorList": []
+	},
+	{
+		"absences": [],
+		"adPixels": [],
+		"blueconic": false,
+		"durationMs": 0,
+		"emailCapture": false,
+		"esp": [],
+		"gate": false,
+		"guess": "sfcc/bc?",
+		"kind": "home",
+		"loyalty": [],
+		"platform": ["sfcc"],
+		"recs": [],
+		"site": "tommyhilfiger",
+		"status": "fail:bot_blocked",
+		"unobserved": [],
+		"url": "https://usa.tommy.com/",
+		"vendorList": [
+			{
+				"category": "platform",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "sfcc"
+			}
+		]
+	},
+	{
+		"absences": [],
+		"adPixels": [],
+		"blueconic": false,
+		"durationMs": 0,
+		"emailCapture": false,
+		"esp": [],
+		"gate": false,
+		"guess": "sfcc/bc?",
+		"kind": "pdp",
+		"loyalty": [],
+		"platform": ["sfcc"],
+		"recs": [],
+		"site": "tommyhilfiger",
+		"status": "fail:bot_blocked",
+		"unobserved": [],
+		"url": "https://usa.tommy.com/en/men/clothing/tops/regular-fit-striped-linen-blend-shirt/XM07399-AEY.html?journey=all-gender-linenshop-men",
+		"vendorList": [
+			{
+				"category": "platform",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "sfcc"
+			}
+		]
+	},
+	{
+		"absences": ["exit_intent", "recs", "identity", "loyalty"],
+		"adPixels": ["ga4", "tiktok", "meta", "google_ads", "google_tag_manager"],
+		"blueconic": false,
+		"durationMs": 16037,
+		"emailCapture": true,
+		"esp": ["klaviyo", "postscript"],
+		"gate": true,
+		"guess": "shopify",
+		"kind": "pdp",
+		"loyalty": [],
+		"platform": ["shopify"],
+		"recs": [],
+		"site": "kosas",
+		"status": "ok",
+		"unobserved": [],
+		"url": "https://kosas.com/products/cloud-set-loose?variant=44113031102521",
+		"vendorList": [
+			{
+				"category": "platform",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "shopify"
+			},
+			{
+				"category": "esp",
+				"method": "network",
+				"tier": "none",
+				"vendor": "klaviyo"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "ga4"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "tiktok"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "none",
+				"vendor": "meta"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "google_ads"
+			},
+			{
+				"category": "sms",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "postscript"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "js_global",
+				"tier": "unobservable",
+				"vendor": "google_tag_manager"
+			},
+			{
+				"category": "email_capture",
+				"method": "dom",
+				"tier": "unobservable",
+				"vendor": "email_capture"
+			}
+		]
+	},
+	{
+		"absences": ["exit_intent", "recs", "identity", "loyalty"],
+		"adPixels": [
+			"ga4",
+			"meta",
+			"google_tag_manager",
+			"bing",
+			"tiktok",
+			"snap",
+			"pinterest",
+			"amazon",
+			"trade_desk"
+		],
+		"blueconic": false,
+		"durationMs": 9145,
+		"emailCapture": true,
+		"esp": ["klaviyo", "mailchimp", "postscript"],
+		"gate": true,
+		"guess": "shopify",
+		"kind": "pdp",
+		"loyalty": [],
+		"platform": ["shopify"],
+		"recs": [],
+		"site": "drsquatch",
+		"status": "ok",
+		"unobserved": [],
+		"url": "https://www.drsquatch.com/products/deodorant-4-pack-1",
+		"vendorList": [
+			{
+				"category": "platform",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "shopify"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "ga4"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "none",
+				"vendor": "meta"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "google_tag_manager"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "bing"
+			},
+			{
+				"category": "esp",
+				"method": "network",
+				"tier": "none",
+				"vendor": "klaviyo"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "tiktok"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "snap"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "pinterest"
+			},
+			{
+				"category": "sms",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "postscript"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "amazon"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "trade_desk"
+			},
+			{
+				"category": "esp",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "mailchimp"
+			},
+			{
+				"category": "email_capture",
+				"method": "dom",
+				"tier": "unobservable",
+				"vendor": "email_capture"
+			}
+		]
+	},
+	{
+		"absences": ["sms", "exit_intent", "identity"],
+		"adPixels": [
+			"ga4",
+			"amazon",
+			"reddit",
+			"tiktok",
+			"pinterest",
+			"google_tag_manager",
+			"google_ads",
+			"meta"
+		],
+		"blueconic": false,
+		"durationMs": 16781,
+		"emailCapture": true,
+		"esp": ["klaviyo"],
+		"gate": true,
+		"guess": "shopify",
+		"kind": "pdp",
+		"loyalty": ["skio"],
+		"platform": ["shopify"],
+		"recs": ["rebuy"],
+		"site": "olipop",
+		"status": "ok",
+		"unobserved": [],
+		"url": "https://drinkolipop.com/products/crisp-apple",
+		"vendorList": [
+			{
+				"category": "platform",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "shopify"
+			},
+			{
+				"category": "loyalty",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "skio"
+			},
+			{
+				"category": "esp",
+				"method": "network",
+				"tier": "none",
+				"vendor": "klaviyo"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "ga4"
+			},
+			{
+				"category": "recs",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "rebuy"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "amazon"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "reddit"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "tiktok"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "pinterest"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "google_tag_manager"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "google_ads"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "js_global",
+				"tier": "none",
+				"vendor": "meta"
+			},
+			{
+				"category": "email_capture",
+				"method": "dom",
+				"tier": "unobservable",
+				"vendor": "email_capture"
+			}
+		]
+	},
+	{
+		"absences": ["exit_intent", "identity"],
+		"adPixels": [
+			"trade_desk",
+			"meta",
+			"amazon",
+			"snap",
+			"pinterest",
+			"google_tag_manager",
+			"ga4",
+			"tiktok",
+			"google_ads",
+			"reddit",
+			"bing"
+		],
+		"blueconic": false,
+		"durationMs": 16220,
+		"emailCapture": true,
+		"esp": ["klaviyo", "attentive"],
+		"gate": true,
+		"guess": "shopify",
+		"kind": "pdp",
+		"loyalty": ["recharge", "yotpo"],
+		"platform": ["shopify"],
+		"recs": ["rebuy"],
+		"site": "magicspoon",
+		"status": "ok",
+		"unobserved": [],
+		"url": "https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542",
+		"vendorList": [
+			{
+				"category": "platform",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "shopify"
+			},
+			{
+				"category": "esp",
+				"method": "network",
+				"tier": "none",
+				"vendor": "klaviyo"
+			},
+			{
+				"category": "recs",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "rebuy"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "trade_desk"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "none",
+				"vendor": "meta"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "amazon"
+			},
+			{
+				"category": "sms",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "attentive"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "snap"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "pinterest"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "google_tag_manager"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "ga4"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "tiktok"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "google_ads"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "reddit"
+			},
+			{
+				"category": "loyalty",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "recharge"
+			},
+			{
+				"category": "loyalty",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "yotpo"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "bing"
+			},
+			{
+				"category": "email_capture",
+				"method": "dom",
+				"tier": "unobservable",
+				"vendor": "email_capture"
+			}
+		]
+	},
+	{
+		"absences": ["exit_intent", "identity"],
+		"adPixels": [
+			"criteo",
+			"ga4",
+			"reddit",
+			"google_tag_manager",
+			"amazon",
+			"trade_desk",
+			"google_ads",
+			"tiktok",
+			"meta",
+			"bing"
+		],
+		"blueconic": false,
+		"durationMs": 15948,
+		"emailCapture": true,
+		"esp": ["klaviyo", "attentive"],
+		"gate": true,
+		"guess": "shopify",
+		"kind": "pdp",
+		"loyalty": ["yotpo"],
+		"platform": ["shopify"],
+		"recs": ["dynamic_yield"],
+		"site": "tommyjohn",
+		"status": "ok",
+		"unobserved": [],
+		"url": "https://www.tommyjohn.com/products/second-skin-deep-v-neck-stay-tucked-undershirt-1?color=white",
+		"vendorList": [
+			{
+				"category": "platform",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "shopify"
+			},
+			{
+				"category": "recs",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "dynamic_yield"
+			},
+			{
+				"category": "esp",
+				"method": "network",
+				"tier": "none",
+				"vendor": "klaviyo"
+			},
+			{
+				"category": "loyalty",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "yotpo"
+			},
+			{
+				"category": "sms",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "attentive"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "criteo"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "ga4"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "reddit"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "google_tag_manager"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "amazon"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "trade_desk"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "google_ads"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "tiktok"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "none",
+				"vendor": "meta"
+			},
+			{
+				"category": "ad_pixel",
+				"method": "network",
+				"tier": "unobservable",
+				"vendor": "bing"
+			},
+			{
+				"category": "email_capture",
+				"method": "dom",
+				"tier": "unobservable",
+				"vendor": "email_capture"
+			}
+		]
+	}
+]
