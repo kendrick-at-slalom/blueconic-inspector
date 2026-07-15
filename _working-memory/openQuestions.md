@@ -15,6 +15,10 @@ From `handoff-detection-engine-build.md` (October-facing unless noted):
 - **Commercial tag-auditing tools** (ObservePoint, DataSlayer, Trackingplan, WASP) — never searched; real build-vs-buy question.
 - **Build-order sequencing flag for the team:** under observe-only, Retargeting Suppression is nearly free and Cart Recovery is the most damaged play — Retargeting Suppression has a real claim on slot 1. Not this package's call; raise it.
 
+October — Shopify rubric branch:
+
+- **`ObservedGlobals` is presence-only** (`Record<string, boolean>`) by decision (2026-07-15) — reading global *values* means serializing arbitrary objects out of `page.evaluate` for no prototype gain. `window.Shopify` existing is the platform entry. When the Shopify rubric branch lands (native Klaviyo integration emits `Started Checkout` server-side, so client-side event presence is less discriminating), revisit whether platform detection needs to read global values or richer `platform_inference` evidence — the `DetectionMethod` value exists but has no matcher shape yet.
+
 Immediate (blocks prototype step 0):
 
 - `bc-console-probe.js` — user is providing it (not in workspace; do not recreate).

@@ -123,7 +123,20 @@ export interface Signal {
 	method: DetectionMethod;
 	/** 0..1 */
 	confidence: number;
+	/**
+	 * Capped: at most first + last. See `evidence_total` for how many were
+	 * actually seen.
+	 */
 	evidence: Evidence[];
+	/**
+	 * True count of matching observations as of THIS emit. May exceed
+	 * `evidence.length`, which is capped.
+	 *
+	 * Not a live counter — signals re-emit on tier upgrade only (see
+	 * `signal.found`), so this is a snapshot at upgrade time, not a running total.
+	 * Don't render it as "currently N".
+	 */
+	evidence_total: number;
 	notes?: string;
 }
 
@@ -171,6 +184,12 @@ export type InspectorEvent =
 	 *   (e.g. `evidence_of_use: 'none'` → `'wired'` when a beacon fires after the
 	 *   script was seen). KEY BY `signal.id` AND REPLACE, DO NOT APPEND — otherwise
 	 *   an upgrade renders as two contradictory findings.
+	 *
+	 * ⚠ RE-EMIT TRIGGER: tier upgrade ONLY. Never re-emit on evidence
+	 *   accumulation alone — Meta can fire dozens of /tr beacons per page load,
+	 *   and one SSE event each would flood the stream. Once a signal reaches its
+	 *   tier, further matching observations increment `evidence_total` silently
+	 *   and emit nothing.
 	 *
 	 * ⚠ Rollups: categories in the vendor table with zero matches emit one
 	 *   category-level signal (id `<category>.__rollup`, `mechanism_present: false`)

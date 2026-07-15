@@ -2,6 +2,22 @@
 
 Append-only; newest entry on top. Don't edit past entries; supersede them with a new one.
 
+## 2026-07-15: `Signal.evidence_total` field + tier-upgrade-only re-emit trigger
+
+**Source:** user decision 2026-07-15 (resolves the flag raised against the verbatim-adoption entry below); encoded in `src/types.ts` `Signal.evidence_total` and the `signal.found` JSDoc
+
+**Context:** The evidence cap (first + last) needed somewhere to record the true count, and the plan never pinned down *when* a signal re-emits — both gaps could ship a flooded stream or an unrenderable count.
+**Decision:** Add required `Signal.evidence_total: number` (snake_case, matching the other core fields) — `evidence[]` caps at first + last, `evidence_total` is the true count *as of that emit*, a snapshot at upgrade not a live counter. Re-emit trigger is **tier upgrade only**; post-tier matches increment `evidence_total` silently and emit nothing (Meta's dozens of `/tr` beacons must not become dozens of SSE events).
+**Alternatives considered:** Count in `Signal.notes` (rejected — human-facing prose; FE would regex a string to render a number, breaking on any reword). Re-emit on every match (rejected — floods the stream). Optional field (rejected — required is cleaner and the FE sign-off was a five-minute conversation before any component was written).
+
+## 2026-07-15: `src/types.ts` adopted verbatim as the frozen FE contract
+
+**Source:** user instruction 2026-07-15; commit `5a268c4`
+
+**Context:** types.ts was written ahead of the rest of the build and the FE dev may already be consuming it.
+**Decision:** The file is the contract; implementation follows it, never the reverse. No rewrites, reformats, or "improvements." Where it deviates from the plan or spec, the deviation is flagged for the user, not silently fixed — one real contradiction is open (the evidence-cap count has no field to live in; see `openQuestions.md`). Contract changes require user sign-off first.
+**Alternatives considered:** Reconciling types.ts to the plan's letter (rejected — the FE contract is the expensive-to-change side, and the user explicitly chose flag-don't-fix).
+
 ## 2026-07-15: Event-stream semantics — upgrade re-emit, capped evidence, absence rollups
 
 **Source:** plan review rounds 1–3 (`~/.claude/plans/read-inspector-detection-engine-descript-calm-pebble.md`); encoded in `src/types.ts`

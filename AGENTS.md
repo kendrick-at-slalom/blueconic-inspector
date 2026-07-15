@@ -4,9 +4,17 @@
 
 <!-- One line per layer. Detected from project. -->
 
+Planned, not yet scaffolded (`package.json` is still the `npm init` stub as of 2026-07-15):
+
+- TypeScript on Node 24, run via `tsx` (no build step in the prototype)
+- Playwright (headless Chromium) behind a `Runner` interface
+- Express for the SSE service; vitest for tests; pnpm as package manager
+
 ## Build / Test / Lint
 
 <!-- Copy exact commands so agents don't guess. -->
+
+No real commands exist yet — the `test` script is the npm-init placeholder. Fill this section with exact commands at the scaffold step (expected: `pnpm vitest run`, `npx tsx src/cli.ts <url>`, `pnpm lint`). Until then, don't guess.
 
 <!-- working-memory:start -->
 ## Working Memory
@@ -40,4 +48,4 @@ This project uses a two-tier working memory at `_working-memory/`.
 
 ## Conventions
 
-<!-- Populated from detection or manually. Keep to ≤10 rules. -->
+Canonical list lives in [`_working-memory/conventions.md`](_working-memory/conventions.md). The two that break the product if violated: `src/types.ts` is the frozen contract (flag deviations, never silently fix), and `core/`/`providers/` never import `service/`. Model routing for delegated work is defined in [`CLAUDE.md`](CLAUDE.md).

@@ -4,7 +4,7 @@
 
 `@bc/inspector` — a URL goes in, structured findings about a prospect's ecommerce growth-play readiness come out, streamed as they're discovered. Library first (in-process AsyncGenerator), service second (HTTP + SSE). Feeds the frontend and simulation tracks; this package is detection only.
 
-Canonical spec: [`handoff-detection-engine-build.md`](../handoff-detection-engine-build.md). **`detection-engine-description.md` is a superseded draft — do not build from it** (stale provider strategy and cut order).
+Canonical spec: [`docs/handoff-detection-engine-build.md`](../docs/handoff-detection-engine-build.md). **`docs/detection-engine-description.md` is a superseded draft — do not build from it** (stale provider strategy and cut order).
 
 ## Stack
 
@@ -15,11 +15,11 @@ Canonical spec: [`handoff-detection-engine-build.md`](../handoff-detection-engin
 - Package manager: pnpm
 - Deployment: none for the prototype (localhost only); Fargate vs Lambda deferred to October
 
-As of 2026-07-15 only `src/types.ts` exists; the rest is planned, not scaffolded.
+As of 2026-07-15 only `src/types.ts` exists; the rest is planned, not scaffolded. `package.json` is still the `npm init` stub (`blueconic-inspector`, commonjs, no deps) — it gets replaced at the scaffold step, including the `@bc/inspector` package name the FE will import.
 
 ## Repository Structure
 
-Single package (monorepo split deferred to October). `src/{core,runner,providers,service}` + `src/cli.ts`, mirroring the eventual package boundaries. `fixtures/` will hold probe output (`probe-<site>.json`) from `bc-console-probe.js` runs. The four `*.md` handoff docs at the root are project inputs, not deliverables.
+Single package (monorepo split deferred to October). `src/{core,runner,providers,service}` + `src/cli.ts`, mirroring the eventual package boundaries. `fixtures/` will hold probe output (`probe-<site>.json`) from `bc-console-probe.js` runs. The four `*.md` handoff docs in `docs/` are project inputs, not deliverables.
 
 ## Key Constraints
 
