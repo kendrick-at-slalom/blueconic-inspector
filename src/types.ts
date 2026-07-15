@@ -10,23 +10,24 @@
 // ─── Identity ────────────────────────────────────────────────────────────────
 
 /** Growth plays a signal can inform. A signal may serve several. */
-export type PlayId =
-	| 'cart_recovery'
-	| 'order_value_expansion'
-	| 'retargeting_suppression'
-	| 'churn_winback'
-	| 'intelligent_prospecting';
+export type PlayId
+	= | 'cart_recovery'
+		| 'order_value_expansion'
+		| 'retargeting_suppression'
+		| 'churn_winback'
+		| 'intelligent_prospecting';
 
-export type SignalCategory =
-	| 'esp'
-	| 'sms'
-	| 'exit_intent'
-	| 'ad_pixel'
-	| 'recs'
-	| 'identity'
-	| 'platform'
-	| 'loyalty'
-	| 'email_capture';
+export type SignalCategory
+	= | 'esp'
+		| 'sms'
+		| 'exit_intent'
+		| 'ad_pixel'
+		| 'recs'
+		| 'identity'
+		| 'platform'
+		| 'loyalty'
+		| 'email_capture'
+		| 'consent';
 
 /**
  * Stable signal IDs. Extend, never rename — the FE may key copy off these.
@@ -75,19 +76,15 @@ export type EvidenceOfUse = 'confirmed' | 'wired' | 'none' | 'unobservable';
  *   not_observable_from_url — never visible from outside, at any crawl depth
  *                            (e.g. ad suppression for a converted cart).
  */
-export type Observability =
-	| 'observable'
-	| 'unobserved'
-	| 'requires_interaction'
-	| 'not_observable_from_url';
+export type Observability
+	= | 'observable'
+		| 'unobserved'
+		| 'requires_interaction'
+		| 'not_observable_from_url';
 
 /** How the signal was detected. */
-export type DetectionMethod =
-	| 'network'
-	| 'dom'
-	| 'js_global'
-	| 'platform_inference'
-	| 'header';
+export type DetectionMethod
+	= 'network' | 'dom' | 'js_global' | 'platform_inference' | 'header';
 
 // ─── Evidence ────────────────────────────────────────────────────────────────
 
@@ -142,22 +139,17 @@ export interface Signal {
 
 // ─── Events ──────────────────────────────────────────────────────────────────
 
-export type Phase =
-	| 'resolve'
-	| 'fetch'
-	| 'render'
-	| 'collect'
-	| 'classify'
-	| 'score';
+export type Phase
+	= 'resolve' | 'fetch' | 'render' | 'collect' | 'classify' | 'score';
 
-export type FailureReason =
-	| 'dns_failure'
-	| 'http_error'
-	| 'timeout'
-	| 'bot_blocked'
-	| 'login_wall'
-	| 'not_ecommerce'
-	| 'unknown';
+export type FailureReason
+	= | 'dns_failure'
+		| 'http_error'
+		| 'timeout'
+		| 'bot_blocked'
+		| 'login_wall'
+		| 'not_ecommerce'
+		| 'unknown';
 
 export interface Summary {
 	signalCount: number;
@@ -169,13 +161,13 @@ export interface Summary {
 	durationMs: number;
 }
 
-export type InspectorEvent =
-	| {
-			type: 'inspection.started';
-			inspectionId: string;
-			url: string;
-			ts: number;
-	  }
+export type InspectorEvent
+	= | {
+		type: 'inspection.started';
+		inspectionId: string;
+		url: string;
+		ts: number;
+	}
 	| { type: 'phase.started'; phase: Phase; ts: number }
 	/**
 	 * Emitted as each signal lands — NOT batched.
@@ -199,19 +191,19 @@ export type InspectorEvent =
 	| { type: 'signal.found'; signal: Signal; ts: number }
 	| { type: 'phase.completed'; phase: Phase; ts: number }
 	| {
-			type: 'inspection.completed';
-			inspectionId: string;
-			summary: Summary;
-			ts: number;
-	  }
+		type: 'inspection.completed';
+		inspectionId: string;
+		summary: Summary;
+		ts: number;
+	}
 	| {
-			type: 'inspection.failed';
-			inspectionId: string;
-			reason: FailureReason;
-			/** Retryable (timeout, transient) vs. terminal (dns_failure, login_wall). */
-			recoverable: boolean;
-			ts: number;
-	  };
+		type: 'inspection.failed';
+		inspectionId: string;
+		reason: FailureReason;
+		/** Retryable (timeout, transient) vs. terminal (dns_failure, login_wall). */
+		recoverable: boolean;
+		ts: number;
+	};
 
 // ─── The render rule ─────────────────────────────────────────────────────────
 
@@ -288,13 +280,13 @@ export interface VendorEntry {
 export interface WiredMatcher {
 	id: SignalId;
 	/** Returns the upgraded signal, or null if this request isn't the beacon. */
-	matchRequest(req: ObservedRequest): Signal | null;
+	matchRequest: (req: ObservedRequest) => Signal | null;
 }
 
 /** DOM-based detection (e.g. cart.email_capture.presence). */
 export interface DomMatcher {
 	id: SignalId;
-	matchDom(doc: ObservedDom): Signal | null;
+	matchDom: (doc: ObservedDom) => Signal | null;
 }
 
 /**
@@ -302,11 +294,11 @@ export interface DomMatcher {
  * whole stream a lie: generator real, SSE real, tests green, every signal
  * arriving at once after a 25s block.
  */
-export type ObservedEvent =
-	| { kind: 'request'; req: ObservedRequest }
-	| { kind: 'response'; res: ObservedResponse }
-	| { kind: 'settled'; dom: ObservedDom; globals: ObservedGlobals };
+export type ObservedEvent
+	= | { kind: 'request'; req: ObservedRequest }
+		| { kind: 'response'; res: ObservedResponse }
+		| { kind: 'settled'; dom: ObservedDom; globals: ObservedGlobals };
 
 export interface Runner {
-	observe(url: string, signal?: AbortSignal): AsyncIterable<ObservedEvent>;
+	observe: (url: string, signal?: AbortSignal) => AsyncIterable<ObservedEvent>;
 }

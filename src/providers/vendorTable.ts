@@ -491,4 +491,70 @@ export const vendorTable: VendorEntry[] = [
 		scriptUrlPatterns: ['cdn.skio.com', 'skio.com'],
 		globalNames: [],
 	},
+
+	// Consent / CMP: not a growth-play capability but the context that explains under-detection.
+	// A consent gate suppresses pre-consent tags, so a site can look emptier than it is (see Columbia).
+	// Detecting the gate turns "only 1 signal, weird" into "OneTrust gate present." Cross-cutting like
+	// platform, so it informs every play. Fingerprints are public CDN patterns, reconcile against the probe.
+	{
+		id: 'consent.onetrust',
+		vendor: 'onetrust',
+		category: 'consent',
+		play: ALL_PLAYS,
+		scriptUrlPatterns: ['cdn.cookielaw.org', 'onetrust.com', 'cookielaw.org'],
+		globalNames: ['OneTrust', 'OptanonWrapper', 'OptanonActiveGroups'],
+	},
+	{
+		id: 'consent.cookiebot',
+		vendor: 'cookiebot',
+		category: 'consent',
+		play: ALL_PLAYS,
+		scriptUrlPatterns: ['consent.cookiebot.com', 'cookiebot.com'],
+		globalNames: ['Cookiebot', 'CookieConsent'],
+	},
+	{
+		id: 'consent.trustarc',
+		vendor: 'trustarc',
+		category: 'consent',
+		play: ALL_PLAYS,
+		scriptUrlPatterns: [
+			'consent.trustarc.com',
+			'trustarc.com',
+			'consent.truste.com',
+		],
+		globalNames: ['truste'],
+	},
+	{
+		id: 'consent.osano',
+		vendor: 'osano',
+		category: 'consent',
+		play: ALL_PLAYS,
+		scriptUrlPatterns: ['cmp.osano.com', 'osano.com'],
+		globalNames: ['Osano'],
+	},
+	{
+		id: 'consent.didomi',
+		vendor: 'didomi',
+		category: 'consent',
+		play: ALL_PLAYS,
+		scriptUrlPatterns: ['sdk.privacy-center.org', 'didomi.io'],
+		globalNames: ['Didomi'],
+	},
+	{
+		id: 'consent.usercentrics',
+		vendor: 'usercentrics',
+		category: 'consent',
+		play: ALL_PLAYS,
+		scriptUrlPatterns: ['app.usercentrics.eu', 'usercentrics.eu'],
+		globalNames: ['UC_UI', 'usercentrics'],
+	},
+	// IAB TCF is a framework, not a vendor: the __tcfapi global catches any TCF-compliant CMP we don't name.
+	{
+		id: 'consent.iab_tcf',
+		vendor: 'iab_tcf',
+		category: 'consent',
+		play: ALL_PLAYS,
+		scriptUrlPatterns: [],
+		globalNames: ['__tcfapi'],
+	},
 ];

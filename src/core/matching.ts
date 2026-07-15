@@ -22,17 +22,32 @@ const ROLLUP_CATEGORIES: SignalCategory[] = [
 	'platform',
 	'loyalty',
 	'email_capture',
+	'consent',
 ];
 
 /** Match a request against the present-tier table (script URLs) and the wired matchers (beacons). */
-export function matchRequest(req: ObservedRequest, registry: Registry, wiredIds: Set<string>): Signal[] {
+export function matchRequest(
+	req: ObservedRequest,
+	registry: Registry,
+	wiredIds: Set<string>,
+): Signal[] {
 	const out: Signal[] = [];
 	const url = req.url.toLowerCase();
 
 	for (const entry of registry.vendorTable) {
-		const hit = entry.scriptUrlPatterns.some(pattern => url.includes(pattern.toLowerCase()));
-		if (hit)
-			out.push(presentSignal(entry, { kind: 'script', detail: req.url, timestamp: req.ts }, 'network', wiredIds));
+		const hit = entry.scriptUrlPatterns.some(pattern =>
+			url.includes(pattern.toLowerCase()),
+		);
+		if (hit) {
+			out.push(
+				presentSignal(
+					entry,
+					{ kind: 'script', detail: req.url, timestamp: req.ts },
+					'network',
+					wiredIds,
+				),
+			);
+		}
 	}
 
 	for (const matcher of registry.wiredMatchers) {
@@ -56,8 +71,16 @@ export function matchSettled(
 
 	for (const entry of registry.vendorTable) {
 		const hitName = entry.globalNames.find(name => globals[name] === true);
-		if (hitName !== undefined)
-			out.push(presentSignal(entry, { kind: 'global', detail: `window.${hitName}`, timestamp: nowTs }, 'js_global', wiredIds));
+		if (hitName !== undefined) {
+			out.push(
+				presentSignal(
+					entry,
+					{ kind: 'global', detail: `window.${hitName}`, timestamp: nowTs },
+					'js_global',
+					wiredIds,
+				),
+			);
+		}
 	}
 
 	for (const matcher of registry.domMatchers) {
@@ -75,7 +98,12 @@ export function matchSettled(
  * on whether a wired matcher is registered for this id. That is the "installed, no evidence it
  * fires" vs "installed, couldn't verify use" split the render rule turns into copy.
  */
-function presentSignal(entry: VendorEntry, evidence: Evidence, method: DetectionMethod, wiredIds: Set<string>): Signal {
+function presentSignal(
+	entry: VendorEntry,
+	evidence: Evidence,
+	method: DetectionMethod,
+	wiredIds: Set<string>,
+): Signal {
 	const watched = wiredIds.has(entry.id);
 	return {
 		id: entry.id,
@@ -118,16 +146,20 @@ export function buildRollups(
 			confidence: crawlOk ? 0.9 : 0,
 			evidence: [],
 			evidence_total: 0,
-			notes: crawlOk
-				? 'No vendor detected in this category.'
-				: 'Category not assessed; the crawl did not complete.',
+			notes:
+				crawlOk
+					? 'No vendor detected in this category.'
+					:	'Category not assessed; the crawl did not complete.',
 		});
 	}
 	return out;
 }
 
 /** Plays a category informs, unioned from its table rows. Falls back to cart recovery for table-less categories (email capture). */
-function playsForCategory(registry: Registry, category: SignalCategory): PlayId[] {
+function playsForCategory(
+	registry: Registry,
+	category: SignalCategory,
+): PlayId[] {
 	const plays = new Set<PlayId>();
 	for (const entry of registry.vendorTable) {
 		if (entry.category === category) {

@@ -8,5 +8,8 @@ out/
 coverage/
 *.tsbuildinfo
 
+# Ad-hoc crawl output (regenerable QA artifacts, not source)
+crawl-results/
+
 # Local-only active context (working-memory-kit)
 _working-memory/activeContext.md

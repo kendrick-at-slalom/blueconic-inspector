@@ -13,10 +13,10 @@
 	},
 	"scripts": {
 		"inspect": "tsx src/cli.ts",
-		"serve": "tsx src/service/server.ts",
 		"lint": "eslint .",
 		"lint:fix": "eslint . --fix",
 		"prepare": "husky",
+		"serve": "tsx src/service/server.ts",
 		"test": "vitest run",
 		"test:e2e": "playwright test",
 		"test:watch": "vitest",
