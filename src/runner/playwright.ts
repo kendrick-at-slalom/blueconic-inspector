@@ -9,8 +9,11 @@ import type {
 } from '../types';
 import type { PushQueue } from './eventQueue';
 import { chromium } from 'playwright';
+import { simulateBrowsing } from './activeBrowse';
 import { classifyHttpStatus, classifyNavigationError, RunnerError } from './errors';
+import { resolveEvasionMode } from './evasion';
 import { createPushQueue } from './eventQueue';
+import { launchStealth } from './stealth';
 
 export interface PlaywrightRunnerOptions {
 	/** Global names to probe at settle. Sourced from the vendor table so providers stay declarative. */
@@ -20,22 +23,33 @@ export interface PlaywrightRunnerOptions {
 	/** Absolute ceiling on a single crawl. */
 	hardCapMs?: number;
 	headless?: boolean;
+	/**
+	 * Opt-in bot-evasion. `true` (and only `true`) turns on stealth + simulated browsing so
+	 * interaction-gated beacons can fire; anything else keeps the crawl plain observe-only. Gated in
+	 * `resolveEvasionMode` — the launch and browse paths read only the resolved mode.
+	 */
+	activeBrowse?: boolean;
+	/** How long to simulate browsing before settling, when active-browse is authorized. */
+	activeBrowseMs?: number;
 }
 
 const DEFAULT_SETTLE_QUIET_MS = 1500;
 const DEFAULT_HARD_CAP_MS = 25_000;
+const DEFAULT_ACTIVE_BROWSE_MS = 20_000;
 
 export function createPlaywrightRunner(options: PlaywrightRunnerOptions = {}): Runner {
 	const globalNames = options.globalNames ?? [];
 	const settleQuietMs = options.settleQuietMs ?? DEFAULT_SETTLE_QUIET_MS;
 	const hardCapMs = options.hardCapMs ?? DEFAULT_HARD_CAP_MS;
 	const headless = options.headless ?? true;
+	const activeBrowse = options.activeBrowse === true;
+	const activeBrowseMs = options.activeBrowseMs ?? DEFAULT_ACTIVE_BROWSE_MS;
 
 	return {
 		observe(url: string, signal?: AbortSignal): AsyncIterable<ObservedEvent> {
 			const queue = createPushQueue<ObservedEvent>();
 			// Fire-and-forget: the crawl feeds the queue and closes it. Consumers pull via for-await.
-			void drive({ url, globalNames, settleQuietMs, hardCapMs, headless }, queue, signal);
+			void drive({ url, globalNames, settleQuietMs, hardCapMs, headless, activeBrowse, activeBrowseMs }, queue, signal);
 			return queue;
 		},
 	};
@@ -47,6 +61,8 @@ interface DriveConfig {
 	settleQuietMs: number;
 	hardCapMs: number;
 	headless: boolean;
+	activeBrowse: boolean;
+	activeBrowseMs: number;
 }
 
 async function drive(config: DriveConfig, queue: PushQueue<ObservedEvent>, signal?: AbortSignal): Promise<void> {
@@ -61,7 +77,11 @@ async function drive(config: DriveConfig, queue: PushQueue<ObservedEvent>, signa
 			queue.close();
 			return;
 		}
-		browser = await chromium.launch({ headless: config.headless });
+		const mode = resolveEvasionMode({ activeBrowse: config.activeBrowse });
+		// The plain path never touches stealth code — spoofing is reachable only through the gate.
+		browser = mode.stealth
+			? await launchStealth(mode, config.headless)
+			: await chromium.launch({ headless: config.headless });
 		const context = await browser.newContext();
 		const page = await context.newPage();
 		signal?.addEventListener('abort', onAbort, { once: true });
@@ -80,6 +100,15 @@ async function drive(config: DriveConfig, queue: PushQueue<ObservedEvent>, signa
 		const status = response?.status() ?? 0;
 		if (status >= 400)
 			throw classifyHttpStatus(status);
+
+		if (mode.activeBrowse) {
+			// Engage BEFORE settling, so the beacons this browsing triggers stream as request events.
+			await simulateBrowsing(page, signal, { durationMs: config.activeBrowseMs });
+			if (signal?.aborted) {
+				queue.close();
+				return;
+			}
+		}
 
 		await settle(page, config.settleQuietMs, config.hardCapMs);
 		if (signal?.aborted) {

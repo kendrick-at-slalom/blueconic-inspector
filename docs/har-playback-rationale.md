@@ -13,3 +13,15 @@ So if we teach the robot to window-shop (not buy), Klaviyo probably fires "Viewe
 The catch, honestly: it's a bet. Klaviyo might sniff that the browser is a robot (headless leaves fingerprints) and refuse to fire even with fake browsing. That's why it's a spike — a quick experiment, not a commitment. Works → huge. Doesn't → we fall back to the replay runner (building it anyway), nothing lost.
 
 On the HAR-replay runner "(i think)": keep it regardless. It's the fallback demo vehicle and the deterministic test fixture the plan wanted (replay a real session, assert wired, no live-internet flakiness). Two jobs, one small piece.
+
+## How It Shipped: The Opt-In Gate
+
+Both runners exist now, and the evasion posture is enforced in code rather than promised in a comment.
+
+The `activeBrowse` flag is off by default, and only the literal `true` turns it on. `resolveEvasionMode` is the one gate: hand it anything else (`undefined`, `1`, `"yes"`, a stray object) and it returns `{ stealth: false, activeBrowse: false }`. The runner reads only that resolved mode, so a plain crawl can't spoof by accident, and `launchStealth` throws if it's ever called without an authorized mode. Stealth and active-browse are coupled on purpose. Stealth with nobody browsing won't trip an interaction-gated beacon, and browsing without stealth still reads as a robot to bot-detection, so one authorization flips both on—or nothing runs.
+
+Active-browse stays observe-only. It scrolls, drifts the mouse around, and lingers; it never clicks, fills a form, submits, or follows a link. Browsing like a human isn't shopping like one, so there's no cart, no checkout, and no login. It stays inside the crawler's no-mutation rule while looking engaged enough for Klaviyo to fire "Viewed Product," and a test pins that down: the browse loop is only ever allowed to move, scroll, and dwell.
+
+Stealth itself is a dependency, not something hand-rolled: `playwright-extra` and `puppeteer-extra-plugin-stealth`, both MIT, applied only behind the gate. That's the same call the autoconsent work made. Lean on a maintained library for the fiddly, adversarial part instead of chasing headless fingerprints by hand and re-chasing them every time Chromium shifts.
+
+For a demo, the operator turns it on per run with `--active-browse`, and the CLI prints a banner so it's obvious evasion is live. The productized version is October, not tomorrow: a client-facing checkbox, plus a "you got bot-blocked, tick the box to reach live wired" nudge when a plain crawl hits a 403.

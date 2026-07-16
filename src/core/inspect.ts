@@ -24,6 +24,12 @@ export interface InspectOptions {
 	inspectionId?: string;
 	/** Clock injection so tests get deterministic timestamps. */
 	now?: () => number;
+	/**
+	 * Opt-in bot-evasion (default off). `true` authorizes stealth + simulated browsing so
+	 * interaction-gated `wired` beacons can fire live; a prospect enables it for their own site.
+	 * Ignored when a `runner` is injected. See `resolveEvasionMode` and decisionLog 2026-07-15.
+	 */
+	activeBrowse?: boolean;
 }
 
 /**
@@ -41,7 +47,7 @@ export async function* inspect(options: InspectOptions): AsyncGenerator<Inspecto
 
 	yield { type: 'inspection.started', inspectionId, url: options.url, ts: now() };
 
-	const runner = options.runner ?? await createDefaultRunner(registry);
+	const runner = options.runner ?? await createDefaultRunner(registry, options.activeBrowse);
 
 	yield { type: 'phase.started', phase: 'resolve', ts: now() };
 	yield { type: 'phase.completed', phase: 'resolve', ts: now() };
@@ -104,10 +110,10 @@ export async function* inspect(options: InspectOptions): AsyncGenerator<Inspecto
 	yield { type: 'inspection.completed', inspectionId, summary, ts: now() };
 }
 
-async function createDefaultRunner(registry: Registry): Promise<Runner> {
+async function createDefaultRunner(registry: Registry, activeBrowse?: boolean): Promise<Runner> {
 	// Lazy import keeps Playwright out of the module graph for unit tests that inject a fake runner.
 	const { createPlaywrightRunner } = await import('../runner/playwright');
-	return createPlaywrightRunner({ globalNames: collectGlobalNames(registry) });
+	return createPlaywrightRunner({ globalNames: collectGlobalNames(registry), activeBrowse });
 }
 
 function buildSummary(state: MatchState, rollups: Signal[], startTs: number, endTs: number): Summary {

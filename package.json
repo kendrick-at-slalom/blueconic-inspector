@@ -23,7 +23,9 @@
 		"typecheck": "tsc --noEmit"
 	},
 	"dependencies": {
-		"playwright": "^1.61.1"
+		"playwright": "^1.61.1",
+		"playwright-extra": "^4.3.6",
+		"puppeteer-extra-plugin-stealth": "^2.11.2"
 	},
 	"devDependencies": {
 		"@antfu/eslint-config": "9.1.0",
