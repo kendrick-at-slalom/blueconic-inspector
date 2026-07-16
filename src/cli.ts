@@ -1,11 +1,33 @@
 import type { InspectorEvent, Signal } from './types';
 import process from 'node:process';
+import { pathToFileURL } from 'node:url';
 import { inspect } from './core/inspect';
 import { createHarRunner, loadCapture } from './runner/har';
 
 const DIM = '\x1B[2m';
 const BOLD = '\x1B[1m';
 const RESET = '\x1B[0m';
+
+export interface CliInvocation {
+	/** The url to inspect, or the har path when replaying. Undefined means "nothing to do; print usage". */
+	label: string | undefined;
+	asJson: boolean;
+	activeBrowse: boolean;
+	harPath: string | undefined;
+}
+
+/** Pull flags and the target out of argv. Exported so parsing is unit-testable without spawning the binary. */
+export function parseArgs(args: string[]): CliInvocation {
+	const asJson = args.includes('--json');
+	const activeBrowse = args.includes('--active-browse');
+	const harFlagIndex = args.indexOf('--har');
+	const harPath = harFlagIndex >= 0 ? args[harFlagIndex + 1] : undefined;
+	// Exclude the arg right after --har (the path, not the url), but only when --har is present: with it
+	// absent, harFlagIndex is -1 and harFlagIndex + 1 is 0, which would drop a bare url sitting at index 0.
+	const harValueIndex = harFlagIndex >= 0 ? harFlagIndex + 1 : -1;
+	const url = args.find((arg, i) => !arg.startsWith('--') && i !== harValueIndex);
+	return { label: url ?? harPath, asJson, activeBrowse, harPath };
+}
 
 /**
  * Local dev harness. Streams an inspection to the terminal, or emits raw NDJSON with `--json`.
@@ -19,15 +41,8 @@ const RESET = '\x1B[0m';
  * crawl can trigger interaction-gated beacons. Off by default; only for a prospect's own site.
  */
 async function main(): Promise<void> {
-	const args = process.argv.slice(2);
-	const asJson = args.includes('--json');
-	const activeBrowse = args.includes('--active-browse');
-	const harFlagIndex = args.indexOf('--har');
-	const harPath = harFlagIndex >= 0 ? args[harFlagIndex + 1] : undefined;
-	// The har path fills the positional url slot, so exclude it from the url search below.
-	const url = args.find((arg, i) => !arg.startsWith('--') && i !== harFlagIndex + 1);
+	const { label, asJson, activeBrowse, harPath } = parseArgs(process.argv.slice(2));
 
-	const label = url ?? harPath;
 	if (!label) {
 		process.stderr.write('usage: npm run inspect -- <url> [--json] [--active-browse]  |  --har <path> [--json]\n');
 		process.exitCode = 2;
@@ -108,4 +123,6 @@ function describe(signal: Signal): string {
 	return `[${tier}] ${signal.id} (${who})${count}${detail ? ` ${DIM}${detail}${RESET}` : ''}`;
 }
 
-void main();
+// Only auto-run when invoked as a script; importing this module (e.g. from a test) must not start a crawl.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href)
+	void main();
