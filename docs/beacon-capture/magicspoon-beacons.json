@@ -1,0 +1,2501 @@
+[
+	{
+		"t": "2026-07-16T02:00:56.798Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/HMWFR8/klaviyo.js?company_id=HMWFR8",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:56.800Z",
+		"method": "GET",
+		"url": "https://www.klaviyo.com/media/js/public/klaviyo_subscribe.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:56.801Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/experiments.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:56.801Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/rebuy.js?shop=magic-spoon.myshopify.com",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:56.801Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/cdn/shop/t/667/assets/rebuy-extensions.js?v=140802005072097289471779066077",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:56.801Z",
+		"method": "GET",
+		"url": "https://d3ty4og90bdf2f.cloudfront.net/code_snippets/recharge_embed.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.127Z",
+		"method": "GET",
+		"url": "https://a.klaviyo.com/media/css/public/klaviyo_subscribe.css",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.168Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-1504215102@83adcaf06c5deacff41ffdf8f92d9129/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.168Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/app/web-pixel-806256702@abff2a8add143ccb04deb20f0ebd74a9~2/pixel.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.168Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-1455390782@b86194809e9bbe0b74334b13c8bf4709/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.168Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-1411350590@94457fdfcf80b0033e88e322893e2b49/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.169Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-957087806@524f6c1ee37bacdca7657a665bdca589/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.169Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-885260350@89b8fc7bacd986277f3307e7b7701ff0/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.169Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-843317310@52ab378323058414ba06404bb0fa1bca/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.169Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-750616638@dbe959aa2e82423435e6f12f05a3fb8c/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.169Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-625442878@7f1561d8e89b361a3193f1f545354ae9/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.169Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-593592382@a766ab3f0f73a4a44d25b6b3efa8f1dc/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.170Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-527335486@74f89c26283dd9bc8e535e14315f3aed/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.170Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-33030206@565fe5dd5db699c5a32547ff5c1df3c8/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.170Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-21725246@5d6ff697f8f0c56694e43434919810e4/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.170Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-1605694@c119f01612c13b62ab52809eb08154bb/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.171Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-shopify-app-pixel@0501/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.174Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/app/web-pixel-45219902@c8e5f5ab15307fa46b45b0f165e63568/sandbox/modern/",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.175Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/app/web-pixel-7995454@18768251ba39e648a21817a5a3c6ddf4/sandbox/modern/",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.176Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/custom/web-pixel-38404158@1/sandbox/modern/",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.177Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/custom/web-pixel-92864574@1/sandbox/modern/",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.177Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/custom/web-pixel-96043070@2/sandbox/modern/",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.178Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/custom/web-pixel-96174142@3/sandbox/modern/",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.179Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/custom/web-pixel-111542334@2/sandbox/modern/",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.180Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/custom/web-pixel-shopify-custom-pixel@0501/sandbox/modern/",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.281Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-625442878@7f1561d8e89b361a3193f1f545354ae9.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.280Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-shopify-app-pixel@0501.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.280Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-1605694@c119f01612c13b62ab52809eb08154bb.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.281Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-1411350590@94457fdfcf80b0033e88e322893e2b49.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.281Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-1455390782@b86194809e9bbe0b74334b13c8bf4709.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.281Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-885260350@89b8fc7bacd986277f3307e7b7701ff0.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.284Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-750616638@dbe959aa2e82423435e6f12f05a3fb8c.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.285Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-593592382@a766ab3f0f73a4a44d25b6b3efa8f1dc.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.285Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-957087806@524f6c1ee37bacdca7657a665bdca589.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.285Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-21725246@5d6ff697f8f0c56694e43434919810e4.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.287Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-33030206@565fe5dd5db699c5a32547ff5c1df3c8.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.289Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-1504215102@83adcaf06c5deacff41ffdf8f92d9129.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.291Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-527335486@74f89c26283dd9bc8e535e14315f3aed.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.292Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-843317310@52ab378323058414ba06404bb0fa1bca.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.328Z",
+		"method": "HEAD",
+		"url": "https://cdn.attn.tv/magicspoon/dtag.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.330Z",
+		"method": "GET",
+		"url": "https://magicspoon-us.attn.tv/d?attn_vid=4939dff172374ab08ef0192d954e1644",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.338Z",
+		"method": "GET",
+		"url": "https://cdn.attn.tv/growth-tag-assets/client-configs/LOc.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.350Z",
+		"method": "GET",
+		"url": "https://ct.pinterest.com/user/?cb=1784167257345&ed=%7B%22np%22%3A%22shopify-web-pixel%22%2C%22eventID%22%3A%22sh-68a7d6c0-DF8B-4C7B-A1D9-07E600608549%22%7D&ad=%7B%22mh%22%3A%2258027b7f%22%2C%22sh%22%3A1117%2C%22sw%22%3A1728%2C%22loc%22%3A%22https%3A%2F%2Fmagicspoon.com%2F%22%2C%22if%22%3Atrue%2C%22language%22%3A%22en-US%22%7D&pd=%7B%22np%22%3A%22shopify-web-pixel%22%2C%22external_id%22%3A%22c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd09950ff%22%7D&tid=2614380171455",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.363Z",
+		"method": "GET",
+		"url": "https://static-tracking.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/fender_analytics.f04cbabb6f4337a1a032.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.363Z",
+		"method": "GET",
+		"url": "https://static-tracking.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/static.11af62fb4e32ef9947e4.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.363Z",
+		"method": "GET",
+		"url": "https://static-tracking.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/vendors~static~in_app_forms~signup_forms~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites~faq~.94f857182c5ddf891ee0.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.363Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/runtime.60d249c4a4bde0468ad2.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.363Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/sharedUtils.73086fe6223987d02f12.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.363Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/vendors~in_app_forms~signup_forms~client_identity~telemetry~onsite-triggering-v2~.84f06bbcdc5310b095cd.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.363Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/vendors~in_app_forms~signup_forms~reviews~atlas~product_recommendations.cb17e1c10db346b210dc.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.363Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/vendors~in_app_forms~signup_forms.a899b049d575de74ade1.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.363Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/default~in_app_forms~signup_forms.79af70ca3fbf28c99eb4.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.363Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/signup_forms.1827f3087206af47b094.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.363Z",
+		"method": "GET",
+		"url": "https://static-tracking.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/post_identification_sync.968f0a1bbd6d33eb9c36.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.363Z",
+		"method": "GET",
+		"url": "https://static-tracking.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/web_personalization.292bf16a957c52c47814.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.363Z",
+		"method": "GET",
+		"url": "https://static-tracking.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/client_identity.7d7e5411cc2008190ed3.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.363Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/event_adapter.f4a04fcdb8e205893e28.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.363Z",
+		"method": "GET",
+		"url": "https://static-tracking.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/telemetry.5f4af760c1426f838ca5.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.364Z",
+		"method": "HEAD",
+		"url": "https://cdn.attn.tv/attentive/dtag.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.375Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/global.js?build=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.375Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/css/global.min.css?build=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.459Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/sharedUtils.73086fe6223987d02f12.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.459Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/vendors~static~in_app_forms~signup_forms~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites~faq~.94f857182c5ddf891ee0.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.459Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/vendors~in_app_forms~signup_forms~client_identity~telemetry~onsite-triggering-v2~.84f06bbcdc5310b095cd.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.459Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/vendors~Render~ClientStore~~~onsite-back-in-stock.7d7b5b811b79d6bdfaae.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.459Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/1011.09afdf7495dac2a28513.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.460Z",
+		"method": "GET",
+		"url": "https://shopify-gtm-suite.getelevar.com/getelevar/3.34.5/dl-web-pixel-lax-custom.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.461Z",
+		"method": "GET",
+		"url": "https://shopify-gtm-suite.getelevar.com/getelevar/3.34.5/dl-web-pixel-strict-app.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.466Z",
+		"method": "POST",
+		"url": "https://a.klaviyo.com/client/sessions/?company_id=HMWFR8",
+		"status": 201,
+		"body": "{\"data\":{\"type\":\"session\",\"attributes\":{\"identifiers\":{\"_shopify_y\":\"9a1a7631-a3f6-4ca6-aad7-3944c01ba035\",\"shopify_client_id\":\"9a1a7631-a3f6-4ca6-aad7-3944c01ba035\"}}}}"
+	},
+	{
+		"t": "2026-07-16T02:00:57.466Z",
+		"method": "OPTIONS",
+		"url": "https://a.klaviyo.com/client/sessions/?company_id=HMWFR8",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.476Z",
+		"method": "GET",
+		"url": "https://fast.a.klaviyo.com/custom-fonts/api/v1/company-fonts/onsite?company_id=HMWFR8",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.498Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/vendor-jquery.js?id=5d98d8e5ba934333d099&v=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.499Z",
+		"method": "GET",
+		"url": "https://cached.rebuyengine.com/api/v1/user/config?shop=magic-spoon.myshopify.com",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.513Z",
+		"method": "POST",
+		"url": "https://magicspoon-us.attn.tv/unrenderedCreative?v=2026.07.2&r=&id=4939dff172374ab08ef0192d954e1644&pv=1&l=https%3A%2F%2Fmagicspoon.com%2F&w=1728&h=523&ss_ref=ORGANIC&f=3",
+		"status": 200,
+		"body": "{\"cookies\":{},\"utmParams\":{}}"
+	},
+	{
+		"t": "2026-07-16T02:00:57.518Z",
+		"method": "GET",
+		"url": "https://a.klaviyo.com/forms/api/v3/geo-ip",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.555Z",
+		"method": "GET",
+		"url": "https://static-forms.klaviyo.com/forms/api/v7/HMWFR8/full-forms",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.582Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/css/fontawesome-embed.min.css?build=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.586Z",
+		"method": "GET",
+		"url": "https://geo.rebuyengine.com/?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.589Z",
+		"method": "GET",
+		"url": "https://cached.rebuyengine.com/api/v1/user/stylesheet?shop=magic-spoon.myshopify.com&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.590Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/v1_theme/id/133025103934?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.590Z",
+		"method": "GET",
+		"url": "https://cached.rebuyengine.com/api/v1/widgets/settings?id=104018&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.591Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/vendor-flickity.js?id=66fabf1371ef5a4f0ab3&v=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.591Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/vendors.js?id=18644fc96c895b3b02ae&v=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.591Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/SmartCart.js?id=53e153d5804e09391a72&v=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.595Z",
+		"method": "POST",
+		"url": "https://rebuyengine.com/api/v2/analytics/event/bulk?cache_key=1783562960",
+		"status": 200,
+		"body": "[{\"subject\":\"user\",\"verb\":\"started\",\"noun\":\"session\",\"defined_noun_id\":\"9\",\"uuid\":\"820f07b8-803c-4eb6-b70f-1d9092085466\",\"rsid\":\"902e8bffb0edcc45\",\"meta\":{\"platform\":\"MacOS\",\"mobile\":false,\"language\":\"en-US\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\"},\"event_time\":\"1784167257586\",\"theme_id\":\"133025103934\"},{\"defined_noun_id\":\"rebuy-cart-template\",\"meta\":{\"detection_timestamp\":1784167257588,\"font_awesome_count\":9,\"font_awesome_icons\":[\"fa-times\",\"fa-sync-alt\",\"fa-fast-spin\",\"fa-trash\",\"fa-minus\",\"fa-plus\",\"fa-chevron-down\",\"fa-chevron-up\",\"fa-tags\"],\"has_font_awesome\":true,\"page_detected\":\"/\",\"resource_id\":null,\"template_type\":\"cart\"},\"noun\":\"custom-template\",\"subject\":\"merchant\",\"verb\":\"detected\",\"even"
+	},
+	{
+		"t": "2026-07-16T02:00:57.597Z",
+		"method": "OPTIONS",
+		"url": "https://rebuyengine.com/api/v2/analytics/event/bulk?cache_key=1783562960",
+		"status": 204,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.633Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/css/rebuy-flickity.min.css?build=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.646Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/default~Render~ClientStore~~onsite-back-in-stock.d095d93e14859373a01c.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.646Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.fac9f0fe88ebdf394a34.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.646Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/default~Render~ClientStore~.06bceef33b68a6b383b6.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.646Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/ClientStore.1a19d19620aad17658a9.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.655Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/WidgetGiftWithPurchase.js?id=140df4cbaceb15c051d7&v=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.662Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/css/rebuy-smart-cart.min.css?build=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.691Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=PageView&dl=https%3A%2F%2Fmagicspoon.com%2F&rl=&if=false&ts=1784167257681&iw=false&sw=1728&sh=1117&v=2.9.353&r=stable&a=shopify_web_pixel&ec=0&o=12318&aems=0%3B0&fbp=fb.1.1784167257675.799256660155957659&ler=empty&cdl=API_unavailable&sm=OPEN&se=%7B%22page_url%22%3Atrue%2C%22referrer%22%3Atrue%2C%22fbp%22%3Atrue%2C%22fbc%22%3Atrue%2C%22page_url_empty_legacy%22%3Afalse%2C%22page_url_empty_shopify%22%3Afalse%2C%22referrer_empty_legacy%22%3Atrue%2C%22referrer_empty_shopify%22%3Atrue%2C%22fbp_empty_legacy%22%3Afalse%2C%22fbp_empty_shopify%22%3Afalse%2C%22fbc_empty_legacy%22%3Atrue%2C%22fbc_empty_shopify%22%3Atrue%7D&pmd%5Btitle%5D=High+Protein%2C+Keto-Friendly%2C+0g+Sugar+Cereal+%7C+Magic+Spoon+Cereal&pmd%5Blocale%5D=en&pmd%5Bdescription%5D=Magic+Spoon+is+high-protein%2C+"
+	},
+	{
+		"t": "2026-07-16T02:00:57.696Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/onsite-triggering-v2.de197ba28ed1011bed81.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.713Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/webfonts/fa-solid-900.woff2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.735Z",
+		"method": "GET",
+		"url": "https://cached.rebuyengine.com/api/v1/widgets/settings?id=274798&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.741Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/173841?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=8&url=https%3A%2F%2Fmagicspoon.com%2F&shopify_product_ids=&shopify_variant_ids=&shopify_collection_ids=&shopify_order_ids=&shopify_selling_plans=yes&filter_inputs=no&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=a22b900da3279025edca3471fb06b919&cart_subtotal=0&cart_count=0&cart_line_count=0&cart_item_count=0&cart%5Btoken%5D=a22b900da3279025edca3471fb06b919&cart%5Bsubtotal%5D=0&cart%5Bline_count%5D=0&cart%5Bitem_count%5D=0&cart%5Battributes%5D=%257B%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.742Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/Widget-templates-Widget-giftWithPurchase-template.js?id=5adb0b46f3797e8f510d&v=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.772Z",
+		"method": "GET",
+		"url": "https://cached.rebuyengine.com/api/v1/widgets/styles?id=274798&format=css&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.772Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/292061?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=4&url=https%3A%2F%2Fmagicspoon.com%2F&shopify_product_ids=&shopify_variant_ids=&shopify_collection_ids=&shopify_order_ids=&metafields=yes&shopify_selling_plans=yes&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=a22b900da3279025edca3471fb06b919&cart_subtotal=0&cart_count=0&cart_line_count=0&cart_item_count=0&cart%5Btoken%5D=a22b900da3279025edca3471fb06b919&cart%5Bsubtotal%5D=0&cart%5Bline_count%5D=0&cart%5Bitem_count%5D=0&cart%5Battributes%5D=%257B%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.773Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/Widget-templates-Widget-recommended-template.js?id=d2864270348be87fdb68&v=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.841Z",
+		"method": "POST",
+		"url": "https://rebuyengine.com/api/v2/analytics/event/bulk?cache_key=1783562960",
+		"status": 200,
+		"body": "[{\"subject\":\"user\",\"verb\":\"viewed\",\"noun\":\"widget\",\"widget_id\":\"104018\",\"event_time\":\"1784167257830\",\"uuid\":\"820f07b8-803c-4eb6-b70f-1d9092085466\",\"rsid\":\"902e8bffb0edcc45\",\"shopify_cart_token\":\"a22b900da3279025edca3471fb06b919\",\"theme_id\":\"133025103934\"},{\"subject\":\"user\",\"verb\":\"viewed\",\"noun\":\"widget\",\"widget_id\":\"274798\",\"event_time\":\"1784167257836\",\"uuid\":\"820f07b8-803c-4eb6-b70f-1d9092085466\",\"rsid\":\"902e8bffb0edcc45\",\"shopify_cart_token\":\"a22b900da3279025edca3471fb06b919\",\"theme_id\":\"133025103934\"}]"
+	},
+	{
+		"t": "2026-07-16T02:00:57.845Z",
+		"method": "OPTIONS",
+		"url": "https://rebuyengine.com/api/v2/analytics/event/bulk?cache_key=1783562960",
+		"status": 204,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.898Z",
+		"method": "GET",
+		"url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C29BU2H9VV2K3NTTUUQ0&lib=ttq",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:57.900Z",
+		"method": "GET",
+		"url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C1AIOH48PMMOGUUMKOP0&lib=ttq",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:58.054Z",
+		"method": "GET",
+		"url": "https://analytics.tiktok.com/i18n/pixel/static/main.MTA2MWE1OWMwMw.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:58.124Z",
+		"method": "GET",
+		"url": "https://analytics.tiktok.com/i18n/pixel/static/main.MTA2MWE1OWMwOA.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:58.134Z",
+		"method": "GET",
+		"url": "https://analytics.tiktok.com/i18n/pixel/static/identify_b8133453.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:58.147Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"LandingPageView\",\"event_id\":\"\",\"message_id\":\"messageId-1784167258146-1394322241490-C29BU2H9VV2K3NTTUUQ0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:00:58.146Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/\",\"referrer\":\"\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C29BU2H9VV2K3NTTUUQ0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-Lfbrc.0.0::2fe0b918-80ba-11f1-b78e-be3484d6d1a8-C29BU2H9VV2K3NTTUUQ0\",\"variation_id\":\"default\",\"csid\":\"1784167258143::BAAwqMNfhHWzGcMUKeF4\",\"page_csid\":\"17841672581"
+	},
+	{
+		"t": "2026-07-16T02:00:58.147Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"Pageview\",\"event_id\":\"\",\"message_id\":\"messageId-1784167258145-3101230242920-C29BU2H9VV2K3NTTUUQ0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:00:58.145Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/\",\"referrer\":\"\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C29BU2H9VV2K3NTTUUQ0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-Lfbrc.0.0::2fe0b918-80ba-11f1-b78e-be3484d6d1a8-C29BU2H9VV2K3NTTUUQ0\",\"variation_id\":\"default\",\"csid\":\"1784167258143::BAAwqMNfhHWzGcMUKeF4\",\"page_csid\":\"1784167258143::ZEf"
+	},
+	{
+		"t": "2026-07-16T02:00:58.148Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"LandingPageView\",\"event_id\":\"\",\"message_id\":\"messageId-1784167258148-3854690967630-C1AIOH48PMMOGUUMKOP0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:00:58.148Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C1AIOH48PMMOGUUMKOP0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/\",\"referrer\":\"\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C1AIOH48PMMOGUUMKOP0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-Lfbrc.0.0::2fe4d655-80ba-11f1-a1ad-cacb179e5686-C1AIOH48PMMOGUUMKOP0\",\"variation_id\":\"default\",\"csid\":\"1784167258144::4mTtMfpFMGW9Cr_QUp1z\",\"page_csid\":\"17841672581"
+	},
+	{
+		"t": "2026-07-16T02:00:58.148Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"Pageview\",\"event_id\":\"\",\"message_id\":\"messageId-1784167258147-4539463593864-C1AIOH48PMMOGUUMKOP0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:00:58.147Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C1AIOH48PMMOGUUMKOP0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/\",\"referrer\":\"\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C1AIOH48PMMOGUUMKOP0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-Lfbrc.0.0::2fe4d655-80ba-11f1-a1ad-cacb179e5686-C1AIOH48PMMOGUUMKOP0\",\"variation_id\":\"default\",\"csid\":\"1784167258144::4mTtMfpFMGW9Cr_QUp1z\",\"page_csid\":\"1784167258143::ZEf"
+	},
+	{
+		"t": "2026-07-16T02:00:58.342Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/292061?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=4&url=https%3A%2F%2Fmagicspoon.com%2F&shopify_product_ids=&shopify_variant_ids=&shopify_collection_ids=&shopify_order_ids=&metafields=yes&shopify_selling_plans=yes&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=0&cart_count=0&cart_line_count=0&cart_item_count=0&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=0&cart%5Bline_count%5D=0&cart%5Bitem_count%5D=0&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:58.355Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel/act",
+		"status": 200,
+		"body": "{\"event_id\":\"\",\"message_id\":\"messageId-1784167258354-5760269893134\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:00:58.354Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\",\"codes\":\"C29BU2H9VV2K3NTTUUQ0|C1AIOH48PMMOGUUMKOP0\"},\"page\":{\"url\":\"https://magicspoon.com/\",\"referrer\":\"\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-Lfbrc.0.0::2fe0b918-80ba-11f1-b78e-be3484d6d1a8\",\"variation_id\":\"default\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome"
+	},
+	{
+		"t": "2026-07-16T02:00:58.399Z",
+		"method": "GET",
+		"url": "https://static.rechargecdn.com/static/js/recharge.js?shop=magic-spoon.myshopify.com",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:58.399Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=HMWFR8&shop=magic-spoon.myshopify.com",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:58.399Z",
+		"method": "GET",
+		"url": "https://cdn.attn.tv/magicspoon/dtag.js?shop=magic-spoon.myshopify.com",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:58.506Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=PageView&dl=https%3A%2F%2Fmagicspoon.com%2F&rl=&if=false&ts=1784167258477&iw=false&sw=1728&sh=1117&cud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ncud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ud%5Bexternal_id%5D=c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd09950ff&aud%5Bexternal_id%5D=c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd09950ff&v=2.9.353&r=stable&a=shopify_web_pixel&ec=1&o=12318&aems=0%3B0&fbp=fb.1.1784167257675.799256660155957659&ler=empty&cdl=API_unavailable&sm=OPEN&se=%7B%22page_url%22%3Atrue%2C%22referrer%22%3Atrue%2C%22fbp%22%3Atrue%2C%22fbc%22%3Atrue%2C%22page_url_empty_legacy%22%3Afalse%2C%22page_url_empty_shopify%22%3Afalse%"
+	},
+	{
+		"t": "2026-07-16T02:00:59.178Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/173841?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=8&url=https%3A%2F%2Fmagicspoon.com%2F&shopify_product_ids=&shopify_variant_ids=&shopify_collection_ids=&shopify_order_ids=&shopify_selling_plans=yes&filter_inputs=no&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=0&cart_count=0&cart_line_count=0&cart_item_count=0&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=0&cart%5Bline_count%5D=0&cart%5Bitem_count%5D=0&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:59.178Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/292061?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=4&url=https%3A%2F%2Fmagicspoon.com%2F&shopify_product_ids=&shopify_variant_ids=&shopify_collection_ids=&shopify_order_ids=&metafields=yes&shopify_selling_plans=yes&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=0&cart_count=0&cart_line_count=0&cart_item_count=0&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=0&cart%5Bline_count%5D=0&cart%5Bitem_count%5D=0&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:00:59.543Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/173841?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=8&url=https%3A%2F%2Fmagicspoon.com%2F&shopify_product_ids=&shopify_variant_ids=&shopify_collection_ids=&shopify_order_ids=&shopify_selling_plans=yes&filter_inputs=no&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=0&cart_count=0&cart_line_count=0&cart_item_count=0&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=0&cart%5Bline_count%5D=0&cart%5Bitem_count%5D=0&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:01:02.605Z",
+		"method": "GET",
+		"url": "https://creatives.attn.tv/creatives-dynamic/multiPage/index.html",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:01:02.737Z",
+		"method": "GET",
+		"url": "https://creatives.attn.tv/creatives-dynamic/multiPage/assets/index-D4LhqW_h.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:01:02.898Z",
+		"method": "GET",
+		"url": "https://creatives.attn.tv/creatives-dynamic/multiPage/assets/cssReset-B9fs-I0F.css",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:01:02.933Z",
+		"method": "GET",
+		"url": "https://creatives.attn.tv/magicspoon/ms%20logo_759eec2f.png",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:01:02.966Z",
+		"method": "GET",
+		"url": "https://creatives.attn.tv/magicspoon/MS_Desktop_Image_under500kb_534d8f01.jpg",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:01:02.966Z",
+		"method": "GET",
+		"url": "https://creatives.attn.tv/magicspoon/Mabry%20Pro%20Black_88131b31.otf",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:01:02.966Z",
+		"method": "GET",
+		"url": "https://creatives.attn.tv/magicspoon/Mabry%20Pro%20Bold_3258f49d.otf",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:01:02.966Z",
+		"method": "GET",
+		"url": "https://creatives.attn.tv/magicspoon/Mabry%20Pro_3a75942b.otf",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:01:03.202Z",
+		"method": "PUT",
+		"url": "https://magicspoon-us.attn.tv/impression?id=4939dff172374ab08ef0192d954e1644&c=1327179&he=false&pt=field_capture&su=https%3A%2F%2Fmagicspoon.com%2F",
+		"status": 204,
+		"body": "{\"performanceMetrics\":{\"tagLoaded\":821,\"dtagStart\":1893,\"dtagEnd\":1971,\"tagCreativesLoaded\":824},\"pv\":1,\"in\":\"attn\",\"tr\":\"delay\"}"
+	},
+	{
+		"t": "2026-07-16T02:01:03.202Z",
+		"method": "OPTIONS",
+		"url": "https://magicspoon-us.attn.tv/impression?id=4939dff172374ab08ef0192d954e1644&c=1327179&he=false&pt=field_capture&su=https%3A%2F%2Fmagicspoon.com%2F",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:01:03.203Z",
+		"method": "POST",
+		"url": "https://magicspoon-us.attn.tv/creative-interactions?crid=1327179&coeid=LOc&vid=4939dff172374ab08ef0192d954e1644&crap=EMAIL&crat=VIEW&crpi=2&ts=1784167263&he=false",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:01:08.149Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"EngagedSession\",\"event_id\":\"\",\"message_id\":\"messageId-1784167268148-7016289691148-C29BU2H9VV2K3NTTUUQ0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:01:08.148Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/\",\"referrer\":\"\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C29BU2H9VV2K3NTTUUQ0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-Lfbrc.0.0::2fe0b918-80ba-11f1-b78e-be3484d6d1a8-C29BU2H9VV2K3NTTUUQ0\",\"variation_id\":\"default\",\"csid\":\"1784167258143::BAAwqMNfhHWzGcMUKeF4\",\"page_csid\":\"178416725814"
+	},
+	{
+		"t": "2026-07-16T02:01:08.150Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"EngagedSession\",\"event_id\":\"\",\"message_id\":\"messageId-1784167268149-9990770751240-C1AIOH48PMMOGUUMKOP0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:01:08.149Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C1AIOH48PMMOGUUMKOP0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/\",\"referrer\":\"\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C1AIOH48PMMOGUUMKOP0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-Lfbrc.0.0::2fe4d655-80ba-11f1-a1ad-cacb179e5686-C1AIOH48PMMOGUUMKOP0\",\"variation_id\":\"default\",\"csid\":\"1784167258144::4mTtMfpFMGW9Cr_QUp1z\",\"page_csid\":\"178416725814"
+	},
+	{
+		"t": "2026-07-16T02:01:09.628Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/173841?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=8&url=https%3A%2F%2Fmagicspoon.com%2F&shopify_product_ids=&shopify_variant_ids=&shopify_collection_ids=&shopify_order_ids=&shopify_selling_plans=yes&filter_inputs=no&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=0&cart_count=0&cart_line_count=0&cart_item_count=0&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=0&cart%5Bline_count%5D=0&cart%5Bitem_count%5D=0&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:01:09.629Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/292061?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=4&url=https%3A%2F%2Fmagicspoon.com%2F&shopify_product_ids=&shopify_variant_ids=&shopify_collection_ids=&shopify_order_ids=&metafields=yes&shopify_selling_plans=yes&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=0&cart_count=0&cart_line_count=0&cart_item_count=0&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=0&cart%5Bline_count%5D=0&cart%5Bitem_count%5D=0&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:01:18.145Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel/inter",
+		"status": 200,
+		"body": "{\"event_id\":\"\",\"message_id\":\"messageId-1784167278143-5576437494702\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:01:18.143Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\",\"codes\":\"C29BU2H9VV2K3NTTUUQ0|C1AIOH48PMMOGUUMKOP0\"},\"page\":{\"url\":\"https://magicspoon.com/\",\"referrer\":\"\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-Lfbrc.0.0::2fe0b918-80ba-11f1-b78e-be3484d6d1a8\",\"variation_id\":\"default\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome"
+	},
+	{
+		"t": "2026-07-16T02:01:32.970Z",
+		"method": "POST",
+		"url": "https://magicspoon-us.attn.tv/track?s=1&c=1327179&id=4939dff172374ab08ef0192d954e1644&a=CLICK&fc=true&m=%7B%22Birthday+Date%22%3A%2209%2F24%2F1980%22%2C%22Dietary+Preference%22%3A%22Low+%2F+No+Sugar%22%7D&pt=field_capture&abs=none",
+		"status": 204,
+		"body": "{\"email\":\"taylor@stroop.com\"}"
+	},
+	{
+		"t": "2026-07-16T02:01:33.101Z",
+		"method": "POST",
+		"url": "https://magicspoon-us.attn.tv/creative-interactions?crid=1327179&coeid=LOc&vid=4939dff172374ab08ef0192d954e1644&crap=EMAIL&crat=ADVANCE&crpi=2&ts=1784167293&he=false&m=%7B%22Birthday+Date%22%3A%2209%2F24%2F1980%22%2C%22Dietary+Preference%22%3A%22Low+%2F+No+Sugar%22%7D",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:01:33.108Z",
+		"method": "POST",
+		"url": "https://magicspoon-us.attn.tv/creative-interactions?crid=1327179&coeid=LOc&vid=4939dff172374ab08ef0192d954e1644&crap=SMS&crat=VIEW&crpi=3&ts=1784167293&he=false",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:01:33.151Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"Lead\",\"event_id\":\"LLJLvCn7NBrITvG0WTaQZ\",\"message_id\":\"messageId-1784167293150-9919617969136-C29BU2H9VV2K3NTTUUQ0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:01:33.150Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\",\"external_id\":\"undefined\",\"email\":\"851f558720a452be5ebf114cbe29227f0c1c373b45339841aa35a5148e86bb46\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/\",\"referrer\":\"\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C29BU2H9VV2K3NTTUUQ0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-Lfbrc.0.0::2fe0b918-80ba-11f1-b78e-be3484d6d1a8-C29BU"
+	},
+	{
+		"t": "2026-07-16T02:01:33.152Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"EnrichAM\",\"event_id\":\"\",\"message_id\":\"messageId-1784167293151-3581951910404-C29BU2H9VV2K3NTTUUQ0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:01:33.151Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\",\"external_id\":\"undefined\",\"email\":\"851f558720a452be5ebf114cbe29227f0c1c373b45339841aa35a5148e86bb46\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/\",\"referrer\":\"\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C29BU2H9VV2K3NTTUUQ0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-Lfbrc.0.0::2fe0b918-80ba-11f1-b78e-be3484d6d1a8-C29BU2H9VV2K3NTTUUQ0\","
+	},
+	{
+		"t": "2026-07-16T02:01:33.157Z",
+		"method": "POST",
+		"url": "https://a.klaviyo.com/client/event-bulk-create/?company_id=HMWFR8",
+		"status": 202,
+		"body": "{\"data\":{\"type\":\"event-bulk-create\",\"attributes\":{\"profile\":{\"data\":{\"type\":\"profile\",\"attributes\":{\"email\":\"taylor@stroop.com\"}}},\"events\":{\"data\":[{\"type\":\"event\",\"attributes\":{\"metric\":{\"data\":{\"type\":\"metric\",\"attributes\":{\"name\":\"__activity__\"}}},\"time\":\"2026-07-16T02:00:57.464Z\",\"properties\":{\"initial_page_path\":\"/\",\"page\":\"https://magicspoon.com/\",\"browser\":\"Chrome\",\"os\":\"Mac\"}}}]}},\"relationships\":{}}}"
+	},
+	{
+		"t": "2026-07-16T02:01:33.157Z",
+		"method": "OPTIONS",
+		"url": "https://a.klaviyo.com/client/event-bulk-create/?company_id=HMWFR8",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:01:33.164Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=Lead&dl=https%3A%2F%2Fmagicspoon.com%2F&rl=&if=false&ts=1784167293119&iw=false&sw=1728&sh=1117&cud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ncud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ud%5Bexternal_id%5D=c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd09950ff&aud%5Bexternal_id%5D=c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd09950ff&v=2.9.353&r=stable&a=shopify_web_pixel&ec=2&o=12318&aems=0%3B0&fbp=fb.1.1784167257675.799256660155957659&ler=empty&cdl=API_unavailable&sm=OPEN&se=%7B%22page_url%22%3Atrue%2C%22referrer%22%3Atrue%2C%22fbp%22%3Atrue%2C%22fbc%22%3Atrue%2C%22page_url_empty_legacy%22%3Afalse%2C%22page_url_empty_shopify%22%3Afalse%2C%2"
+	},
+	{
+		"t": "2026-07-16T02:01:33.172Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"EnrichAM\",\"event_id\":\"\",\"message_id\":\"messageId-1784167293172-5412335187785-C29BU2H9VV2K3NTTUUQ0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:01:33.172Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\",\"external_id\":\"undefined\",\"email\":\"851f558720a452be5ebf114cbe29227f0c1c373b45339841aa35a5148e86bb46\",\"eb_email\":\"851f558720a452be5ebf114cbe29227f0c1c373b45339841aa35a5148e86bb46\",\"acp\":[{\"type\":1,\"value\":\"851f558720a452be5ebf114cbe29227f0c1c373b45339841aa35a5148e86bb46\",\"source\":\"aam_dl_raw_em\"}]},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/\",\"referrer\":\"\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0cc"
+	},
+	{
+		"t": "2026-07-16T02:01:33.455Z",
+		"method": "POST",
+		"url": "https://a.klaviyo.com/client/profiles/?company_id=HMWFR8",
+		"status": 202,
+		"body": "{\"data\":{\"type\":\"profile\",\"attributes\":{\"email\":\"taylor@stroop.com\",\"properties\":{\"$referrer\":{\"ts\":1784167257,\"value\":\"\",\"first_page\":\"https://magicspoon.com/\"},\"$last_referrer\":{\"ts\":1784167257,\"value\":\"\",\"first_page\":\"https://magicspoon.com/\"}}}}}"
+	},
+	{
+		"t": "2026-07-16T02:01:33.455Z",
+		"method": "OPTIONS",
+		"url": "https://a.klaviyo.com/client/profiles/?company_id=HMWFR8",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:01:33.665Z",
+		"method": "POST",
+		"url": "https://a.klaviyo.com/client/events/?company_id=HMWFR8",
+		"status": 202,
+		"body": "{\"data\":{\"type\":\"event\",\"attributes\":{\"metric\":{\"data\":{\"type\":\"metric\",\"attributes\":{\"name\":\"__activity__\",\"service\":\"api\"}}},\"profile\":{\"data\":{\"type\":\"profile\",\"attributes\":{\"properties\":{\"$exchange_id\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\"},\"_kx\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\"}}},\"properties\":{\"initial_page_path\":\"/\",\"page\":\"https://magicspoon.com/\",\"browser\":\"Chrome\",\"os\":\"Mac\",\"$use_ip\":true,\"$is_session_activity\":true}}}}"
+	},
+	{
+		"t": "2026-07-16T02:01:33.665Z",
+		"method": "OPTIONS",
+		"url": "https://a.klaviyo.com/client/events/?company_id=HMWFR8",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:02.724Z",
+		"method": "POST",
+		"url": "https://magicspoon-us.attn.tv/clicks?c=1327179&id=4939dff172374ab08ef0192d954e1644&r=false&l=https%3A%2F%2Fmagicspoon.com%2F&pt=field_capture&abs=none",
+		"status": 204,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:02.725Z",
+		"method": "POST",
+		"url": "https://api.attentivemobile.com/1/subscribers",
+		"status": 204,
+		"body": "{\"phone\":\"(214) 252-1212\",\"visitorId\":\"4939dff172374ab08ef0192d954e1644\",\"companyExternalId\":\"LOc\",\"mobile\":false,\"email\":\"taylor@stroop.com\",\"creativeId\":\"1327179\",\"metadata\":{},\"externalUserIDs\":null,\"adblockerStatus\":\"none\"}"
+	},
+	{
+		"t": "2026-07-16T02:02:02.725Z",
+		"method": "OPTIONS",
+		"url": "https://api.attentivemobile.com/1/subscribers",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:02.764Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=SMSSignup&dl=https%3A%2F%2Fmagicspoon.com%2F&rl=&if=false&ts=1784167322735&iw=false&sw=1728&sh=1117&cud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ncud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ud%5Bexternal_id%5D=c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd09950ff&aud%5Bexternal_id%5D=c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd09950ff&v=2.9.353&r=stable&a=shopify_web_pixel&ec=3&o=12318&aems=0%3B0&fbp=fb.1.1784167257675.799256660155957659&ler=empty&cdl=API_unavailable&sm=OPEN&se=%7B%22page_url%22%3Atrue%2C%22referrer%22%3Atrue%2C%22fbp%22%3Atrue%2C%22fbc%22%3Atrue%2C%22page_url_empty_legacy%22%3Afalse%2C%22page_url_empty_shopify%22%3Afalse"
+	},
+	{
+		"t": "2026-07-16T02:02:02.770Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"EnrichAM\",\"event_id\":\"\",\"message_id\":\"messageId-1784167322769-3466716341549-C29BU2H9VV2K3NTTUUQ0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:02:02.769Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\",\"external_id\":\"undefined\",\"email\":\"851f558720a452be5ebf114cbe29227f0c1c373b45339841aa35a5148e86bb46\",\"eb_email\":\"851f558720a452be5ebf114cbe29227f0c1c373b45339841aa35a5148e86bb46\",\"acp\":[{\"type\":1,\"value\":\"851f558720a452be5ebf114cbe29227f0c1c373b45339841aa35a5148e86bb46\",\"source\":\"aam_dl_raw_em\"},{\"type\":2,\"value\":\"ceb2441666ea7e36863a0a9e3b3d761696f4b5dbe650dfe709188f752dd28e24\",\"source\":\"aam_dl_raw_ph\"}],\"eb_phone_number\":\"ceb2441666ea7e36863a0a9e3b3d761696f4b5dbe650dfe709188f752dd28e24\"},\""
+	},
+	{
+		"t": "2026-07-16T02:02:03.320Z",
+		"method": "POST",
+		"url": "https://magicspoon-us.attn.tv/creative-interactions?crid=1327179&coeid=LOc&vid=4939dff172374ab08ef0192d954e1644&crap=SMS&crat=ADVANCE&crpi=3&ts=1784167323&he=false",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:03.323Z",
+		"method": "POST",
+		"url": "https://magicspoon-us.attn.tv/creative-interactions?crid=1327179&coeid=LOc&vid=4939dff172374ab08ef0192d954e1644&crap=LAST_PAGE&crat=VIEW&crpi=4&ts=1784167323&he=false",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:08.295Z",
+		"method": "POST",
+		"url": "https://magicspoon-us.attn.tv/creative-interactions?crid=1327179&coeid=LOc&vid=4939dff172374ab08ef0192d954e1644&crap=LAST_PAGE&crat=CLOSE&crpi=4&ts=1784167328&he=false",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:28.146Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel/inter",
+		"status": 200,
+		"body": "{\"event_id\":\"\",\"message_id\":\"messageId-1784167348143-1239684517742\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:02:28.143Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\",\"external_id\":\"undefined\",\"email\":\"851f558720a452be5ebf114cbe29227f0c1c373b45339841aa35a5148e86bb46\",\"eb_email\":\"851f558720a452be5ebf114cbe29227f0c1c373b45339841aa35a5148e86bb46\",\"acp\":[{\"type\":1,\"value\":\"851f558720a452be5ebf114cbe29227f0c1c373b45339841aa35a5148e86bb46\",\"source\":\"aam_dl_raw_em\"},{\"type\":2,\"value\":\"ceb2441666ea7e36863a0a9e3b3d761696f4b5dbe650dfe709188f752dd28e24\",\"source\":\"aam_dl_raw_ph\"}],\"eb_phone_number\":\"ceb2441666ea7e36863a0a9e3b3d761696f4b5dbe650dfe709188f752dd28e24\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"r"
+	},
+	{
+		"t": "2026-07-16T02:02:29.371Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/HMWFR8/klaviyo.js?company_id=HMWFR8",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.372Z",
+		"method": "GET",
+		"url": "https://www.klaviyo.com/media/js/public/klaviyo_subscribe.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.373Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/experiments.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.373Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/rebuy.js?shop=magic-spoon.myshopify.com",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.373Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/cdn/shop/t/667/assets/rebuy-extensions.js?v=140802005072097289471779066077",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.373Z",
+		"method": "GET",
+		"url": "https://d3ty4og90bdf2f.cloudfront.net/code_snippets/recharge_embed.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.536Z",
+		"method": "GET",
+		"url": "https://static-tracking.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/fender_analytics.f04cbabb6f4337a1a032.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.536Z",
+		"method": "GET",
+		"url": "https://static-tracking.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/static.11af62fb4e32ef9947e4.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.536Z",
+		"method": "GET",
+		"url": "https://static-tracking.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/vendors~static~in_app_forms~signup_forms~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites~faq~.94f857182c5ddf891ee0.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.536Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/runtime.60d249c4a4bde0468ad2.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.536Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/sharedUtils.73086fe6223987d02f12.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.536Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/vendors~in_app_forms~signup_forms~client_identity~telemetry~onsite-triggering-v2~.84f06bbcdc5310b095cd.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.536Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/vendors~in_app_forms~signup_forms~reviews~atlas~product_recommendations.cb17e1c10db346b210dc.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.536Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/vendors~in_app_forms~signup_forms.a899b049d575de74ade1.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.536Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/default~in_app_forms~signup_forms.79af70ca3fbf28c99eb4.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.536Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/signup_forms.1827f3087206af47b094.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.536Z",
+		"method": "GET",
+		"url": "https://static-tracking.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/post_identification_sync.968f0a1bbd6d33eb9c36.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.536Z",
+		"method": "GET",
+		"url": "https://static-tracking.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/web_personalization.292bf16a957c52c47814.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.536Z",
+		"method": "GET",
+		"url": "https://static-tracking.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/client_identity.7d7e5411cc2008190ed3.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.537Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/event_adapter.f4a04fcdb8e205893e28.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.537Z",
+		"method": "GET",
+		"url": "https://static-tracking.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/telemetry.5f4af760c1426f838ca5.js?cb=2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.602Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/sharedUtils.73086fe6223987d02f12.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.602Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/vendors~static~in_app_forms~signup_forms~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites~faq~.94f857182c5ddf891ee0.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.602Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/vendors~in_app_forms~signup_forms~client_identity~telemetry~onsite-triggering-v2~.84f06bbcdc5310b095cd.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.602Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/vendors~Render~ClientStore~~~onsite-back-in-stock.7d7b5b811b79d6bdfaae.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.602Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/1011.09afdf7495dac2a28513.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.608Z",
+		"method": "GET",
+		"url": "https://fast.a.klaviyo.com/custom-fonts/api/v1/company-fonts/onsite?company_id=HMWFR8",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.651Z",
+		"method": "GET",
+		"url": "https://static-forms.klaviyo.com/forms/api/v7/HMWFR8/full-forms",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.655Z",
+		"method": "GET",
+		"url": "https://a.klaviyo.com/forms/api/v3/geo-ip",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.708Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-1504215102@83adcaf06c5deacff41ffdf8f92d9129/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.708Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/app/web-pixel-806256702@abff2a8add143ccb04deb20f0ebd74a9~2/pixel.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.708Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-1455390782@b86194809e9bbe0b74334b13c8bf4709/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.709Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-1411350590@94457fdfcf80b0033e88e322893e2b49/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.709Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-957087806@524f6c1ee37bacdca7657a665bdca589/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.709Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-885260350@89b8fc7bacd986277f3307e7b7701ff0/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.709Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-843317310@52ab378323058414ba06404bb0fa1bca/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.709Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-750616638@dbe959aa2e82423435e6f12f05a3fb8c/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.709Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-625442878@7f1561d8e89b361a3193f1f545354ae9/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.710Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-593592382@a766ab3f0f73a4a44d25b6b3efa8f1dc/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.710Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-527335486@74f89c26283dd9bc8e535e14315f3aed/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.710Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-33030206@565fe5dd5db699c5a32547ff5c1df3c8/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.710Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-21725246@5d6ff697f8f0c56694e43434919810e4/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.711Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-1605694@c119f01612c13b62ab52809eb08154bb/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.711Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/web-pixel-shopify-app-pixel@0501/sandbox/worker.modern.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.715Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/app/web-pixel-45219902@c8e5f5ab15307fa46b45b0f165e63568/sandbox/modern/products/smores-protein-cereal-marshmallows-1case-4boxes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.716Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/app/web-pixel-7995454@18768251ba39e648a21817a5a3c6ddf4/sandbox/modern/products/smores-protein-cereal-marshmallows-1case-4boxes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.717Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/custom/web-pixel-38404158@1/sandbox/modern/products/smores-protein-cereal-marshmallows-1case-4boxes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.718Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/custom/web-pixel-92864574@1/sandbox/modern/products/smores-protein-cereal-marshmallows-1case-4boxes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.719Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/custom/web-pixel-96043070@2/sandbox/modern/products/smores-protein-cereal-marshmallows-1case-4boxes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.720Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/custom/web-pixel-96174142@3/sandbox/modern/products/smores-protein-cereal-marshmallows-1case-4boxes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.721Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/custom/web-pixel-111542334@2/sandbox/modern/products/smores-protein-cereal-marshmallows-1case-4boxes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.722Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels@7261bdd2wba043981p1eb3bf25mfe8103cf/custom/web-pixel-shopify-custom-pixel@0501/sandbox/modern/products/smores-protein-cereal-marshmallows-1case-4boxes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.738Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/default~Render~ClientStore~~onsite-back-in-stock.d095d93e14859373a01c.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.739Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.fac9f0fe88ebdf394a34.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.739Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/default~Render~ClientStore~.06bceef33b68a6b383b6.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.739Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/ClientStore.1a19d19620aad17658a9.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.796Z",
+		"method": "GET",
+		"url": "https://a.klaviyo.com/media/css/public/klaviyo_subscribe.css",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.813Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-1411350590@94457fdfcf80b0033e88e322893e2b49.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.814Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-1455390782@b86194809e9bbe0b74334b13c8bf4709.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.815Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-1504215102@83adcaf06c5deacff41ffdf8f92d9129.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.815Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-843317310@52ab378323058414ba06404bb0fa1bca.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.815Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-885260350@89b8fc7bacd986277f3307e7b7701ff0.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.816Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-527335486@74f89c26283dd9bc8e535e14315f3aed.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.816Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-750616638@dbe959aa2e82423435e6f12f05a3fb8c.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.819Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-shopify-app-pixel@0501.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.827Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-33030206@565fe5dd5db699c5a32547ff5c1df3c8.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.835Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-593592382@a766ab3f0f73a4a44d25b6b3efa8f1dc.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.835Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-21725246@5d6ff697f8f0c56694e43434919810e4.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.837Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-1605694@c119f01612c13b62ab52809eb08154bb.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.838Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-957087806@524f6c1ee37bacdca7657a665bdca589.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.839Z",
+		"method": "GET",
+		"url": "https://magicspoon.com/web-pixels/strict/app/web-pixel-625442878@7f1561d8e89b361a3193f1f545354ae9.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.868Z",
+		"method": "GET",
+		"url": "https://shopify-gtm-suite.getelevar.com/getelevar/3.34.5/dl-web-pixel-strict-app.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.869Z",
+		"method": "GET",
+		"url": "https://shopify-gtm-suite.getelevar.com/getelevar/3.34.5/dl-web-pixel-lax-custom.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.939Z",
+		"method": "POST",
+		"url": "https://a.klaviyo.com/client/sessions/?company_id=HMWFR8",
+		"status": 201,
+		"body": "{\"data\":{\"type\":\"session\",\"attributes\":{\"identifiers\":{\"_shopify_y\":\"9a1a7631-a3f6-4ca6-aad7-3944c01ba035\",\"shopify_client_id\":\"9a1a7631-a3f6-4ca6-aad7-3944c01ba035\",\"_ga\":\"GA1.1.279673904.1784167258\",\"_ttp\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\",\"_clck\":\"1v8lhmv^2^g7s^0^2388\",\"_uetvid\":\"305af08080ba11f180a87112e9b3d62b\",\"_rdt_uuid\":\"1784167258620.2ff98b8e-eb2e-4c96-8b81-0e69c2340e38\",\"_scid\":\"gUzWHYF-0Ek-On4gPwM_1alRkpT2U_g4\",\"_kx\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\"}}}}"
+	},
+	{
+		"t": "2026-07-16T02:02:29.940Z",
+		"method": "OPTIONS",
+		"url": "https://a.klaviyo.com/client/sessions/?company_id=HMWFR8",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.940Z",
+		"method": "POST",
+		"url": "https://a.klaviyo.com/client/events/?company_id=HMWFR8",
+		"status": 202,
+		"body": "{\"data\":{\"type\":\"event\",\"attributes\":{\"metric\":{\"data\":{\"type\":\"metric\",\"attributes\":{\"name\":\"Viewed Product\",\"service\":\"api\"}}},\"profile\":{\"data\":{\"type\":\"profile\",\"attributes\":{\"properties\":{\"$exchange_id\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\"},\"_kx\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\"}}},\"properties\":{\"Name\":\"S'mores - Protein Cereal with Marshmallows\",\"ProductID\":7962724040766,\"Categories\":[\"All - YJ\",\"Cereal\",\"Product Dropdown\",\"Shop All\"],\"ImageURL\":\"https://magicspoon.com/cdn/shop/files/MS_MC_SMORES_HERO_grande.webp?v=1767734314\",\"URL\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"Brand\":\"Magic Spoon\",\"Price\":\"$39.00\",\"Value\":\"39.00\",\"CompareAtPrice\":\"$0.00\",\"$use_ip\":true,\"$is_session_activity\":true}}}}"
+	},
+	{
+		"t": "2026-07-16T02:02:29.940Z",
+		"method": "OPTIONS",
+		"url": "https://a.klaviyo.com/client/events/?company_id=HMWFR8",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.940Z",
+		"method": "POST",
+		"url": "https://a.klaviyo.com/client/events/?company_id=HMWFR8",
+		"status": 202,
+		"body": "{\"data\":{\"type\":\"event\",\"attributes\":{\"metric\":{\"data\":{\"type\":\"metric\",\"attributes\":{\"name\":\"Viewed Product\",\"service\":\"api\"}}},\"profile\":{\"data\":{\"type\":\"profile\",\"attributes\":{\"properties\":{\"$exchange_id\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\"},\"_kx\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\"}}},\"properties\":{\"Name\":\"S'mores - Protein Cereal with Marshmallows\",\"ProductID\":7962724040766,\"Categories\":[\"All - YJ\",\"Cereal\",\"Product Dropdown\",\"Shop All\"],\"ImageURL\":\"https://magicspoon.com/cdn/shop/files/MS_MC_SMORES_HERO_grande.webp?v=1767734314\",\"URL\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"Brand\":\"Magic Spoon\",\"Price\":\"$39.00\",\"CompareAtPrice\":\"$0.00\",\"$use_ip\":true,\"$is_session_activity\":true}}}}"
+	},
+	{
+		"t": "2026-07-16T02:02:29.940Z",
+		"method": "POST",
+		"url": "https://a.klaviyo.com/client/events/?company_id=HMWFR8",
+		"status": 202,
+		"body": "{\"data\":{\"type\":\"event\",\"attributes\":{\"metric\":{\"data\":{\"type\":\"metric\",\"attributes\":{\"name\":\"__activity__\",\"service\":\"api\"}}},\"profile\":{\"data\":{\"type\":\"profile\",\"attributes\":{\"properties\":{\"$exchange_id\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\"},\"_kx\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\"}}},\"properties\":{\"initial_page_path\":\"/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"page\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"browser\":\"Chrome\",\"os\":\"Mac\",\"$use_ip\":true,\"$is_session_activity\":true}}}}"
+	},
+	{
+		"t": "2026-07-16T02:02:29.940Z",
+		"method": "OPTIONS",
+		"url": "https://a.klaviyo.com/client/events/?company_id=HMWFR8",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.940Z",
+		"method": "OPTIONS",
+		"url": "https://a.klaviyo.com/client/events/?company_id=HMWFR8",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.954Z",
+		"method": "GET",
+		"url": "https://cdn.attn.tv/growth-tag-assets/client-configs/LOc.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.958Z",
+		"method": "GET",
+		"url": "https://ct.pinterest.com/user/?cb=1784167349929&ed=%7B%22np%22%3A%22shopify-web-pixel%22%2C%22eventID%22%3A%22sh-68a93f31-74EA-40BD-D235-446290D4A298%22%7D&ad=%7B%22mh%22%3A%2258027b7f%22%2C%22sh%22%3A1117%2C%22sw%22%3A1728%2C%22loc%22%3A%22https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes%22%2C%22ref%22%3A%22https%3A%2F%2Fmagicspoon.com%2F%22%2C%22if%22%3Atrue%2C%22language%22%3A%22en-US%22%7D&pd=%7B%22np%22%3A%22shopify-web-pixel%22%2C%22external_id%22%3A%22c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd09950ff%22%7D&tid=2614380171455",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.967Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/build-preview/commit-3747226419e6a2bafe4a4111df2f0fd35a4c05a4/onsite-triggering-v2.de197ba28ed1011bed81.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.970Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/global.js?build=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:29.971Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/css/global.min.css?build=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.028Z",
+		"method": "POST",
+		"url": "https://magicspoon-us.attn.tv/unrenderedCreative?v=2026.07.2&r=https%3A%2F%2Fmagicspoon.com%2F&id=4939dff172374ab08ef0192d954e1644&pv=2&l=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&w=1728&h=523&ss_ref=ORGANIC&f=3",
+		"status": 204,
+		"body": "{\"cookies\":{},\"utmParams\":{}}"
+	},
+	{
+		"t": "2026-07-16T02:02:30.096Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/vendor-jquery.js?id=5d98d8e5ba934333d099&v=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.096Z",
+		"method": "GET",
+		"url": "https://cached.rebuyengine.com/api/v1/user/config?shop=magic-spoon.myshopify.com",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.127Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/css/fontawesome-embed.min.css?build=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.136Z",
+		"method": "POST",
+		"url": "https://rebuyengine.com/api/v2/analytics/event/bulk?cache_key=1783562960",
+		"status": 200,
+		"body": "[{\"subject\":\"user\",\"verb\":\"viewed\",\"noun\":\"product\",\"shopify_product_handle\":\"smores-protein-cereal-marshmallows-1case-4boxes\",\"shopify_product_id\":\"7962724040766\",\"event_time\":\"1784167350135\",\"uuid\":\"820f07b8-803c-4eb6-b70f-1d9092085466\",\"rsid\":\"902e8bffb0edcc45\",\"shopify_cart_token\":\"hWNEWmeyLqoo1Iapq6bkrTd3?key=97ec5447cf4ffdf798c3255e67dfc034\",\"theme_id\":\"133025103934\"}]"
+	},
+	{
+		"t": "2026-07-16T02:02:30.136Z",
+		"method": "OPTIONS",
+		"url": "https://rebuyengine.com/api/v2/analytics/event/bulk?cache_key=1783562960",
+		"status": 204,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.138Z",
+		"method": "GET",
+		"url": "https://cached.rebuyengine.com/api/v1/user/stylesheet?shop=magic-spoon.myshopify.com&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.139Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/v1_theme/id/133025103934?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.139Z",
+		"method": "GET",
+		"url": "https://cached.rebuyengine.com/api/v1/widgets/settings?id=26082&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.139Z",
+		"method": "GET",
+		"url": "https://cached.rebuyengine.com/api/v1/widgets/settings?id=41694&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.139Z",
+		"method": "GET",
+		"url": "https://cached.rebuyengine.com/api/v1/widgets/settings?id=104018&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.140Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/vendor-flickity.js?id=66fabf1371ef5a4f0ab3&v=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.141Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/vendors.js?id=18644fc96c895b3b02ae&v=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.141Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/SmartCart.js?id=53e153d5804e09391a72&v=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.169Z",
+		"method": "POST",
+		"url": "https://rebuyengine.com/api/v2/analytics/event/bulk?cache_key=1783562960",
+		"status": 200,
+		"body": "[{\"defined_noun_id\":\"rebuy-switch-to-subscription-template\",\"meta\":{\"detection_timestamp\":1784167350137,\"font_awesome_count\":1,\"font_awesome_icons\":[\"fa-times\"],\"has_font_awesome\":true,\"page_detected\":\"/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"resource_id\":null,\"template_type\":\"other\"},\"noun\":\"custom-template\",\"subject\":\"merchant\",\"verb\":\"detected\",\"event_time\":\"1784167350137\",\"uuid\":\"820f07b8-803c-4eb6-b70f-1d9092085466\",\"rsid\":\"902e8bffb0edcc45\",\"shopify_cart_token\":\"hWNEWmeyLqoo1Iapq6bkrTd3?key=97ec5447cf4ffdf798c3255e67dfc034\",\"theme_id\":\"133025103934\"}]"
+	},
+	{
+		"t": "2026-07-16T02:02:30.169Z",
+		"method": "OPTIONS",
+		"url": "https://rebuyengine.com/api/v2/analytics/event/bulk?cache_key=1783562960",
+		"status": 204,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.172Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/css/rebuy-flickity.min.css?build=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.175Z",
+		"method": "GET",
+		"url": "https://cached.rebuyengine.com/api/v1/widgets/styles?id=26082&format=css&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.176Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/25775?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=2&url=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&shopify_product_ids=7962724040766&shopify_variant_ids=&shopify_collection_ids=&shopify_order_ids=&metafields=yes&shopify_selling_plans=yes&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.180Z",
+		"method": "GET",
+		"url": "https://cached.rebuyengine.com/api/v1/widgets/styles?id=41694&format=css&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.180Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/products/static?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=1&url=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&shopify_product_ids=7962724040766&shopify_variant_ids=&shopify_collection_ids=&shopify_order_ids=&shopify_selling_plans=yes&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.182Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/WidgetGiftWithPurchase.js?id=140df4cbaceb15c051d7&v=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.242Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=PageView&dl=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&rl=https%3A%2F%2Fmagicspoon.com%2F&if=false&ts=1784167350222&iw=false&sw=1728&sh=1117&v=2.9.353&r=stable&a=shopify_web_pixel&ec=0&o=12318&aems=0%3B0&fbp=fb.1.1784167257675.799256660155957659&ler=empty&cdl=API_unavailable&sm=OPEN&se=%7B%22page_url%22%3Atrue%2C%22referrer%22%3Atrue%2C%22fbp%22%3Atrue%2C%22fbc%22%3Atrue%2C%22page_url_empty_legacy%22%3Afalse%2C%22page_url_empty_shopify%22%3Afalse%2C%22referrer_empty_legacy%22%3Afalse%2C%22referrer_empty_shopify%22%3Afalse%2C%22fbp_empty_legacy%22%3Afalse%2C%22fbp_empty_shopify%22%3Afalse%2C%22fbc_empty_legacy%22%3Atrue%2C%22fbc_empty_shopify%22%3Atrue%7D&pmd%5Btitle%5D=S%27mores+-+Protein+Cereal+with+Marshmallows&pmd%5Bl"
+	},
+	{
+		"t": "2026-07-16T02:02:30.244Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=ViewContent&dl=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&rl=https%3A%2F%2Fmagicspoon.com%2F&if=false&ts=1784167350232&iw=false&cd%5Bcontent_ids%5D=%5B42280870215742%5D&cd%5Bcontent_type%5D=product&cd%5Bcontent_name%5D=S%27mores+-+Protein+Cereal+with+Marshmallows&cd%5Bcontent_category%5D=Cereal&cd%5Bcurrency%5D=USD&cd%5Bvalue%5D=39&sw=1728&sh=1117&v=2.9.353&r=stable&a=shopify_web_pixel&ec=1&o=12318&aems=0%3B0&fbp=fb.1.1784167257675.799256660155957659&ler=empty&cdl=API_unavailable&sm=OPEN&se=%7B%22page_url%22%3Atrue%2C%22referrer%22%3Atrue%2C%22fbp%22%3Atrue%2C%22fbc%22%3Atrue%2C%22page_url_empty_legacy%22%3Afalse%2C%22page_url_empty_shopify%22%3Afalse%2C%22referrer_empty_legacy%22%3Afalse%2C%22referrer_empty_shopify%22%3"
+	},
+	{
+		"t": "2026-07-16T02:02:30.244Z",
+		"method": "POST",
+		"url": "https://a.klaviyo.com/client/profiles/?company_id=HMWFR8",
+		"status": 202,
+		"body": "{\"data\":{\"type\":\"profile\",\"attributes\":{\"properties\":{\"$exchange_id\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\",\"$viewed_items\":[{\"Title\":\"S'mores - Protein Cereal with Marshmallows\",\"ItemId\":7962724040766,\"Categories\":[\"All - YJ\",\"Cereal\",\"Product Dropdown\",\"Shop All\"],\"ImageUrl\":\"https://magicspoon.com/cdn/shop/files/MS_MC_SMORES_HERO_grande.webp?v=1767734314\",\"Url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"Metadata\":{\"Brand\":\"Magic Spoon\",\"Price\":\"$39.00\",\"Value\":\"39.00\",\"CompareAtPrice\":\"$0.00\"},\"LastViewedDate\":1784167350,\"Views\":2}],\"$referrer\":{\"ts\":1784167257,\"value\":\"\",\"first_page\":\"https://magicspoon.com/\"},\"$last_referrer\":{\"ts\":1784167257,\"value\":\"\",\"first_page\":\"https://magicspoon.com/\"}}}}}"
+	},
+	{
+		"t": "2026-07-16T02:02:30.245Z",
+		"method": "OPTIONS",
+		"url": "https://a.klaviyo.com/client/profiles/?company_id=HMWFR8",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.251Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/css/rebuy-smart-cart.min.css?build=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.251Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/products/static?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&handles=smores-protein-cereal-marshmallows-1case-4boxes&shopify_selling_plans=yes&metafields=yes&metafield_ns=*&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.287Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/webfonts/fa-solid-900.woff2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.289Z",
+		"method": "GET",
+		"url": "https://cached.rebuyengine.com/api/v1/widgets/settings?id=274798&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.304Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/173841?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=8&url=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&shopify_product_ids=&shopify_variant_ids=&shopify_collection_ids=&shopify_order_ids=&shopify_selling_plans=yes&filter_inputs=no&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=0&cart_count=0&cart_line_count=0&cart_item_count=0&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=0&cart%5Bline_count%5D=0&cart%5Bitem_count%5D=0&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.304Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/Widget-templates-Widget-giftWithPurchase-template.js?id=5adb0b46f3797e8f510d&v=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.335Z",
+		"method": "GET",
+		"url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C29BU2H9VV2K3NTTUUQ0&lib=ttq",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.338Z",
+		"method": "GET",
+		"url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C1AIOH48PMMOGUUMKOP0&lib=ttq",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.359Z",
+		"method": "GET",
+		"url": "https://cached.rebuyengine.com/api/v1/widgets/styles?id=274798&format=css&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.360Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/292061?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=4&url=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&shopify_product_ids=&shopify_variant_ids=&shopify_collection_ids=&shopify_order_ids=&metafields=yes&shopify_selling_plans=yes&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=0&cart_count=0&cart_line_count=0&cart_item_count=0&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=0&cart%5Bline_count%5D=0&cart%5Bitem_count%5D=0&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.360Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/js/Widget-templates-Widget-recommended-template.js?id=d2864270348be87fdb68&v=1784140652",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.385Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/webfonts/fa-light-300.woff2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.410Z",
+		"method": "POST",
+		"url": "https://rebuyengine.com/api/v2/analytics/event/bulk?cache_key=1783562960",
+		"status": 200,
+		"body": "[{\"subject\":\"user\",\"verb\":\"viewed\",\"noun\":\"widget\",\"widget_id\":\"41694\",\"event_time\":\"1784167350384\",\"uuid\":\"820f07b8-803c-4eb6-b70f-1d9092085466\",\"rsid\":\"902e8bffb0edcc45\",\"shopify_cart_token\":\"hWNEWmeyLqoo1Iapq6bkrTd3?key=97ec5447cf4ffdf798c3255e67dfc034\",\"theme_id\":\"133025103934\"},{\"subject\":\"user\",\"verb\":\"viewed\",\"noun\":\"widget\",\"widget_id\":\"104018\",\"event_time\":\"1784167350395\",\"uuid\":\"820f07b8-803c-4eb6-b70f-1d9092085466\",\"rsid\":\"902e8bffb0edcc45\",\"shopify_cart_token\":\"hWNEWmeyLqoo1Iapq6bkrTd3?key=97ec5447cf4ffdf798c3255e67dfc034\",\"theme_id\":\"133025103934\"}]"
+	},
+	{
+		"t": "2026-07-16T02:02:30.410Z",
+		"method": "OPTIONS",
+		"url": "https://rebuyengine.com/api/v2/analytics/event/bulk?cache_key=1783562960",
+		"status": 204,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.472Z",
+		"method": "GET",
+		"url": "https://analytics.tiktok.com/i18n/pixel/static/main.MTA2MWE1OWMwMw.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.473Z",
+		"method": "GET",
+		"url": "https://analytics.tiktok.com/i18n/pixel/static/main.MTA2MWE1OWMwOA.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.520Z",
+		"method": "GET",
+		"url": "https://analytics.tiktok.com/i18n/pixel/static/identify_b8133453.js",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.532Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"Pageview\",\"event_id\":\"\",\"message_id\":\"messageId-1784167350531-7682945250756-C29BU2H9VV2K3NTTUUQ0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:02:30.531Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"referrer\":\"https://magicspoon.com/\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C29BU2H9VV2K3NTTUUQ0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-ea0ZU.1.0::66f26b1a-80ba-11f1-9afc-b2ef8c2a9956-C29BU2H9VV2K3NTTUUQ0\",\"variation_id\":\"defaul"
+	},
+	{
+		"t": "2026-07-16T02:02:30.533Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"Pageview\",\"event_id\":\"\",\"message_id\":\"messageId-1784167350533-8433133933649-C1AIOH48PMMOGUUMKOP0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:02:30.533Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C1AIOH48PMMOGUUMKOP0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"referrer\":\"https://magicspoon.com/\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C1AIOH48PMMOGUUMKOP0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-ea0ZU.1.0::66f3495f-80ba-11f1-92f3-8ed8dcbe4c4b-C1AIOH48PMMOGUUMKOP0\",\"variation_id\":\"defaul"
+	},
+	{
+		"t": "2026-07-16T02:02:30.546Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"ViewContent\",\"event_id\":\"\",\"message_id\":\"messageId-1784167350545-1240974104242-C1AIOH48PMMOGUUMKOP0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:02:30.545Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C1AIOH48PMMOGUUMKOP0\",\"runtime\":\"1\",\"mode\":\"standard\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"referrer\":\"https://magicspoon.com/\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C1AIOH48PMMOGUUMKOP0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-ea0ZU.1.0::66f3495f-80ba-11f1-92f3-8ed8dcbe4c4b-C1AIOH48PMMOGUUMKOP0\",\""
+	},
+	{
+		"t": "2026-07-16T02:02:30.555Z",
+		"method": "POST",
+		"url": "https://rebuyengine.com/api/v2/analytics/event/bulk?cache_key=1783562960",
+		"status": 200,
+		"body": "[{\"subject\":\"user\",\"verb\":\"viewed\",\"noun\":\"widget\",\"widget_id\":\"274798\",\"event_time\":\"1784167350464\",\"uuid\":\"820f07b8-803c-4eb6-b70f-1d9092085466\",\"rsid\":\"902e8bffb0edcc45\",\"shopify_cart_token\":\"hWNEWmeyLqoo1Iapq6bkrTd3?key=97ec5447cf4ffdf798c3255e67dfc034\",\"theme_id\":\"133025103934\"}]"
+	},
+	{
+		"t": "2026-07-16T02:02:30.555Z",
+		"method": "OPTIONS",
+		"url": "https://rebuyengine.com/api/v2/analytics/event/bulk?cache_key=1783562960",
+		"status": 204,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.573Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"ViewContent\",\"event_id\":\"\",\"message_id\":\"messageId-1784167350573-2411748216614-C1AIOH48PMMOGUUMKOP0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:02:30.573Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C1AIOH48PMMOGUUMKOP0\",\"runtime\":\"1\",\"mode\":\"standard\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C1AIOH48PMMOGUUMKOP0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be34"
+	},
+	{
+		"t": "2026-07-16T02:02:30.580Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"Pageview\",\"event_id\":\"\",\"message_id\":\"messageId-1784167350580-1332720617466-C29BU2H9VV2K3NTTUUQ0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:02:30.580Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C29BU2H9VV2K3NTTUUQ0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-ea0ZU.1.1::6"
+	},
+	{
+		"t": "2026-07-16T02:02:30.580Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=PageView&dl=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes%3Fselling_plan%3D3403284542&rl=https%3A%2F%2Fmagicspoon.com%2F&if=false&ts=1784167350566&iw=false&sw=1728&sh=1117&v=2.9.353&r=stable&a=shopify_web_pixel&ec=2&o=12318&aems=0%3B0&fbp=fb.1.1784167257675.799256660155957659&ler=empty&cdl=API_unavailable&sm=OPEN&se=%7B%22page_url%22%3Afalse%2C%22referrer%22%3Atrue%2C%22fbp%22%3Atrue%2C%22fbc%22%3Atrue%2C%22page_url_empty_legacy%22%3Afalse%2C%22page_url_empty_shopify%22%3Afalse%2C%22referrer_empty_legacy%22%3Afalse%2C%22referrer_empty_shopify%22%3Afalse%2C%22fbp_empty_legacy%22%3Afalse%2C%22fbp_empty_shopify%22%3Afalse%2C%22fbc_empty_legacy%22%3Atrue%2C%22fbc_empty_shopify%22%3Atrue%7D&pmd%5Btitle%5D=S%27mores+-+Protein+Cer"
+	},
+	{
+		"t": "2026-07-16T02:02:30.581Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"Pageview\",\"event_id\":\"\",\"message_id\":\"messageId-1784167350581-1798252839986-C1AIOH48PMMOGUUMKOP0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:02:30.581Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C1AIOH48PMMOGUUMKOP0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C1AIOH48PMMOGUUMKOP0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-ea0ZU.1.1::6"
+	},
+	{
+		"t": "2026-07-16T02:02:30.683Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"ViewContent\",\"event_id\":\"BEryNyZrOIRIK8Ua78yvp\",\"message_id\":\"messageId-1784167350683-4958571592552-C29BU2H9VV2K3NTTUUQ0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:02:30.683Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C29BU2H9VV2K3NTTUUQ0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-b"
+	},
+	{
+		"t": "2026-07-16T02:02:30.690Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=PageView&dl=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes%3Fselling_plan%3D3403284542&rl=https%3A%2F%2Fmagicspoon.com%2F&if=false&ts=1784167350655&iw=false&sw=1728&sh=1117&cud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ncud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ud%5Bexternal_id%5D=c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd09950ff&aud%5Bexternal_id%5D=c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd09950ff&v=2.9.353&r=stable&a=shopify_web_pixel&ec=3&o=12318&aems=0%3B0&fbp=fb.1.1784167257675.799256660155957659&ler=empty&cdl=API_unavailable&sm=OPEN&se=%7B%22page_url%22%3Afalse%2C%22referrer%22%3Atr"
+	},
+	{
+		"t": "2026-07-16T02:02:30.712Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=ViewContent&dl=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes%3Fselling_plan%3D3403284542&rl=https%3A%2F%2Fmagicspoon.com%2F&if=false&ts=1784167350693&iw=false&cd%5Bcontent_name%5D=S%27mores+-+Protein+Cereal+with+Marshmallows&cd%5Bcontents%5D=%5B%7B%22id%22%3A%227962724040766%22%2C%22name%22%3A%22S%27mores+-+Protein+Cereal+with+Marshmallows%22%2C%22content_category%22%3A%22Cereal%22%2C%22item_price%22%3A%2239.00%22%7D%5D&cd%5Bcontent_category%5D=Cereal&cd%5Bcontent_ids%5D=7962724040766&cd%5Bcontent_type%5D=product_group&cd%5Bvalue%5D=39.00&cd%5Bcurrency%5D=USD&sw=1728&sh=1117&cud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ncud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%"
+	},
+	{
+		"t": "2026-07-16T02:02:30.839Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel/act",
+		"status": 200,
+		"body": "{\"event_id\":\"\",\"message_id\":\"messageId-1784167350838-3245926770639\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:02:30.838Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\",\"codes\":\"C29BU2H9VV2K3NTTUUQ0|C1AIOH48PMMOGUUMKOP0\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-ea0ZU.1.1::66f26b1a-8"
+	},
+	{
+		"t": "2026-07-16T02:02:30.888Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/25775?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=2&url=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes%3Fselling_plan%3D3403284542&shopify_product_ids=7962724040766&shopify_variant_ids=&shopify_collection_ids=&shopify_order_ids=&metafields=yes&shopify_selling_plans=yes&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=0&cart_count=0&cart_line_count=0&cart_item_count=0&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=0&cart%5Bline_count%5D=0&cart%5Bitem_count%5D=0&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.888Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/products/static?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=1&url=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes%3Fselling_plan%3D3403284542&shopify_product_ids=7962724040766&shopify_variant_ids=&shopify_collection_ids=&shopify_order_ids=&shopify_selling_plans=yes&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=0&cart_count=0&cart_line_count=0&cart_item_count=0&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=0&cart%5Bline_count%5D=0&cart%5Bitem_count%5D=0&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.889Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/173841?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=8&url=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes%3Fselling_plan%3D3403284542&shopify_product_ids=&shopify_variant_ids=&shopify_collection_ids=&shopify_order_ids=&shopify_selling_plans=yes&filter_inputs=no&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=0&cart_count=0&cart_line_count=0&cart_item_count=0&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=0&cart%5Bline_count%5D=0&cart%5Bitem_count%5D=0&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.889Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/292061?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=4&url=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes%3Fselling_plan%3D3403284542&shopify_product_ids=&shopify_variant_ids=&shopify_collection_ids=&shopify_order_ids=&metafields=yes&shopify_selling_plans=yes&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=0&cart_count=0&cart_line_count=0&cart_item_count=0&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=0&cart%5Bline_count%5D=0&cart%5Bitem_count%5D=0&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.958Z",
+		"method": "GET",
+		"url": "https://static.rechargecdn.com/static/js/recharge.js?shop=magic-spoon.myshopify.com",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.959Z",
+		"method": "GET",
+		"url": "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=HMWFR8&shop=magic-spoon.myshopify.com",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:30.959Z",
+		"method": "GET",
+		"url": "https://cdn.attn.tv/magicspoon/dtag.js?shop=magic-spoon.myshopify.com",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:35.909Z",
+		"method": "POST",
+		"url": "https://a.klaviyo.com/client/events/?company_id=HMWFR8",
+		"status": 202,
+		"body": "{\"data\":{\"type\":\"event\",\"attributes\":{\"metric\":{\"data\":{\"type\":\"metric\",\"attributes\":{\"name\":\"Added to Cart\",\"service\":\"api\"}}},\"profile\":{\"data\":{\"type\":\"profile\",\"attributes\":{\"properties\":{\"$exchange_id\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\"},\"_kx\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\"}}},\"properties\":{\"total_price\":0,\"total_discount\":0,\"original_total_price\":0,\"items\":[],\"Name\":\"S'mores - Protein Cereal with Marshmallows\",\"ProductID\":7962724040766,\"Categories\":[\"All - YJ\",\"Cereal\",\"Product Dropdown\",\"Shop All\"],\"ImageURL\":\"https://magicspoon.com/cdn/shop/files/MS_MC_SMORES_HERO_grande.webp?v=1767734314\",\"URL\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"Brand\":\"Magic Spoon\",\"Price\":\"$39.00\",\"CompareAtPrice\":\"$0.00\",\"$u"
+	},
+	{
+		"t": "2026-07-16T02:02:35.909Z",
+		"method": "OPTIONS",
+		"url": "https://a.klaviyo.com/client/events/?company_id=HMWFR8",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:40.532Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel/inter",
+		"status": 200,
+		"body": "{\"event_id\":\"\",\"message_id\":\"messageId-1784167360530-5115023162141\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:02:40.530Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\",\"codes\":\"C29BU2H9VV2K3NTTUUQ0|C1AIOH48PMMOGUUMKOP0\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-ea0ZU.1.1::66f26b1a-8"
+	},
+	{
+		"t": "2026-07-16T02:02:40.539Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/monitor",
+		"status": 200,
+		"body": "{\"metric_name\":\"custom_info\",\"pixel_code\":\"C29BU2H9VV2K3NTTUUQ0\",\"platform\":0,\"app_name\":\"external\",\"net_type\":\"4g\",\"placement\":\"non\",\"lib\":{\"lib_version\":\"2.2.1\",\"ttq_name\":\"ttq\"},\"in_iframe\":1,\"time_to_last_start\":10199,\"time_to_navigation_start\":11207,\"latency\":0,\"page_url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"att_status\":3,\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-ea0ZU.1.1\",\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8\",\"variation_id\":\"default\",\"vids\":\"\",\"load_id\":\"66f26b1a-80ba-11f1-9afc-b2ef8c2a9956\",\"ad_id\":\"undefined\",\"creative_id\":\"undefined\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\",\""
+	},
+	{
+		"t": "2026-07-16T02:02:43.186Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"ViewContent\",\"event_id\":\"\",\"message_id\":\"messageId-1784167363186-1143139632944-C1AIOH48PMMOGUUMKOP0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:02:43.186Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C1AIOH48PMMOGUUMKOP0\",\"runtime\":\"1\",\"mode\":\"standard\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C1AIOH48PMMOGUUMKOP0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be34"
+	},
+	{
+		"t": "2026-07-16T02:02:43.215Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/monitor",
+		"status": 200,
+		"body": "{\"metric_name\":\"custom_info\",\"pixel_code\":\"C29BU2H9VV2K3NTTUUQ0\",\"platform\":0,\"app_name\":\"external\",\"net_type\":\"4g\",\"placement\":\"non\",\"lib\":{\"lib_version\":\"2.2.1\",\"ttq_name\":\"ttq\"},\"in_iframe\":1,\"time_to_last_start\":12800,\"time_to_navigation_start\":13808,\"latency\":0,\"page_url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"att_status\":3,\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-ea0ZU.1.1\",\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8\",\"variation_id\":\"default\",\"vids\":\"\",\"load_id\":\"66f26b1a-80ba-11f1-9afc-b2ef8c2a9956\",\"ad_id\":\"undefined\",\"creative_id\":\"undefined\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\",\""
+	},
+	{
+		"t": "2026-07-16T02:02:43.218Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=PageView&dl=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&rl=https%3A%2F%2Fmagicspoon.com%2F&if=false&ts=1784167363175&iw=false&sw=1728&sh=1117&cud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ncud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ud%5Bexternal_id%5D=c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd09950ff&aud%5Bexternal_id%5D=c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd09950ff&v=2.9.353&r=stable&a=shopify_web_pixel&ec=5&o=12318&aems=0%3B0&fbp=fb.1.1784167257675.799256660155957659&ler=empty&cdl=API_unavailable&sm=OPEN&se=%7B%22page_url%22%3Atrue%2C%22referrer%22%3Atrue%2C%22fbp%22%3Atrue%2C%22fb"
+	},
+	{
+		"t": "2026-07-16T02:02:43.218Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"Pageview\",\"event_id\":\"\",\"message_id\":\"messageId-1784167363216-3424057102245-C29BU2H9VV2K3NTTUUQ0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:02:43.216Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C29BU2H9VV2K3NTTUUQ0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-ea0ZU.1.2::6"
+	},
+	{
+		"t": "2026-07-16T02:02:43.219Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"Pageview\",\"event_id\":\"\",\"message_id\":\"messageId-1784167363219-1583435343938-C1AIOH48PMMOGUUMKOP0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:02:43.219Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C1AIOH48PMMOGUUMKOP0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C1AIOH48PMMOGUUMKOP0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-ea0ZU.1.2::6"
+	},
+	{
+		"t": "2026-07-16T02:02:50.530Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel/inter",
+		"status": 200,
+		"body": "{\"event_id\":\"\",\"message_id\":\"messageId-1784167370529-6464418075048\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:02:50.529Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\",\"codes\":\"C29BU2H9VV2K3NTTUUQ0|C1AIOH48PMMOGUUMKOP0\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-ea0ZU.1.2::66f26b1a-8"
+	},
+	{
+		"t": "2026-07-16T02:02:56.991Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel/act",
+		"status": 200,
+		"body": "{\"event_id\":\"\",\"message_id\":\"messageId-1784167376990-6604215673637\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:02:56.990Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\",\"codes\":\"C29BU2H9VV2K3NTTUUQ0|C1AIOH48PMMOGUUMKOP0\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-ea0ZU.1.2::66f26b1a-8"
+	},
+	{
+		"t": "2026-07-16T02:02:57.036Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"AddToCart\",\"event_id\":\"CuS-4N7qHk334FJL9HeXG\",\"message_id\":\"messageId-1784167377036-1509034599173-C29BU2H9VV2K3NTTUUQ0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:02:57.036Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C29BU2H9VV2K3NTTUUQ0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3"
+	},
+	{
+		"t": "2026-07-16T02:02:57.059Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=SubscribedButtonClick&dl=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&rl=https%3A%2F%2Fmagicspoon.com%2F&if=false&ts=1784167377001&iw=false&cd%5BbuttonFeatures%5D=%7B%22classList%22%3A%22cta+cta-fill+cr-purple%22%2C%22destination%22%3A%22https%3A%2F%2Fmagicspoon.com%2Fcart%2Fadd%22%2C%22id%22%3A%22%22%2C%22imageUrl%22%3A%22linear-gradient%28270deg%2C+rgb%28208%2C+52%2C+162%29%2C+rgb%2882%2C+34%2C+227%29%29%22%2C%22innerText%22%3A%22%22%2C%22numChildButtons%22%3A0%2C%22tag%22%3A%22input%22%2C%22type%22%3A%22submit%22%2C%22name%22%3A%22add%22%2C%22value%22%3A%22Add+to+Cart%22%7D&cd%5BbuttonText%5D=&cd%5BformFeatures%5D=%5B%7B%22id%22%3A%22rtx-list-price-1%22%2C%22name%22%3A%22properties%5B_list-price%5D%22%2C%22tag%22%3A%22i"
+	},
+	{
+		"t": "2026-07-16T02:02:57.060Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=AddToCart&dl=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&rl=https%3A%2F%2Fmagicspoon.com%2F&if=false&ts=1784167377022&iw=false&cd%5Bcontent_ids%5D=7962724040766&cd%5Bcontents%5D=%5B%7B%22id%22%3A%227962724040766%22%2C%22name%22%3A%22S%27mores+-+Protein+Cereal+with+Marshmallows%22%2C%22content_category%22%3A%22Cereal%22%2C%22item_price%22%3A%2239.00%22%2C%22quantity%22%3A%221%22%7D%5D&cd%5Bcontent_name%5D=S%27mores+-+Protein+Cereal+with+Marshmallows&cd%5Bcontent_type%5D=product_group&cd%5Bvalue%5D=39.00&cd%5Bcontent_category%5D=Cereal&cd%5Bcurrency%5D=USD&sw=1728&sh=1117&cud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ncud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23*"
+	},
+	{
+		"t": "2026-07-16T02:02:57.578Z",
+		"method": "POST",
+		"url": "https://a.klaviyo.com/client/events/?company_id=HMWFR8",
+		"status": 202,
+		"body": "{\"data\":{\"type\":\"event\",\"attributes\":{\"metric\":{\"data\":{\"type\":\"metric\",\"attributes\":{\"name\":\"Added to Cart\",\"service\":\"shopify\"}}},\"profile\":{\"data\":{\"type\":\"profile\",\"attributes\":{\"_kx\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\"}}},\"properties\":{\"$use_ip\":true,\"_kx\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\",\"my_shopify_domain\":\"magic-spoon.myshopify.com\",\"detail\":{\"metadata\":{},\"payload\":{\"event_id\":\"sh-68aa18dd-1B60-45B9-4067-0C333D5D5562\",\"event_date_time\":\"2026-07-16T02:02:57.558Z\",\"event_type\":\"product_added_to_cart\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\",\"client_id\":\"9a1a7631-a3f6-4ca6-aad7-3944c01ba035\",\"page_url\":\"https://magicspoon.com/products/smores-protein-cereal-"
+	},
+	{
+		"t": "2026-07-16T02:02:57.580Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=AddToCart&dl=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&rl=https%3A%2F%2Fmagicspoon.com%2F&if=false&ts=1784167377565&iw=false&cd%5Bcontent_ids%5D=%5B42280870215742%5D&cd%5Bcontent_type%5D=product&cd%5Bcontent_name%5D=S%27mores+-+Protein+Cereal+with+Marshmallows&cd%5Bcontent_category%5D=Cereal&cd%5Bcurrency%5D=USD&cd%5Bvalue%5D=39&cd%5Bnum_items%5D=1&sw=1728&sh=1117&cud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ncud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ud%5Bexternal_id%5D=c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd09950ff&aud%5Bexternal_id%5D=c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd09"
+	},
+	{
+		"t": "2026-07-16T02:02:57.582Z",
+		"method": "OPTIONS",
+		"url": "https://a.klaviyo.com/client/events/?company_id=HMWFR8",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:57.692Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/292061?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=4&url=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&shopify_product_ids=7962724040766&shopify_variant_ids=42280870215742&shopify_collection_ids=&shopify_order_ids=&metafields=yes&shopify_selling_plans=yes&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=3900&cart_count=1&cart_line_count=1&cart_item_count=1&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=3900&cart%5Bline_count%5D=1&cart%5Bitem_count%5D=1&cart%5Bitems%5D%5B0%5D%5Bproduct_id%5D=7962724040766&cart%5Bitems%5D%5B0%5D%5Bvariant_id%5D=42280870215742&cart%5Bitems%5D%5B0%5D%5Bquantity%5D=1&cart%5Bitems%5D%5B0%5D%5Bproperties%5D=%257B%2522_erp-line-item%2522%253A%25226233-SMOMAR01%253A4%253A9.75%2522%257D&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:57.695Z",
+		"method": "GET",
+		"url": "https://cdn.rebuyengine.com/onsite/webfonts/fa-regular-400.woff2",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:57.706Z",
+		"method": "POST",
+		"url": "https://rebuyengine.com/api/v2/analytics/event/bulk?cache_key=1783562960",
+		"status": 200,
+		"body": "[{\"subject\":\"user\",\"verb\":\"viewed\",\"noun\":\"smart-cart\",\"defined_noun_id\":\"809\",\"event_time\":\"1784167377690\",\"uuid\":\"820f07b8-803c-4eb6-b70f-1d9092085466\",\"rsid\":\"902e8bffb0edcc45\",\"shopify_cart_token\":\"hWNEWmeyLqoo1Iapq6bkrTd3?key=97ec5447cf4ffdf798c3255e67dfc034\",\"theme_id\":\"133025103934\"}]"
+	},
+	{
+		"t": "2026-07-16T02:02:57.709Z",
+		"method": "OPTIONS",
+		"url": "https://rebuyengine.com/api/v2/analytics/event/bulk?cache_key=1783562960",
+		"status": 204,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:02:58.893Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/173841?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=8&url=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&shopify_product_ids=7962724040766&shopify_variant_ids=42280870215742&shopify_collection_ids=&shopify_order_ids=&shopify_selling_plans=yes&filter_inputs=no&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=3900&cart_count=1&cart_line_count=1&cart_item_count=1&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=3900&cart%5Bline_count%5D=1&cart%5Bitem_count%5D=1&cart%5Bitems%5D%5B0%5D%5Bproduct_id%5D=7962724040766&cart%5Bitems%5D%5B0%5D%5Bvariant_id%5D=42280870215742&cart%5Bitems%5D%5B0%5D%5Bquantity%5D=1&cart%5Bitems%5D%5B0%5D%5Bproperties%5D=%257B%2522_erp-line-item%2522%253A%25226233-SMOMAR01%253A4%253A9.75%2522%257D&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:03:00.536Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel/inter",
+		"status": 200,
+		"body": "{\"event_id\":\"\",\"message_id\":\"messageId-1784167380536-2525468370089\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:03:00.536Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\",\"codes\":\"C29BU2H9VV2K3NTTUUQ0|C1AIOH48PMMOGUUMKOP0\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-ea0ZU.1.2::66f26b1a-8"
+	},
+	{
+		"t": "2026-07-16T02:03:10.530Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel/inter",
+		"status": 200,
+		"body": "{\"event_id\":\"\",\"message_id\":\"messageId-1784167390528-3971168165868\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:03:10.528Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\",\"codes\":\"C29BU2H9VV2K3NTTUUQ0|C1AIOH48PMMOGUUMKOP0\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-ea0ZU.1.2::66f26b1a-8"
+	},
+	{
+		"t": "2026-07-16T02:03:22.307Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel/act",
+		"status": 200,
+		"body": "{\"event_id\":\"\",\"message_id\":\"messageId-1784167402305-5879082049591\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:03:22.305Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\",\"codes\":\"C29BU2H9VV2K3NTTUUQ0|C1AIOH48PMMOGUUMKOP0\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-ea0ZU.1.2::66f26b1a-8"
+	},
+	{
+		"t": "2026-07-16T02:03:22.346Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=SubscribedButtonClick&dl=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&rl=https%3A%2F%2Fmagicspoon.com%2F&if=false&ts=1784167402322&iw=false&cd%5BbuttonFeatures%5D=%7B%22classList%22%3A%22rebuy-button+TESTING%22%2C%22destination%22%3A%22%22%2C%22id%22%3A%22%22%2C%22imageUrl%22%3A%22linear-gradient%28to+left%2C+rgb%28227%2C+11%2C+166%29%2C+rgb%2894%2C+1%2C+237%29%29%22%2C%22innerText%22%3A%22SWITCH+TO+SUBSCRIPTION%22%2C%22numChildButtons%22%3A0%2C%22tag%22%3A%22button%22%2C%22type%22%3A%22button%22%2C%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D&cd%5BbuttonText%5D=SWITCH+TO+SUBSCRIPTION&cd%5BformFeatures%5D=%5B%5D&cd%5BpageFeatures%5D=%7B%22title%22%3A%22S%27mores+-+Protein+Cereal+with+Marshmallows%22%7D&sw=1728&sh=1117&cud%"
+	},
+	{
+		"t": "2026-07-16T02:03:22.813Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/292061?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=4&url=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&shopify_product_ids=&shopify_variant_ids=&shopify_collection_ids=&shopify_order_ids=&metafields=yes&shopify_selling_plans=yes&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=0&cart_count=0&cart_line_count=0&cart_item_count=0&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=0&cart%5Bline_count%5D=0&cart%5Bitem_count%5D=0&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:03:23.424Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=AddToCart&dl=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&rl=https%3A%2F%2Fmagicspoon.com%2F&if=false&ts=1784167403413&iw=false&cd%5Bcontent_ids%5D=%5B42280870215742%5D&cd%5Bcontent_type%5D=product&cd%5Bcontent_name%5D=S%27mores+-+Protein+Cereal+with+Marshmallows&cd%5Bcontent_category%5D=Cereal&cd%5Bcurrency%5D=USD&cd%5Bvalue%5D=31.2&cd%5Bnum_items%5D=1&sw=1728&sh=1117&cud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ncud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ud%5Bexternal_id%5D=c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd09950ff&aud%5Bexternal_id%5D=c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd"
+	},
+	{
+		"t": "2026-07-16T02:03:23.425Z",
+		"method": "POST",
+		"url": "https://a.klaviyo.com/client/events/?company_id=HMWFR8",
+		"status": 202,
+		"body": "{\"data\":{\"type\":\"event\",\"attributes\":{\"metric\":{\"data\":{\"type\":\"metric\",\"attributes\":{\"name\":\"Added to Cart\",\"service\":\"shopify\"}}},\"profile\":{\"data\":{\"type\":\"profile\",\"attributes\":{\"_kx\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\"}}},\"properties\":{\"$use_ip\":true,\"_kx\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\",\"my_shopify_domain\":\"magic-spoon.myshopify.com\",\"detail\":{\"metadata\":{},\"payload\":{\"event_id\":\"sh-68aae2cb-CB16-40FF-8CB7-13283C885C1F\",\"event_date_time\":\"2026-07-16T02:03:23.405Z\",\"event_type\":\"product_added_to_cart\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\",\"client_id\":\"9a1a7631-a3f6-4ca6-aad7-3944c01ba035\",\"page_url\":\"https://magicspoon.com/products/smores-protein-cereal-"
+	},
+	{
+		"t": "2026-07-16T02:03:23.426Z",
+		"method": "OPTIONS",
+		"url": "https://a.klaviyo.com/client/events/?company_id=HMWFR8",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:03:23.542Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"AddToCart\",\"event_id\":\"v7acplntw1kb5X7ehG1YW\",\"message_id\":\"messageId-1784167403541-5117177079547-C29BU2H9VV2K3NTTUUQ0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:03:23.541Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C29BU2H9VV2K3NTTUUQ0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3"
+	},
+	{
+		"t": "2026-07-16T02:03:23.561Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=AddToCart&dl=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&rl=https%3A%2F%2Fmagicspoon.com%2F&if=false&ts=1784167403530&iw=false&cd%5Bcontent_ids%5D=7962724040766&cd%5Bcontents%5D=%5B%7B%22id%22%3A%227962724040766%22%2C%22name%22%3A%22S%27mores+-+Protein+Cereal+with+Marshmallows%22%2C%22content_category%22%3A%22Cereal%22%2C%22item_price%22%3A%2231.20%22%2C%22quantity%22%3A%221%22%7D%5D&cd%5Bcontent_name%5D=S%27mores+-+Protein+Cereal+with+Marshmallows&cd%5Bcontent_type%5D=product_group&cd%5Bvalue%5D=31.20&cd%5Bcontent_category%5D=Cereal&cd%5Bcurrency%5D=USD&sw=1728&sh=1117&cud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ncud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23*"
+	},
+	{
+		"t": "2026-07-16T02:03:23.571Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/292061?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=4&url=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&shopify_product_ids=7962724040766&shopify_variant_ids=42280870215742&shopify_collection_ids=&shopify_order_ids=&metafields=yes&shopify_selling_plans=yes&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=3120&cart_count=1&cart_line_count=1&cart_item_count=1&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=3120&cart%5Bline_count%5D=1&cart%5Bitem_count%5D=1&cart%5Bitems%5D%5B0%5D%5Bproduct_id%5D=7962724040766&cart%5Bitems%5D%5B0%5D%5Bvariant_id%5D=42280870215742&cart%5Bitems%5D%5B0%5D%5Bquantity%5D=1&cart%5Bitems%5D%5B0%5D%5Bproperties%5D=%257B%2522_erp-line-item%2522%253A%25226233-SMOMAR01%253A4%253A9.75%2522%252C%2522_attribution%2522%253A%2522Rebuy%2520Switch%2520to%2520Subscription%2522%252C%2522_source%2522%253A%2522Rebuy%2522%252C%2522_widget_id%2522%253A%252241694%2522%252C%2522_subscription-discount%2522%253A%25229.75%2522%257D&cart%5Bitems%5D%5B0%5D%5Bsubscription_id%5D=3403284542&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:03:24.773Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/173841?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=8&url=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&shopify_product_ids=7962724040766&shopify_variant_ids=42280870215742&shopify_collection_ids=&shopify_order_ids=&shopify_selling_plans=yes&filter_inputs=no&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=3120&cart_count=1&cart_line_count=1&cart_item_count=1&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=3120&cart%5Bline_count%5D=1&cart%5Bitem_count%5D=1&cart%5Bitems%5D%5B0%5D%5Bproduct_id%5D=7962724040766&cart%5Bitems%5D%5B0%5D%5Bvariant_id%5D=42280870215742&cart%5Bitems%5D%5B0%5D%5Bquantity%5D=1&cart%5Bitems%5D%5B0%5D%5Bproperties%5D=%257B%2522_erp-line-item%2522%253A%25226233-SMOMAR01%253A4%253A9.75%2522%252C%2522_attribution%2522%253A%2522Rebuy%2520Switch%2520to%2520Subscription%2522%252C%2522_source%2522%253A%2522Rebuy%2522%252C%2522_widget_id%2522%253A%252241694%2522%252C%2522_subscription-discount%2522%253A%25229.75%2522%257D&cart%5Bitems%5D%5B0%5D%5Bsubscription_id%5D=3403284542&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:03:25.571Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=AddToCart&dl=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&rl=https%3A%2F%2Fmagicspoon.com%2F&if=false&ts=1784167405553&iw=false&cd%5Bcontent_ids%5D=%5B41543343996990%5D&cd%5Bcontent_type%5D=product&cd%5Bcontent_name%5D=Free+Bowl+%26+Spoon+Set+-+Subscriber+Gift&cd%5Bcontent_category%5D=Accessory&cd%5Bcurrency%5D=USD&cd%5Bnum_items%5D=1&sw=1728&sh=1117&cud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ncud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ud%5Bexternal_id%5D=c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd09950ff&aud%5Bexternal_id%5D=c5a206efaf8f89c771c05694df91fd88e29985af21ae046592ba828fd09950ff&v=2.9.353&r"
+	},
+	{
+		"t": "2026-07-16T02:03:25.571Z",
+		"method": "POST",
+		"url": "https://a.klaviyo.com/client/events/?company_id=HMWFR8",
+		"status": 202,
+		"body": "{\"data\":{\"type\":\"event\",\"attributes\":{\"metric\":{\"data\":{\"type\":\"metric\",\"attributes\":{\"name\":\"Added to Cart\",\"service\":\"shopify\"}}},\"profile\":{\"data\":{\"type\":\"profile\",\"attributes\":{\"_kx\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\"}}},\"properties\":{\"$use_ip\":true,\"_kx\":\"Ui58i6_inzStsedh4cb_53JZAukMYYXWbVBI9YNu8R8.HMWFR8\",\"my_shopify_domain\":\"magic-spoon.myshopify.com\",\"detail\":{\"metadata\":{},\"payload\":{\"event_id\":\"sh-68aaf37f-06FA-4A3E-096F-A0E6DC064F72\",\"event_date_time\":\"2026-07-16T02:03:25.543Z\",\"event_type\":\"product_added_to_cart\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\",\"client_id\":\"9a1a7631-a3f6-4ca6-aad7-3944c01ba035\",\"page_url\":\"https://magicspoon.com/products/smores-protein-cereal-"
+	},
+	{
+		"t": "2026-07-16T02:03:25.572Z",
+		"method": "OPTIONS",
+		"url": "https://a.klaviyo.com/client/events/?company_id=HMWFR8",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:03:25.686Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel",
+		"status": 200,
+		"body": "{\"event\":\"AddToCart\",\"event_id\":\"Kg6uvfq3ybqPf3CubDMUE\",\"message_id\":\"messageId-1784167405685-8215757192201-C29BU2H9VV2K3NTTUUQ0\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:03:25.685Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8-C29BU2H9VV2K3NTTUUQ0\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3"
+	},
+	{
+		"t": "2026-07-16T02:03:25.704Z",
+		"method": "POST",
+		"url": "https://www.facebook.com/tr/",
+		"status": 200,
+		"body": "id=2116162018694323&ev=AddToCart&dl=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&rl=https%3A%2F%2Fmagicspoon.com%2F&if=false&ts=1784167405673&iw=false&cd%5Bcontent_ids%5D=7731722354750&cd%5Bcontents%5D=%5B%7B%22id%22%3A%227731722354750%22%2C%22name%22%3A%22Free+Bowl+%26+Spoon+Set+-+Subscriber+Gift%22%2C%22content_category%22%3A%22Accessory%22%2C%22item_price%22%3A%220.00%22%2C%22quantity%22%3A%221%22%7D%5D&cd%5Bcontent_name%5D=Free+Bowl+%26+Spoon+Set+-+Subscriber+Gift&cd%5Bcontent_type%5D=product_group&cd%5Bvalue%5D=0.00&cd%5Bcontent_category%5D=Accessory&cd%5Bcurrency%5D=USD&sw=1728&sh=1117&cud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%23-***%23-%23%23%23%23*%23%23**%23%23%23&ncud%5Bexternal_id%5D=%23*%23*%23%23%23%23-*%23*%23-%23**%"
+	},
+	{
+		"t": "2026-07-16T02:03:25.716Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/products/static?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&ids=7731722354750&shopify_selling_plans=yes&metafields=yes&metafield_ns=*&cache_key=1783562960",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:03:25.718Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/292061?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=4&url=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&shopify_product_ids=7731722354750%2C7962724040766&shopify_variant_ids=41543343996990%2C42280870215742&shopify_collection_ids=&shopify_order_ids=&metafields=yes&shopify_selling_plans=yes&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=3120&cart_count=2&cart_line_count=2&cart_item_count=2&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=3120&cart%5Bline_count%5D=2&cart%5Bitem_count%5D=2&cart%5Bitems%5D%5B0%5D%5Bproduct_id%5D=7731722354750&cart%5Bitems%5D%5B0%5D%5Bvariant_id%5D=41543343996990&cart%5Bitems%5D%5B0%5D%5Bquantity%5D=1&cart%5Bitems%5D%5B0%5D%5Bproperties%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_widget_id%2522%253A%2522104018%2522%252C%2522_attribution%2522%253A%2522Rebuy%2520Gift%2520with%2520Purchase%2522%257D&cart%5Bitems%5D%5B1%5D%5Bproduct_id%5D=7962724040766&cart%5Bitems%5D%5B1%5D%5Bvariant_id%5D=42280870215742&cart%5Bitems%5D%5B1%5D%5Bquantity%5D=1&cart%5Bitems%5D%5B1%5D%5Bproperties%5D=%257B%2522_erp-line-item%2522%253A%25226233-SMOMAR01%253A4%253A9.75%2522%252C%2522_attribution%2522%253A%2522Rebuy%2520Switch%2520to%2520Subscription%2522%252C%2522_source%2522%253A%2522Rebuy%2522%252C%2522_widget_id%2522%253A%252241694%2522%252C%2522_subscription-discount%2522%253A%25229.75%2522%257D&cart%5Bitems%5D%5B1%5D%5Bsubscription_id%5D=3403284542&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:03:26.919Z",
+		"method": "GET",
+		"url": "https://rebuyengine.com/api/v1/custom/id/173841?key=5a11d35b4da926e17c9d63d12c5f5323406de5fc&limit=8&url=https%3A%2F%2Fmagicspoon.com%2Fproducts%2Fsmores-protein-cereal-marshmallows-1case-4boxes&shopify_product_ids=7731722354750%2C7962724040766&shopify_variant_ids=41543343996990%2C42280870215742&shopify_collection_ids=&shopify_order_ids=&shopify_selling_plans=yes&filter_inputs=no&uuid=820f07b8-803c-4eb6-b70f-1d9092085466&cart_token=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart_subtotal=3120&cart_count=2&cart_line_count=2&cart_item_count=2&cart%5Btoken%5D=hWNEWmeyLqoo1Iapq6bkrTd3%3Fkey%3D97ec5447cf4ffdf798c3255e67dfc034&cart%5Bsubtotal%5D=3120&cart%5Bline_count%5D=2&cart%5Bitem_count%5D=2&cart%5Bitems%5D%5B0%5D%5Bproduct_id%5D=7731722354750&cart%5Bitems%5D%5B0%5D%5Bvariant_id%5D=41543343996990&cart%5Bitems%5D%5B0%5D%5Bquantity%5D=1&cart%5Bitems%5D%5B0%5D%5Bproperties%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_widget_id%2522%253A%2522104018%2522%252C%2522_attribution%2522%253A%2522Rebuy%2520Gift%2520with%2520Purchase%2522%257D&cart%5Bitems%5D%5B1%5D%5Bproduct_id%5D=7962724040766&cart%5Bitems%5D%5B1%5D%5Bvariant_id%5D=42280870215742&cart%5Bitems%5D%5B1%5D%5Bquantity%5D=1&cart%5Bitems%5D%5B1%5D%5Bproperties%5D=%257B%2522_erp-line-item%2522%253A%25226233-SMOMAR01%253A4%253A9.75%2522%252C%2522_attribution%2522%253A%2522Rebuy%2520Switch%2520to%2520Subscription%2522%252C%2522_source%2522%253A%2522Rebuy%2522%252C%2522_widget_id%2522%253A%252241694%2522%252C%2522_subscription-discount%2522%253A%25229.75%2522%257D&cart%5Bitems%5D%5B1%5D%5Bsubscription_id%5D=3403284542&cart%5Battributes%5D=%257B%2522_source%2522%253A%2522Rebuy%2522%252C%2522_attribution%2522%253A%2522Smart%2520Cart%2522%257D&cart%5Bnotes%5D=&cache_key=1783562960&product_groups=yes",
+		"status": 200,
+		"body": ""
+	},
+	{
+		"t": "2026-07-16T02:03:30.529Z",
+		"method": "POST",
+		"url": "https://analytics.tiktok.com/api/v2/pixel/inter",
+		"status": 200,
+		"body": "{\"event_id\":\"\",\"message_id\":\"messageId-1784167410528-9652189660113\",\"is_onsite\":false,\"timestamp\":\"2026-07-16T02:03:30.528Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01KXMAFP0WYNSC8JMX8W1WYBW8_.tt.0\"},\"pixel\":{\"code\":\"C29BU2H9VV2K3NTTUUQ0\",\"runtime\":\"1\",\"codes\":\"C29BU2H9VV2K3NTTUUQ0|C1AIOH48PMMOGUUMKOP0\"},\"page\":{\"url\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes\",\"referrer\":\"https://magicspoon.com/products/smores-protein-cereal-marshmallows-1case-4boxes?selling_plan=3403284542\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8::D3VMBXl0-Phh8CNhZMm8\",\"pageview_id\":\"2fe0ccc4-80ba-11f1-b78e-be3484d6d1a8-ea0ZU.1.2::66f26b1a-8"
+	}
+]

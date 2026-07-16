@@ -31,6 +31,7 @@ describe('present-tier matching', () => {
 		['https://d.monetate.net/js/2/a-1234/p/site.com/entry.js', 'recs.recs.monetate'],
 		['https://cdn.quantummetric.com/instrument/1.x/qtm.js', 'session_replay.quantummetric'],
 		['https://collector-pxlkxie7oj.px-cloud.net/api/v2/collector', 'bot_defense.perimeterx'],
+		['https://magicspoon.com/web-pixels@7261bdd2/web-pixel-1504215102@83adcaf0', 'platform.shopify_web_pixels'],
 	];
 
 	it.each(cases)('matches %s to %s at present tier', (url, expectedId) => {
@@ -47,13 +48,13 @@ describe('present-tier matching', () => {
 			defaultRegistry,
 			wiredIds,
 		).find(s => s.id === 'cart.esp.klaviyo');
-		const attentive = matchRequest(
-			req('https://cdn.attn.tv/x.js'),
+		const postscript = matchRequest(
+			req('https://sdk.postscript.io/sdk.js'),
 			defaultRegistry,
 			wiredIds,
-		).find(s => s.id === 'cart.sms.attentive');
+		).find(s => s.id === 'cart.sms.postscript');
 		expect(klaviyo?.evidence_of_use).toBe('none');
-		expect(attentive?.evidence_of_use).toBe('unobservable');
+		expect(postscript?.evidence_of_use).toBe('unobservable');
 	});
 
 	it('returns nothing for an unrelated request', () => {

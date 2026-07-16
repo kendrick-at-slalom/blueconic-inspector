@@ -379,6 +379,18 @@ export const vendorTable: VendorEntry[] = [
 		globalNames: ['Shopify'],
 	},
 	{
+		// Shopify Web Pixels: the sandboxed pixel-manager layer that relays tracking (often server-side/CAPI).
+		// Verified on Magic Spoon (80 sandboxes, 2026-07-15) — it's WHY client-side Meta/Klaviyo events go
+		// quiet. First-party path, so a bare crawl already sees it. A tracking-routing mechanism signal
+		// filed under platform for now; the rubric owner may want its own category later.
+		id: 'platform.shopify_web_pixels',
+		vendor: 'shopify_web_pixels',
+		category: 'platform',
+		play: ALL_PLAYS,
+		scriptUrlPatterns: ['/web-pixels@', 'web-pixels-manager', '/web-pixels/'],
+		globalNames: [],
+	},
+	{
 		id: 'platform.bigcommerce',
 		vendor: 'bigcommerce',
 		category: 'platform',

@@ -2,6 +2,19 @@
 
 Append-only; newest entry on top. Don't edit past entries; supersede them with a new one.
 
+## 2026-07-15: Bonus wired matchers (Rebuy, Attentive) + Shopify Web Pixels present row
+
+**Source:** the Magic Spoon HAR sniff (2026-07-15); user greenlit going past the prototype's "Klaviyo + Meta only" wired line; `src/providers/wired/{rebuy,attentive}.ts`, `src/providers/vendorTable.ts`
+
+**Context:** The HAR handed over three more verified shapes with real demo value across the CEO's priority play and multi-channel Cart Recovery. Cheap to add since the data was in hand.
+**Decision:**
+
+- **Rebuy `wired`** (`recs.recs.rebuy`): `rebuyengine.com/api/v2/analytics/event` → wired = the recommendation engine actively serving/tracking widgets, i.e. Order Value Expansion live (the CEO's flagged play). May fire on a bare crawl (widgets render on load); untested, the spoof/active-browse work settles it.
+- **Attentive `wired`** (`cart.sms.attentive`): `api.attentivemobile.com/1/subscribers` (SMS identity captured) + `<shop>.attn.tv/track` (behavioral) → wired. Multi-channel Cart Recovery proof alongside Klaviyo; interaction-gated like Klaviyo.
+- **Shopify Web Pixels present row** (`platform.shopify_web_pixels`, patterns `/web-pixels@` + `web-pixels-manager`): the sandboxed pixel-relay layer (80 sandboxes on Magic Spoon) that explains why client-side Meta/Klaviyo events go quiet — server-side/CAPI routing. First-party path, so a bare crawl already sees it. Filed under `platform` provisionally.
+  All verified from the HAR (verified-not-remembered). 35 tests green.
+  **Alternatives considered:** Stay strictly at Klaviyo+Meta (rejected — data in hand, high value on the CEO's OVE play). A new `tracking_infra` category for Web Pixels (deferred — avoid another contract touch for a trivial add; `platform` suffices for now).
+
 ## 2026-07-15: Klaviyo `wired` matcher live from verified Magic Spoon beacons; Meta confirmed server-side CAPI
 
 **Source:** user DevTools capture on Magic Spoon (2026-07-15, company_id HMWFR8) — a full consented session with product view, add-to-cart, email + SMS signup, and subscription-upsell accepted; `src/providers/wired/klaviyo.ts`, `tests/unit/wired.spec.ts`
