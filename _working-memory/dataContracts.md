@@ -16,4 +16,4 @@ Stable signal IDs: extend, never rename — the FE may key copy off them. Conven
 
 - **SSE frames:** exactly `event: <type>\ndata: <json>\n\n`. The blank line terminates the frame. Route must set `Content-Type: text/event-stream`, `Cache-Control: no-cache`, `Connection: keep-alive`, then `res.flushHeaders()`; no compression middleware on this route.
 - **CLI `--json`:** raw NDJSON of `InspectorEvent`s — the FE dev's reference payload for real event sequences.
-- **Probe fixtures:** `fixtures/probe-<site>.json`, the dumped output of `bc-console-probe.js` (fired beacon URLs + present global names per site). Input to `wired` matcher authoring and the crawler-vs-probe verification diff.
+- **Captured traffic:** `docs/beacon-capture/` holds DevTools HARs and extracted beacon URLs from real sessions; `docs/crawl-results/` holds batch crawl NDJSON. These are the source for `wired` matcher authoring (verified shapes) and the crawler-vs-capture diff. (Supersedes the planned `fixtures/probe-<site>.json` / `bc-console-probe.js` approach, which we never needed.)

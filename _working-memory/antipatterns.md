@@ -4,6 +4,20 @@
 <!-- agents and humans don't re-litigate closed loops. Append-only, like        -->
 <!-- decisionLog.md.                                                            -->
 
+## 2026-07-15 — Don't expect `wired` from a bare headless crawl on Shopify+Klaviyo
+
+**Tried:** An active-browse spike: headless Chromium on a Magic Spoon PDP with simulated scroll/mouse/dwell (~55s), no cart.
+**What broke:** Only `client/sessions` fired; the discriminating `client/events` (Viewed Product) never did. Klaviyo gates Active-on-Site/Viewed-Product on not-being-a-bot, and headless sets `navigator.webdriver = true`.
+**Why we backed out:** Making it fire needs stealth (spoofing headless tells), which is bot-detection evasion, gated behind an explicit opt-in (default off), never a default.
+**Don't suggest:** Expecting Klaviyo (or any interaction-gated vendor) to show `wired` on a plain headless crawl. Without the opt-in stealth flag a Shopify+Klaviyo store reads `present`/`none` live; demo `wired` via HarRunner replay or the opt-in stealth path.
+
+## 2026-07-15 — Don't wire Klaviyo `client/sessions` as the `wired` signal
+
+**Tried:** Considered wiring `a.klaviyo.com/client/sessions` (the one beacon that fires on every crawl) so at least one Shopify store shows `wired`.
+**What broke:** `client/sessions` is onsite-tracking init; it fires on nearly every Shopify+Klaviyo store regardless of whether flows are live. Wiring it reintroduces the "every Shopify store looks capable" problem the present/wired split exists to prevent.
+**Why we backed out:** The discriminating beacons are `client/events` (behavioral) and `client/profiles` (identity); the matcher targets those.
+**Don't suggest:** Treating a vendor's session-init or script-load beacon as `wired`. Wired needs a behavioral or identity beacon verified from real traffic.
+
 ## 2026-07-15 — Don't shape the runner as `observe(url): Promise<Observation>`
 
 **Tried:** Proposed in plan draft 1 (implicitly, via an unspecified "async queue").

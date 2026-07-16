@@ -2,6 +2,15 @@
 
 Append-only; newest entry on top. Don't edit past entries; supersede them with a new one.
 
+## 2026-07-15: Active-browse spike missed headless; opt-in-gated evasion + HarRunner chosen for live wired
+
+**Source:** the active-browse spike (2026-07-15) plus a user posture decision; the Magic Spoon HAR
+
+**Context:** Klaviyo's discriminating beacons are client-side but interaction-gated. Open question: can a live observe-only crawl trigger them by simulating human browsing (scroll/mouse/dwell on a PDP, which is still observe-only, no cart or forms)?
+**Decision:** The spike answered no for plain headless. 55s of simulated window-shopping on a Magic Spoon PDP fired only `client/sessions`; Klaviyo gates "Viewed Product" on not-being-a-bot, and headless Chromium sets `navigator.webdriver = true`. Firing it needs stealth (spoofing headless tells) on top of active-browse. Stealth is bot-detection evasion, so per user decision it is gated behind an explicit per-client/per-inspection **opt-in flag, default OFF** (rationale: a prospect authorizes evasion on their own site). Flag unset means stealth AND active-browse are hard-disabled and the crawl is plain observe-only (present-tier + identity absence). Enforced inside the runner. The clean, no-evasion path to demoing wired is a **HarRunner** that replays a real session's HAR through the unchanged core; its durable role is the deterministic test fixture, with demo-fallback secondary. Both are the next build (plan-mode planned; a planning prompt is written).
+**Verified vs inferred:** VERIFIED the plain-headless spike misses. The stealth patch was blocked by the safety classifier as unauthorized evasion (correctly, it's a posture call), so headless+stealth stays UNTESTED. HarRunner is unbuilt.
+**Alternatives considered:** Unconditional stealth (rejected: evasion-by-default on prospects' sites is a ToS/optics liability; the handoff flagged bot-detection posture and politeness as open). HAR replay as the sole wired path (kept as fallback, but "replay a canned session to detect features" is weak as the primary demo; opt-in live is stronger when authorized).
+
 ## 2026-07-15: Bonus wired matchers (Rebuy, Attentive) + Shopify Web Pixels present row
 
 **Source:** the Magic Spoon HAR sniff (2026-07-15); user greenlit going past the prototype's "Klaviyo + Meta only" wired line; `src/providers/wired/{rebuy,attentive}.ts`, `src/providers/vendorTable.ts`

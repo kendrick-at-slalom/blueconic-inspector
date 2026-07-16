@@ -9,12 +9,12 @@
 
 - `src/{core,runner,providers,service}` map 1:1 to the future package split; treat them as package boundaries now.
 - `core/` and `providers/` never import `service/`; providers never import `runner/` internals (the `Runner` interface is the seam). ESLint `no-restricted-imports` enforces this — keep the rule when scaffolding.
-- Probe output and (later) recorded HARs live in `fixtures/`.
+- Captured traffic (DevTools HARs, extracted beacon URLs, batch crawl NDJSON) lives in `docs/beacon-capture/` and `docs/crawl-results/`.
 
 ## Detection Patterns
 
 - Adding a `present`-tier vendor = adding a `VendorEntry` row. Never write per-vendor code for presence.
-- `wired` matchers are hand-written, one per vendor, only against a beacon shape verified in a probe fixture. No shape → the vendor stays `unobservable`.
+- `wired` matchers are hand-written, one per vendor, only against a beacon shape verified in a real capture (a live crawl or DevTools HAR). No shape → the vendor stays `unobservable`. Wire behavioral or identity beacons, never session-init or script-load ones (see antipatterns).
 - Prefer `scriptUrlPatterns` over `globalNames`: globals-only entries are invisible until `settled` and contribute nothing to the live stream.
 
 ## Error Handling
@@ -25,5 +25,5 @@
 
 ## Testing
 
-- Light by design: parameterized test over the vendor table, tier-boundary tests for `wired` matchers fed by probe fixtures, one core test on a scripted fake runner, one test on the callback→AsyncIterable queue. No live-site tests in the suite.
+- Light by design: parameterized test over the vendor table, tier-boundary tests for `wired` matchers fed by verified beacon shapes, one core test on a scripted fake runner, one test on the callback→AsyncIterable queue. No live-site tests in the suite.
 - Streaming is verified mechanically: at least one `signal.found` before `phase.completed` for `collect`. Timestamp spread is a soft signal only (the settle burst is legitimate).

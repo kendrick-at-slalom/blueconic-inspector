@@ -10,6 +10,7 @@ From `handoff-detection-engine-build.md` (October-facing unless noted):
 - **Rubric owner** — unnamed. The tiers need a quality axis (a blanket 10%-off modal should score _worse_ than nothing); schema must be able to carry it when it lands.
 - **QA corpus owner** — unnamed. Ground truth requires actually abandoning carts and waiting 24h; more hours than anyone estimates.
 - **FE schema sign-off** on `src/types.ts` — cheap now, expensive in September.
+- **Opt-in bot-evasion posture — needs BlueConic/team sign-off.** Live `wired` on Shopify requires stealth (bot-detection evasion), gated behind a per-client opt-in (default off; a prospect authorizes it on their own site). Decided technically (see decisionLog), but the posture (ToS, politeness, whether a lead-gen tool should offer it at all) wants an explicit team call, like the FE sign-off above.
 - **Launch date** — late October is inferred from BFCM runway, not confirmed.
 - **Geo** — crawl IP determines which consent banners and geo-gates appear; simulated-location support (Blacklight offers Ohio/California/Europe) is open even with accept-all decided.
 - **Commercial tag-auditing tools** (ObservePoint, DataSlayer, Trackingplan, WASP) — never searched; real build-vs-buy question.
@@ -18,7 +19,7 @@ From `handoff-detection-engine-build.md` (October-facing unless noted):
 October — Shopify rubric branch:
 
 - **`ObservedGlobals` is presence-only** (`Record<string, boolean>`) by decision (2026-07-15) — reading global _values_ means serializing arbitrary objects out of `page.evaluate` for no prototype gain. `window.Shopify` existing is the platform entry. When the Shopify rubric branch lands (native Klaviyo integration emits `Started Checkout` server-side, so client-side event presence is less discriminating), revisit whether platform detection needs to read global values or richer `platform_inference` evidence — the `DetectionMethod` value exists but has no matcher shape yet.
-- **The same server-side gap hits `wired` matchers, not just platform detection.** Beacon-capture diagnostics (2026-07-15, see decisionLog) found Klaviyo's and Meta's discriminating events never fired client-side on 4 Shopify DTC crawls; only the weak, always-on `client/sessions` init beacon fired. If that holds under a real consented, carted session, present-vs-wired needs the rubric-branch treatment on Shopify native, not just a probe fixture.
+- **Resolved: the server-side gap splits by vendor.** The Magic Spoon consented session settled it (see decisionLog): Klaviyo's discriminating beacons are client-side but interaction-gated (need real engagement + not-a-bot); Meta is genuinely server-side (Shopify CAPI, no client-side `/tr`). Live `wired` on Shopify is reachable only via opt-in stealth + active-browse, or a HAR replay. So present-vs-wired still needs the rubric-branch treatment on Shopify native: a bare observe-only crawl reads `present`/`none`.
 
 Gaps surfaced by the 2026-07-15 PDP/homepage batch crawl (19 real sites, see `crawl-results/`):
 
@@ -29,7 +30,6 @@ Gaps surfaced by the 2026-07-15 PDP/homepage batch crawl (19 real sites, see `cr
 - **Columbia vendor gaps: resolved.** Adobe Launch and Monetate added to existing categories; Quantum Metric and PerimeterX added under the new `session_replay` and `bot_defense` categories (see `decisionLog.md`).
 - **Columbia's sparseness was PWA + bot defense, not consent.** Salesforce Composable/Mobify storefront behind PerimeterX, tags via Adobe Launch post-hydration. A headless crawler under-detects composable/PWA storefronts generally — a real limitation to note, separate from bot-blocking and consent.
 
-Immediate (blocks prototype step 0):
+Resolved (was "immediate, blocks step 0"):
 
-- `bc-console-probe.js` — user is providing it (not in workspace; do not recreate).
-- The 3 target site URLs, including which is the hero site (its ESP's `wired` matcher is never-cut).
+- No `bc-console-probe.js` or handed-over URLs were needed — we self-served via live crawls plus a DevTools HAR on Magic Spoon (see decisionLog). Demo site (Magic Spoon) and the `wired` beacon shapes are settled.
