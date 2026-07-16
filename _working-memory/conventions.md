@@ -17,6 +17,12 @@
 - `wired` matchers are hand-written, one per vendor, only against a beacon shape verified in a real capture (a live crawl or DevTools HAR). No shape → the vendor stays `unobservable`. Wire behavioral or identity beacons, never session-init or script-load ones (see antipatterns).
 - Prefer `scriptUrlPatterns` over `globalNames`: globals-only entries are invisible until `settled` and contribute nothing to the live stream.
 
+## Bot-Evasion Posture (opt-in)
+
+- Stealth and active-browse are coupled and OFF by default. The gate (`src/runner/evasion.ts` `resolveEvasionMode`) opens only on the literal `true` — any truthy-but-not-`true` value (`1`, `'yes'`, `{}`) stays disabled. Enforce inside the runner; `launchStealth` re-asserts the gate as defense in depth.
+- Active-browse is observe-only: `mouse.move`/`wheel`/dwell, never click/fill/submit/navigate. The invariant is unit-tested against a spy page.
+- The `--active-browse` flag maps to `InspectOptions.activeBrowse` (core, not the `types.ts` FE contract). Provenance — was `wired` reached via replay, evasion, or an organic crawl? — is surfaced via the CLI banner and logs, not in-payload (no contract touch).
+
 ## Error Handling
 
 - A failed or partial look emits `observability: 'unobserved'` — never `absent`, never silence. This applies per-phase and to rollups.

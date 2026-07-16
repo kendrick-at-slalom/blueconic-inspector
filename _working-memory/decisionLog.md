@@ -2,6 +2,16 @@
 
 Append-only; newest entry on top. Don't edit past entries; supersede them with a new one.
 
+## 2026-07-16: Reachable-wired-tier plan shipped; live A/B smoke shows stealth alone doesn't mask Playwright's UA
+
+**Source:** implementation of the approved reachable-wired-tier plan (commits `056ba1e`..`8cf7d91`); a live `--active-browse` A/B run against a Magic Spoon PDP
+
+**Context:** The plan's three components — A (HarRunner), B (Meta activation), C (gated stealth + active-browse) — are now in code, 52 tests green (9 files), in sync with origin/main. Component C's verification asked for a live smoke recorded either way.
+**Decision / result:** All three shipped. HarRunner replay (`npm run inspect -- --har docs/beacon-capture/magicspoon-beacons.json`) shows Klaviyo/Rebuy/Attentive/Meta all `wired`, deterministic and network-free — it's the demo's guaranteed net and the October test fixture. The Meta matcher is live (`/tr`, enriched with `ev`/`id` from the POST body). The opt-in gate (`src/runner/evasion.ts` `resolveEvasionMode`) opens only on the literal `true`; flag-OFF is byte-identical to the plain crawl. **Live A/B smoke (single pair, not conclusive):** with `--active-browse` ON, Meta upgraded present→wired and Rebuy wired (Rebuy wired on both runs); **Klaviyo and Attentive stayed `present` even with the flag on.** Diagnosed via an outbound Google Ads beacon carrying `uafvl=HeadlessChrome;149...` — `puppeteer-extra-plugin-stealth` under `playwright-extra` is NOT masking the User-Agent in this wiring, so Klaviyo's not-a-bot gate still fails. Attentive additionally needs a form submit (out of observe-only scope). Both runs sat ~25s, so the Meta delta is engagement, not dwell time.
+**Verified vs inferred:** VERIFIED the replay wired set and the flag-gate behavior (tests + replay). VERIFIED the UA leak from the outbound beacon. The live A/B is a SINGLE pair — directional, not conclusive (client-side pixel firing varies run to run).
+**Next (not started, needs user go):** a UA / client-hints override on top of stealth to chase Klaviyo/Attentive live; 2–3 A/B repeats to confirm the Meta upgrade holds.
+**Alternatives considered:** Call live wired "reachable" on the strength of one A/B (rejected — one pair, and the two interaction-gated vendors didn't reach it). Add the UA override now (deferred — offered, awaiting user).
+
 ## 2026-07-15: Meta fired client-side after all (Shopify Web Pixel sandbox); supersedes "Meta server-side CAPI, inert"
 
 **Source:** re-inspection of `docs/beacon-capture/magicspoon-beacons.json` (company_id HMWFR8) while planning the reachable-wired-tier work; supersedes the Meta half of the Klaviyo-wired entry below.

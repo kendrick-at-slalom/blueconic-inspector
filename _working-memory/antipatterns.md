@@ -4,6 +4,13 @@
 <!-- agents and humans don't re-litigate closed loops. Append-only, like        -->
 <!-- decisionLog.md.                                                            -->
 
+## 2026-07-16 — Don't assume `puppeteer-extra-plugin-stealth` masks the UA under `playwright-extra`
+
+**Tried:** Ran the live `--active-browse` path (stealth applied via `chromium.use(StealthPlugin())`) expecting it to spoof enough headless tells to fire Klaviyo's Viewed-Product beacon and Attentive.
+**What broke:** Both stayed `present` even with the flag ON. An outbound Google Ads beacon in the same session carried `uafvl=HeadlessChrome;149...` — the User-Agent still announced HeadlessChrome, so the not-a-bot gate failed. The plugin patched some fingerprints but not the UA string in this Playwright wiring. (Meta and Rebuy upgraded anyway — they aren't UA-gated the same way.)
+**Why we backed out:** The opt-in stealth path is necessary but not sufficient for the interaction-gated Shopify vendors; it needs an explicit UA / client-hints override on top. That's the offered-not-started next step.
+**Don't suggest:** Claiming the stealth flag alone makes Klaviyo/Attentive reach `wired` live. Verify the outbound UA (check any beacon's `uafvl` or the UA header) before assuming masking worked; demo those two via HarRunner replay until the UA override lands. Also note the live A/B was a single pair — don't treat one green run as proof either.
+
 ## 2026-07-16 — Don't read the CLI `×N` (or `evidence_total`) as a count of beacons fired
 
 **Assumed:** that `[wired] cart.esp.klaviyo ×36` meant 36 Klaviyo beacons fired, and Meta's `×2` meant only 2 did. Meta's low number read as a bug, since the Magic Spoon capture holds 18 `/tr` beacons.

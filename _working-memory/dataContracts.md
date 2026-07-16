@@ -10,6 +10,8 @@
 - `WiredMatcher` — hand-written per vendor, only against a traffic-verified beacon shape.
 - `Runner.observe(url, signal?)` — `AsyncIterable<ObservedEvent>`; never a promise-of-batch.
 
+Not in the contract: the opt-in evasion flag (`InspectOptions.activeBrowse`) lives in core, not `types.ts` — zero FE-contract change. Provenance (`wired` via replay vs. evasion vs. organic) is surfaced via the CLI banner and logs, not in-payload; a structured `transport`/`routing` tag on `Signal` would be a real contract touch, deferred and flagged for FE sign-off.
+
 Stable signal IDs: extend, never rename — the FE may key copy off them. Convention `<surface>.<category>.<vendor|aspect>` (e.g. `cart.esp.klaviyo`, `ads.pixel.meta`, `cart.email_capture.presence`).
 
 ## Wire formats (prose — not enforced by code)
