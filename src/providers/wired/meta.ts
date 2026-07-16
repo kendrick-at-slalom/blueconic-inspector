@@ -3,12 +3,15 @@ import type { ObservedRequest, Signal, WiredMatcher } from '../../types';
 /**
  * Meta pixel `wired` tier: a tracking beacon actually fired, not just the pixel script loading.
  *
- * DELIBERATELY INERT until the step-0 probe lands. Registering this matcher is what makes the
+ * DELIBERATELY INERT, and now for a verified reason. Registering this matcher is what makes the
  * present-tier signal read "installed, no evidence it fires" rather than "couldn't verify use" —
- * that copy is the product's core claim. But the beacon-URL predicate stays unwritten on purpose:
- * a `wired` matcher built from a remembered endpoint shape produces confidently false findings,
- * and that is the one thing we agreed never to ship. Fill `matchesBeacon` from a verified probe
- * fixture (fixtures/probe-<site>.json), then this goes live with a real test behind it.
+ * that copy is the product's core claim. The beacon-URL predicate stays unwritten because on
+ * Shopify+Meta the `/tr` beacon fires server-side (Conversions API), not client-side: a real Magic
+ * Spoon session (2026-07-15) with consent accepted and a full cart/form interaction produced zero
+ * `facebook.com/tr` requests, only `fbevents.js` + `signals/config/<pixelID>`. So there is no
+ * client-side shape to verify on this stack. To wire Meta we need a site that fires `/tr` in the
+ * browser (many non-Shopify pixels still do), captured the same verified-not-remembered way. See
+ * decisionLog; a guessed shape stays the one thing we never ship.
  */
 export const metaWiredMatcher: WiredMatcher = {
 	id: 'ads.pixel.meta',

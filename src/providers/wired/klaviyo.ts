@@ -1,19 +1,30 @@
 import type { ObservedRequest, Signal, WiredMatcher } from '../../types';
 
 /**
- * Klaviyo `wired` tier: a track/identify beacon fired, proving the ESP is doing something rather
- * than merely being installed. This is the payload of the whole cart-recovery demo, the thing
- * that separates a live abandoned-cart flow from klaviyo.js sitting on every Shopify store.
+ * Klaviyo `wired` tier: a track or identify beacon fired, proving the ESP is doing something
+ * rather than merely being installed — the thing that separates a live flow from klaviyo.js
+ * sitting on every Shopify store.
  *
- * DELIBERATELY INERT until the step-0 probe lands, same as the Meta matcher. Registering it makes
- * Klaviyo read "installed, no evidence of cart events firing"; the beacon predicate waits for a
- * verified fixture so we never guess a shape. Fill `matchesBeacon`, add a fixture-backed test,
- * and the present/wired distinction goes live.
+ * Verified against a real Magic Spoon session (2026-07-15, company_id HMWFR8):
+ *   a.klaviyo.com/client/events   → a behavioral event fired (Viewed Product / Added to Cart)
+ *   a.klaviyo.com/client/profiles → identity captured (email/phone bound to a profile)
+ * Deliberately NOT `client/sessions`: that fires on plain page load for nearly every Klaviyo
+ * store, so it's presence in disguise, not proof of a flow.
+ *
+ * Observe-only caveat: these fired because a real shopper interacted (viewed, carted, submitted a
+ * form). Our headless observe-only crawler doesn't interact, so a live crawl won't TRIGGER them —
+ * the matcher recognizes them if they appear (a HAR replay of a real session, or a future
+ * interactive crawl mode), but present-vs-wired won't light up from a bare crawl of a Shopify
+ * store. That's a rubric consideration, not a matcher bug. See decisionLog.
  */
+const BEACON_PATHS = ['klaviyo.com/client/events', 'klaviyo.com/client/profiles'];
+
 export const klaviyoWiredMatcher: WiredMatcher = {
 	id: 'cart.esp.klaviyo',
 	matchRequest(req: ObservedRequest): Signal | null {
-		if (!matchesBeacon(req))
+		const url = req.url.toLowerCase();
+		const hit = BEACON_PATHS.find(path => url.includes(path));
+		if (hit === undefined)
 			return null;
 		return {
 			id: 'cart.esp.klaviyo',
@@ -27,12 +38,7 @@ export const klaviyoWiredMatcher: WiredMatcher = {
 			confidence: 0.9,
 			evidence: [{ kind: 'request', detail: req.url, timestamp: req.ts }],
 			evidence_total: 1,
+			notes: hit.endsWith('profiles') ? 'Identity captured (profile beacon).' : 'Behavioral event fired.',
 		};
 	},
 };
-
-/** Placeholder. Returns false until a probe-verified beacon shape is dropped in. */
-function matchesBeacon(_req: ObservedRequest): boolean {
-	// TODO(step-0): assert against the real onsite track/identify shape from fixtures/probe-<site>.json.
-	return false;
-}
