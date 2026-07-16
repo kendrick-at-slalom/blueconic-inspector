@@ -1,11 +1,11 @@
-# blueconic-inspector
+# @blueconic/inspector
 
 A URL goes in; a live stream of what a prospect's ecommerce marketing stack is actually doing comes out.
 
 > [!NOTE]
 > Internal BlueConic prototype, built by Slalom. Not open source, and not accepting external contributions.
 
-`blueconic-inspector` inspects the marketing technology on an ecommerce page and reports what's **installed** versus what's **actually firing**. That gap is the whole product. Klaviyo sits on nearly every Shopify store, so "installed" proves capability and nothing more; proving a flow is genuinely sending events is the part worth paying for. Detection streams—findings surface as they're discovered instead of landing in one batch at the end—so a terminal, an SSE client, or a frontend can light up progressively.
+`@blueconic/inspector` inspects the marketing technology on an ecommerce page and reports what's **installed** versus what's **actually firing**. That gap is the whole product. Klaviyo sits on nearly every Shopify store, so "installed" proves capability and nothing more; proving a flow is genuinely sending events is the part worth paying for. Detection streams—findings surface as they're discovered instead of landing in one batch at the end—so a terminal, an SSE client, or a frontend can light up progressively.
 
 ## Contents
 

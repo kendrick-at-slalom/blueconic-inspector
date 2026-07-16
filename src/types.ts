@@ -1,5 +1,5 @@
 /**
- * @bc/inspector — event & data contract
+ * @blueconic/inspector — event & data contract
  *
  * This is the interface between the inspector and the frontend. It is the
  * contract; implementation follows it, not the other way round.

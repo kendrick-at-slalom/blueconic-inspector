@@ -1,13 +1,28 @@
 {
-	"name": "blueconic-inspector",
+	"name": "@blueconic/inspector",
 	"type": "commonjs",
 	"version": "0.1.0",
+	"private": true,
 	"packageManager": "npm@11.16.0",
-	"description": "",
-	"author": "",
-	"license": "ISC",
-	"keywords": [],
-	"main": "index.js",
+	"description": "Streaming detection engine that reports what a prospect's ecommerce marketing stack has installed versus what's actually firing.",
+	"author": "Slalom",
+	"license": "UNLICENSED",
+	"keywords": [
+		"ecommerce",
+		"martech",
+		"detection",
+		"playwright",
+		"sse",
+		"blueconic"
+	],
+	"exports": {
+		".": {
+			"types": "./src/index.ts",
+			"default": "./src/index.ts"
+		}
+	},
+	"main": "src/index.ts",
+	"types": "src/index.ts",
 	"engines": {
 		"node": ">=24"
 	},
