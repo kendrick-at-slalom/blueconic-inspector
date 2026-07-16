@@ -4,6 +4,12 @@
 <!-- agents and humans don't re-litigate closed loops. Append-only, like        -->
 <!-- decisionLog.md.                                                            -->
 
+## 2026-07-16 — Don't read the CLI `×N` (or `evidence_total`) as a count of beacons fired
+
+**Assumed:** that `[wired] cart.esp.klaviyo ×36` meant 36 Klaviyo beacons fired, and Meta's `×2` meant only 2 did. Meta's low number read as a bug, since the Magic Spoon capture holds 18 `/tr` beacons.
+**Why it's not:** `evidence_total` is a SNAPSHOT taken when a signal last upgraded tier, not a running total. Signals re-emit only on tier upgrade (contract), so beacons after the upgrade bump the internal count silently and never move the emitted number. Meta upgrades present→wired on its first `/tr` (count 2 at that instant), and the other 17 accumulate without re-emitting. Klaviyo's `×36` is the count of every prior match, script and asset loads included, at the moment its first behavioral beacon landed. The count also double-counts where a vendor's present-tier script pattern overlaps its own beacon URL (Meta's `facebook.com/tr` is both a present pattern and the wired beacon).
+**Don't suggest:** rendering `evidence_total` as "currently N" or "N events" (types.ts says as much), or treating a low `×N` on a busy vendor as a missed-beacon bug. Read it as activity depth at the upgrade instant. A true event tally, if it's ever needed, is a new counter, not this field.
+
 ## 2026-07-15 — Don't expect `wired` from a bare headless crawl on Shopify+Klaviyo
 
 **Tried:** An active-browse spike: headless Chromium on a Magic Spoon PDP with simulated scroll/mouse/dwell (~55s), no cart.
