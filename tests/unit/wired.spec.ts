@@ -6,8 +6,8 @@ import { metaWiredMatcher } from '../../src/providers/wired/meta';
 import { rebuyWiredMatcher } from '../../src/providers/wired/rebuy';
 
 // POST fetch is the real shape of these beacons; method doesn't gate the matcher, but keep it honest.
-function req(url: string): ObservedRequest {
-	return { url, method: 'POST', resourceType: 'fetch', ts: 0 };
+function req(url: string, postData?: string): ObservedRequest {
+	return { url, method: 'POST', resourceType: 'fetch', postData, ts: 0 };
 }
 
 describe('klaviyo wired matcher (verified against a Magic Spoon session 2026-07-15)', () => {
@@ -62,8 +62,22 @@ describe('attentive wired matcher (SMS; verified on Magic Spoon)', () => {
 	});
 });
 
-describe('meta wired matcher (intentionally inert: Shopify CAPI, no client-side /tr to verify)', () => {
-	it('stays inert even on a plausible /tr URL, because we have no verified client-side shape', () => {
-		expect(metaWiredMatcher.matchRequest(req('https://www.facebook.com/tr?id=100589946948288&ev=PageView'))).toBeNull();
+describe('meta wired matcher (verified on Magic Spoon: /tr fires client-side via the Shopify Web Pixel sandbox)', () => {
+	it('wires on /tr and enriches the evidence detail with ev/id from the POST body', () => {
+		const signal = metaWiredMatcher.matchRequest(req('https://www.facebook.com/tr/', 'ev=PageView&id=123'));
+		expect(signal?.evidence_of_use).toBe('wired');
+		expect(signal?.id).toBe('ads.pixel.meta');
+		expect(signal?.evidence[0]?.detail).toContain('ev=PageView');
+		expect(signal?.evidence[0]?.detail).toContain('id=123');
+	});
+
+	it('does NOT wire on a non-/tr Meta request (e.g. the fbevents.js script load)', () => {
+		expect(metaWiredMatcher.matchRequest(req('https://connect.facebook.net/en_US/fbevents.js'))).toBeNull();
+	});
+
+	it('still wires without postData, just without the enrichment', () => {
+		const signal = metaWiredMatcher.matchRequest(req('https://www.facebook.com/tr/'));
+		expect(signal?.evidence_of_use).toBe('wired');
+		expect(signal?.evidence[0]?.detail).toBe('https://www.facebook.com/tr/');
 	});
 });

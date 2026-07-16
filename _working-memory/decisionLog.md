@@ -2,6 +2,17 @@
 
 Append-only; newest entry on top. Don't edit past entries; supersede them with a new one.
 
+## 2026-07-15: Meta fired client-side after all (Shopify Web Pixel sandbox); supersedes "Meta server-side CAPI, inert"
+
+**Source:** re-inspection of `docs/beacon-capture/magicspoon-beacons.json` (company_id HMWFR8) while planning the reachable-wired-tier work; supersedes the Meta half of the Klaviyo-wired entry below.
+
+**Context:** The entries below concluded Meta was genuinely server-side (Shopify CAPI, "zero `facebook.com/tr` even in the full interacting session"), so the Meta `wired` matcher stayed inert. That conclusion came from the headless beacon-capture crawls, which never engaged the page.
+**Decision:** Meta's client-side pixel DID fire. The handed-over consented capture holds 18 `POST https://www.facebook.com/tr/` beacons (status 200): pixel `id=2116162018694323`, `ev=PageView|ViewContent|Lead|SMSSignup`, the `ViewContent` carrying `cd[value]=39` / `content_ids` / `content_name`, plus a hashed `ud[external_id]` (advanced matching). Every payload carries `a=shopify_web_pixel` — Meta runs inside the Shopify Web Pixel sandbox, which is why there's no literal `fbevents.js` request yet `/tr/` fires all session. So "server-side CAPI, inert" is superseded: Meta earns a `wired` matcher (match `facebook.com/tr`, enrich evidence from the POST body's `ev`/`id`). NOT `confirmed` despite the `ud[external_id]` identity — `confirmed` needs the attribution layer, out of the prototype. CAPI may still run in parallel; irrelevant to "client-side fired."
+**Messaging the sandbox routing (no contract change):** the routing fact rides in `Signal.notes` (verbatim FE copy), `Evidence.detail` keeps `a=shopify_web_pixel` as proof, and the already-emitted `platform.shopify_web_pixels` present signal lets the FE correlate. A structured `transport`/`routing` tag on `Signal` would be a real contract touch (same "don't make the FE regex prose" reason `evidence_total` got its own field) — deferred, flagged for FE/rubric sign-off.
+**Verified vs inferred:** VERIFIED from the capture (real POST bodies with `ev`/`id`/`a=shopify_web_pixel`). The earlier "zero `/tr`" was true of the headless diagnostics (never engaged), not this consented session — the two describe different sessions, not a contradiction in the data.
+**Status:** finding + decision recorded ahead of the build. The matcher flip is Component B of the approved reachable-wired-tier plan and is NOT yet in code (`src/providers/wired/meta.ts` still inert).
+**Alternatives considered:** Keep Meta inert (rejected — verified traffic shows it fired; "if the HAR shows it fired, it fired"). Wire it at `confirmed` on the strength of `ud[external_id]` (rejected — the attribution layer that earns `confirmed` is out of prototype scope). Re-verify against the 110MB raw HAR before acting (unnecessary — the extract carries the full POST payloads, which are conclusive).
+
 ## 2026-07-15: Active-browse spike missed headless; opt-in-gated evasion + HarRunner chosen for live wired
 
 **Source:** the active-browse spike (2026-07-15) plus a user posture decision; the Magic Spoon HAR

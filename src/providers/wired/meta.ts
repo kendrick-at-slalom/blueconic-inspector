@@ -3,20 +3,24 @@ import type { ObservedRequest, Signal, WiredMatcher } from '../../types';
 /**
  * Meta pixel `wired` tier: a tracking beacon actually fired, not just the pixel script loading.
  *
- * DELIBERATELY INERT, and now for a verified reason. Registering this matcher is what makes the
- * present-tier signal read "installed, no evidence it fires" rather than "couldn't verify use" —
- * that copy is the product's core claim. The beacon-URL predicate stays unwritten because on
- * Shopify+Meta the `/tr` beacon fires server-side (Conversions API), not client-side: a real Magic
- * Spoon session (2026-07-15) with consent accepted and a full cart/form interaction produced zero
- * `facebook.com/tr` requests, only `fbevents.js` + `signals/config/<pixelID>`. So there is no
- * client-side shape to verify on this stack. To wire Meta we need a site that fires `/tr` in the
- * browser (many non-Shopify pixels still do), captured the same verified-not-remembered way. See
- * decisionLog; a guessed shape stays the one thing we never ship.
+ * SUPERSEDES the earlier "server-side CAPI, inert" conclusion (see decisionLog top entry,
+ * 2026-07-15). That call was drawn from headless beacon-capture crawls, which never engaged the
+ * page. The handed-over consented Magic Spoon session tells a different story: 18 `POST
+ * facebook.com/tr/` beacons (pixel `id=2116162018694323`, `ev=PageView|ViewContent|Lead|
+ * SMSSignup`), every one carrying `a=shopify_web_pixel`. Meta runs inside the Shopify Web Pixel
+ * sandbox — first-party, server-relayed — which is why there's no literal `fbevents.js` request
+ * even though `/tr` fires all session. So the beacon is real and client-side; it just isn't the
+ * bare `connect.facebook.net` shape this file used to wait on.
+ *
+ * Stays at `wired`, not `confirmed`, despite the hashed `ud[external_id]` (advanced matching) in
+ * the payload — `confirmed` needs an attribution layer that's out of scope for the prototype.
  */
+const BEACON_PATH = 'facebook.com/tr';
+
 export const metaWiredMatcher: WiredMatcher = {
 	id: 'ads.pixel.meta',
 	matchRequest(req: ObservedRequest): Signal | null {
-		if (!matchesBeacon(req))
+		if (!req.url.toLowerCase().includes(BEACON_PATH))
 			return null;
 		return {
 			id: 'ads.pixel.meta',
@@ -28,14 +32,20 @@ export const metaWiredMatcher: WiredMatcher = {
 			observability: 'observable',
 			method: 'network',
 			confidence: 0.9,
-			evidence: [{ kind: 'request', detail: req.url, timestamp: req.ts }],
+			evidence: [{ kind: 'request', detail: describeBeacon(req), timestamp: req.ts }],
 			evidence_total: 1,
+			notes: 'Live via Shopify\'s Web Pixel sandbox (server-relayed); no fbevents.js on the page.',
 		};
 	},
 };
 
-/** Placeholder. Returns false until a probe-verified beacon shape is dropped in. */
-function matchesBeacon(_req: ObservedRequest): boolean {
-	// TODO(step-0): assert against the real /tr beacon shape from fixtures/probe-<site>.json.
-	return false;
+/** Pulls `ev`/`id` out of the urlencoded POST body when present, for a re-verifiable evidence detail. */
+function describeBeacon(req: ObservedRequest): string {
+	if (!req.postData)
+		return req.url;
+	const params = new URLSearchParams(req.postData);
+	const ev = params.get('ev');
+	const id = params.get('id');
+	const parts = [ev ? `ev=${ev}` : null, id ? `id=${id}` : null].filter((p): p is string => p !== null);
+	return parts.length > 0 ? `${req.url} (${parts.join(', ')})` : req.url;
 }
