@@ -2,6 +2,14 @@
 
 Append-only; newest entry on top. Don't edit past entries; supersede them with a new one.
 
+## 2026-07-15: Klaviyo `client/sessions` fires but is too weak to wire; the discriminating beacons never fired client-side
+
+**Source:** live beacon-capture crawls, 2026-07-15, 4 Shopify DTC pages (Dr. Squatch home + PDP, Kosas, Magic Spoon). Diagnostic only, not yet reflected in code.
+
+**Context:** The two `wired` matchers (Klaviyo, Meta) are still inert, pending a beacon shape verified against real traffic. This pass checked what actually fires client-side on real Shopify+Klaviyo+Meta stores, ahead of writing those matchers.
+**Decision:** Don't wire Klaviyo `client/sessions` as the `wired` signal, even though it's the one beacon that fired on every crawl. It's onsite-tracking init, not proof of a live flow: it fires on nearly every Shopify+Klaviyo store, so wiring it would reintroduce the "every Shopify store looks capable" problem the present/wired split exists to prevent. The beacons that would actually discriminate (Klaviyo `client/event` for Viewed Product, `client/identify` for email captured, and Meta `facebook.com/tr` for PageView) didn't fire client-side on any of the four crawls. VERIFIED: `client/sessions` fires on every site; `/tr` never fired, only `fbevents.js` loading and `signals/config/<pixelID>`. INFERRED, not proven: the missing events go server-side (Shopify CAPI, Klaviyo server webhooks) or need real consent or interaction to trigger; a carted, consented session should settle which. Implication for the rubric: present-vs-wired reads cleanest on custom, non-Shopify stacks and murkiest on Shopify native, which is most of the DTC market. That's a sharper version of the Shopify server-side events gap already flagged under the rubric-branch open question.
+**Alternatives considered:** Wire `client/sessions` anyway so at least one Shopify store shows `wired` (rejected: a presence-flavored proxy defeats the reason the present/wired split exists, the same trap the probe-first rule was written to avoid).
+
 ## 2026-07-15: `session_replay` + `bot_defense` categories added
 
 **Source:** user decision 2026-07-15, from the Columbia diagnostic; `src/types.ts`, `src/providers/vendorTable.ts`

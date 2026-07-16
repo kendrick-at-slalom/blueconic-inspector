@@ -18,6 +18,7 @@ From `handoff-detection-engine-build.md` (October-facing unless noted):
 October — Shopify rubric branch:
 
 - **`ObservedGlobals` is presence-only** (`Record<string, boolean>`) by decision (2026-07-15) — reading global _values_ means serializing arbitrary objects out of `page.evaluate` for no prototype gain. `window.Shopify` existing is the platform entry. When the Shopify rubric branch lands (native Klaviyo integration emits `Started Checkout` server-side, so client-side event presence is less discriminating), revisit whether platform detection needs to read global values or richer `platform_inference` evidence — the `DetectionMethod` value exists but has no matcher shape yet.
+- **The same server-side gap hits `wired` matchers, not just platform detection.** Beacon-capture diagnostics (2026-07-15, see decisionLog) found Klaviyo's and Meta's discriminating events never fired client-side on 4 Shopify DTC crawls; only the weak, always-on `client/sessions` init beacon fired. If that holds under a real consented, carted session, present-vs-wired needs the rubric-branch treatment on Shopify native, not just a probe fixture.
 
 Gaps surfaced by the 2026-07-15 PDP/homepage batch crawl (19 real sites, see `crawl-results/`):
 
