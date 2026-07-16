@@ -21,6 +21,7 @@
 - `npm run lint` — antfu ESLint; runs on staged files at commit via husky + lint-staged
 
 <!-- working-memory:start -->
+
 ## Working Memory
 
 This project uses a two-tier working memory at `_working-memory/`.
@@ -33,14 +34,14 @@ This project uses a two-tier working memory at `_working-memory/`.
 
 ### Read on demand:
 
-| File                 | Read when...                                                                                       |
+| File                 | Read when...                                                                                      |
 | -------------------- | ------------------------------------------------------------------------------------------------- |
 | `projectOverview.md` | Before starting a feature, or onboarding to the codebase                                          |
-| `decisionLog.md`     | Before an architectural or scoping decision; check what's already been settled                     |
-| `dataContracts.md`   | Before creating or changing anything that produces or consumes shared data                         |
-| `conventions.md`     | Before writing new code, or when reviewing a pattern                                               |
-| `openQuestions.md`   | When you hit ambiguity; check here before guessing                                                 |
-| `antipatterns.md`    | Before proposing a refactor, library swap, or architectural change; check whether it's been tried  |
+| `decisionLog.md`     | Before an architectural or scoping decision; check what's already been settled                    |
+| `dataContracts.md`   | Before creating or changing anything that produces or consumes shared data                        |
+| `conventions.md`     | Before writing new code, or when reviewing a pattern                                              |
+| `openQuestions.md`   | When you hit ambiguity; check here before guessing                                                |
+| `antipatterns.md`    | Before proposing a refactor, library swap, or architectural change; check whether it's been tried |
 
 ### Updating working memory:
 
@@ -48,6 +49,7 @@ This project uses a two-tier working memory at `_working-memory/`.
 - `activeContext.md` is a queue: evict completed items to `decisionLog.md`.
 - `decisionLog.md` and `antipatterns.md` are both append-only. Never edit past entries.
 - Never let `activeContext.md` exceed 20 lines.
+
 <!-- working-memory:end -->
 
 ## Conventions
